@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joy · Not found</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#09090B">
+<meta name="color-scheme" content="dark">
+<link rel="icon" type="image/svg+xml" href="/joy/assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&family=Noto+Sans+Georgian:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/joy/assets/styles.css">
+<style>
+  html, body { height: 100%; }
+  body { display: grid; place-items: center; padding: 24px; text-align: center; }
+  .lost { display: flex; flex-direction: column; align-items: center; }
+  .lost__card { width: 168px; height: 247px; margin-bottom: 44px; transform: perspective(900px) rotateX(calc(var(--ty) * -7deg)) rotateY(calc(var(--tx) * 7deg)) rotate(-4deg); }
+  .lost__card .card { --r: 22px; width: 100%; height: 100%; box-shadow: 0 26px 60px -14px var(--shade); }
+  .lost__card .emblem { --s: 76px; }
+  .lost h1 { font: 700 clamp(36px, 6.4vw, 60px)/1.04 var(--display); letter-spacing: -.045em; text-wrap: balance; }
+  .lost p { max-width: 26em; margin: 16px auto 32px; color: var(--text-2); }
+  html[lang="ka"] .lost h1 { font-size: clamp(27px, 4.8vw, 42px); line-height: 1.25; letter-spacing: 0; }
+  html[lang="en"] .only[lang="ka"], html[lang="ka"] .only[lang="en"] { display: none; }
+</style>
+<script>
+  (function () {
+    var lang = null;
+    try { lang = localStorage.getItem('joy.lang'); } catch (e) {}
+    if (lang !== 'ka' && lang !== 'en') lang = (navigator.languages || [navigator.language || 'en']).some(function (l) { return /^ka\b/i.test(l); }) ? 'ka' : 'en';
+    document.documentElement.lang = lang;
+    if (lang === 'ka') document.title = 'Joy · გვერდი ვერ მოიძებნა';
+  })();
+</script>
+</head>
+<body>
+<main class="lost">
+  <!-- A card face down that never turns over: whatever was here isn't in the deck. -->
+  <div class="lost__card" id="lost" aria-hidden="true"></div>
+  <div class="only" lang="en">
+    <h1>This card isn't in the deck</h1>
+    <p>The page you're looking for isn't here. Maybe it got shuffled away.</p>
+    <a class="btn btn--primary" href="/joy/">Back to Joy</a>
+  </div>
+  <div class="only" lang="ka">
+    <h1>ეს ბარათი დასტაში არ არის</h1>
+    <p>გვერდი, რომელსაც ეძებთ, აქ არ არის. ალბათ დასტაში აირია.</p>
+    <a class="btn btn--primary" href="/joy/">Joy‑ზე დაბრუნება</a>
+  </div>
+</main>
+<script src="/joy/assets/cards.js"></script>
+<script>
+  (function () {
+    var C = window.JoyCards;
+    if (!C) return;
+    var spy = C.byId.spy;
+    document.getElementById('lost').innerHTML = '<div class="card back" style="' + C.hueStyle(spy) + '">' + C.layers() +
+      '<div class="back__rosette">' + C.rosette(168, 247) + '</div>' + C.emblem('questionmark') + '</div>';
+  })();
+</script>
+</body>
+</html>

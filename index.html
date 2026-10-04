@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Joy · Eight games. One phone.</title>
+<meta name="description" content="Joy is eight party games to play with friends on one phone: Truth or Dare, Charades, Never Have I Ever, Would You Rather, Most Likely To, Hot Seat, Alias and Spy. No accounts, nothing to set up. For iPhone and Android, in English and Georgian.">
+<meta name="theme-color" content="#09090B">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://factorylabs.app/joy/">
+<link rel="alternate" hreflang="en" href="https://factorylabs.app/joy/?lang=en">
+<link rel="alternate" hreflang="ka" href="https://factorylabs.app/joy/?lang=ka">
+<link rel="alternate" hreflang="x-default" href="https://factorylabs.app/joy/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Joy">
+<meta property="og:title" content="Joy · Eight games. One phone.">
+<meta property="og:description" content="Party games for a great night with friends, played on one phone. No accounts, nothing to set up.">
+<meta property="og:url" content="https://factorylabs.app/joy/">
+<meta property="og:image" content="https://factorylabs.app/joy/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The eight Joy games fanned out like a hand of cards, over the line: Eight games. One phone.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&family=Noto+Sans+Georgian:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Joy",
+  "operatingSystem": "iOS, Android",
+  "applicationCategory": "GameApplication",
+  "description": "Eight party games to play with friends on one phone. No accounts, nothing to set up.",
+  "url": "https://factorylabs.app/joy/",
+  "image": "https://factorylabs.app/joy/assets/icon-512.png",
+  "inLanguage": ["en", "ka"],
+  "publisher": { "@type": "Organization", "name": "Factory Labs", "url": "https://factorylabs.app/" }
+}
+</script>
+<script>
+  // Decide the language before the first paint, so a Georgian reader never sees English flash by.
+  (function () {
+    var lang = null;
+    try { lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('joy.lang'); } catch (e) {}
+    if (lang !== 'ka' && lang !== 'en') {
+      var prefs = navigator.languages || [navigator.language || 'en'];
+      lang = prefs.some(function (l) { return /^ka\b/i.test(l); }) ? 'ka' : 'en';
+    }
+    document.documentElement.lang = lang;
+    document.documentElement.classList.add('js');
+    if (lang !== 'en') document.documentElement.classList.add('i18n-pending');
+    // If the script never arrives, show the page as it is rather than nothing.
+    setTimeout(function () { if (!window.joyReady) document.documentElement.classList.remove('js', 'i18n-pending'); }, 4000);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<!-- The mark: three cards fanned from one hand, as on the app icon. -->
+<svg class="defs" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="jm-l" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38A3D8"/><stop offset="1" stop-color="#0B4F7A"/></linearGradient>
+    <linearGradient id="jm-c" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C04AD0"/><stop offset="1" stop-color="#4A0A72"/></linearGradient>
+    <linearGradient id="jm-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C76A22"/><stop offset="1" stop-color="#5A2306"/></linearGradient>
+  </defs>
+</svg>
+
+<header class="bar" id="bar">
+  <a class="wordmark" href="#top" aria-label="Joy">
+    <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+      <rect class="mark__l" x="9.5" y="6" width="13" height="17.5" rx="3" fill="url(#jm-l)"/>
+      <rect class="mark__r" x="9.5" y="6" width="13" height="17.5" rx="3" fill="url(#jm-r)"/>
+      <rect x="9.5" y="5" width="13" height="17.5" rx="3" fill="url(#jm-c)"/>
+    </svg>
+    <span>Joy</span>
+  </a>
+  <nav class="bar__links" aria-label="Sections" data-i18n-aria="nav_a11y">
+    <a href="#how" data-i18n="nav_how">How it works</a>
+    <a href="#games" data-i18n="nav_games">Games</a>
+    <a href="#cards" data-i18n="nav_cards">Cards</a>
+    <a href="#faq" data-i18n="nav_faq">Questions</a>
+  </nav>
+  <div class="bar__end">
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" lang="en">EN</button>
+      <button type="button" data-lang="ka" lang="ka">ქარ</button>
+    </div>
+    <a class="bar__get" href="#get" data-i18n="nav_get">Get Joy</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- The welcome page: the whole deck dealt into a fanned hand, one line on what this is, and the stores. -->
+  <section class="hero" id="top">
+    <div class="fan" id="fan" role="img" aria-label="The eight games, fanned out like a hand of cards" data-i18n-aria="fan_a11y">
+      <i class="fan__aurora" aria-hidden="true"></i>
+      <div class="fan__hand" id="fanHand"></div>
+    </div>
+    <div class="hero__copy">
+      <h1 class="hero__title arriving" id="heroTitle"><span data-i18n="hero_l">Eight games.</span> <span data-i18n="hero_r">One phone.</span></h1>
+      <p class="hero__lede arriving arriving--2" data-i18n="hero_lede">Everything for a great night with friends. No accounts, nothing to set up.</p>
+      <div class="stores arriving arriving--3" data-stores></div>
+      <p class="hero__note arriving arriving--4" data-i18n="hero_note">For iPhone and Android, in English and Georgian</p>
+    </div>
+  </section>
+
+  <!-- How a night goes, in the app's own three steps. -->
+  <section class="section how" id="how" aria-labelledby="howTitle">
+    <div class="wrap">
+      <header class="head reveal">
+        <p class="eyebrow" data-i18n="how_label">How a night goes</p>
+        <h2 class="display" id="howTitle" data-i18n-p="how_title">Three steps.<br><span class="dim">Then just play.</span></h2>
+      </header>
+      <ol class="steps">
+        <li class="step reveal">
+          <div class="step__stage" id="roster">
+            <div class="roster" id="rosterList"></div>
+            <p class="roster__count" id="rosterCount" aria-live="polite"></p>
+          </div>
+          <div class="step__body">
+            <div class="step__row"><span class="step__icon"><i data-icon="person.2.fill"></i></span><span class="step__n">01</span></div>
+            <h3 data-i18n="step1_t">Add your friends</h3>
+            <p data-i18n="step1_x">Type a name and Joy gives them a colour of their own. Everyone stays saved, and a tap sits someone out for the night.</p>
+          </div>
+        </li>
+        <li class="step reveal reveal--2">
+          <div class="step__stage"><div class="mini" id="mini" aria-hidden="true"></div></div>
+          <div class="step__body">
+            <div class="step__row"><span class="step__icon"><i data-icon="cards"></i></span><span class="step__n">02</span></div>
+            <h3 data-i18n="step2_t">Pick a game</h3>
+            <p data-i18n="step2_x">Flick through the deck, choose how long and how bold, and start. Or let Joy surprise you.</p>
+          </div>
+        </li>
+        <li class="step reveal reveal--3">
+          <div class="step__stage step__stage--table" aria-hidden="true">
+            <div class="round-table" id="table">
+              <i class="round-table__top"></i>
+              <div class="phone-arm" id="phoneArm"><span class="phone" id="phone"><i></i></span></div>
+            </div>
+            <p class="turn-cap"><small data-i18n="your_turn">Your turn</small><b id="tableName"></b></p>
+          </div>
+          <div class="step__body">
+            <div class="step__row"><span class="step__icon"><i data-icon="iphone"></i></span><span class="step__n">03</span></div>
+            <h3 data-i18n="step3_t">Pass the phone around</h3>
+            <p data-i18n="step3_x">Joy says whose turn it is, deals the card, keeps the score, and crowns a winner at the end.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- The games: big cards you flick through, the focused one front and centre. -->
+  <section class="games" id="games" aria-labelledby="gamesTitle">
+    <i class="games__wash" id="wash" aria-hidden="true"></i>
+    <div class="games__head">
+      <header class="head reveal">
+        <p class="eyebrow" data-i18n="games_label">The games</p>
+        <h2 class="display" id="gamesTitle" data-i18n="games_title">What are we playing?</h2>
+        <p class="text" data-i18n="games_text">Eight games, each on a card of its own with an illustration that moves. Turn a card over to see how it plays.</p>
+      </header>
+      <div class="games__tools reveal reveal--2">
+        <button type="button" class="btn btn--secondary" id="surprise"><i data-icon="shuffle"></i><span data-i18n="surprise">Surprise me</span></button>
+        <button type="button" class="round" id="prev" aria-label="Previous game" data-i18n-aria="prev_a11y"><i data-icon="chevron.left"></i></button>
+        <button type="button" class="round" id="next" aria-label="Next game" data-i18n-aria="next_a11y"><i data-icon="chevron.right"></i></button>
+      </div>
+    </div>
+    <div class="carousel" id="carousel" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Games" data-i18n-aria="games_label">
+      <div class="track" id="track"></div>
+    </div>
+    <div class="dots" id="dots" role="group" aria-label="Games" data-i18n-aria="games_label"></div>
+  </section>
+
+  <!-- The cards: the app's own decks, dealt face down and turned over. -->
+  <section class="section dealer" id="cards" aria-labelledby="cardsTitle">
+    <div class="dealer__in">
+      <div class="dealer__copy reveal">
+        <p class="eyebrow" data-i18n="cards_label">The cards</p>
+        <h2 class="display" id="cardsTitle" data-i18n-p="cards_title">Pick a deck.<br><span class="dim">Read it out loud.</span></h2>
+        <p class="text" data-i18n="cards_text">About 3,000 cards, written separately in English and Georgian rather than translated. Every deck remembers what it has dealt, so the next night starts with cards nobody has seen.</p>
+        <div class="picker" id="picker" role="radiogroup" aria-label="Game" data-i18n-aria="picker_a11y"></div>
+        <div class="seg" id="seg" role="radiogroup" aria-label="Intensity" data-i18n-aria="seg_a11y">
+          <i class="seg__thumb" id="segThumb" aria-hidden="true"></i>
+          <button type="button" role="radio" data-level="light" data-i18n="intensity_light">Light</button>
+          <button type="button" role="radio" data-level="bold" data-i18n="intensity_bold">Bold</button>
+          <button type="button" role="radio" data-level="adult">18+</button>
+        </div>
+        <p class="seg__caption" id="segCaption" aria-live="polite"></p>
+      </div>
+      <div class="deal reveal reveal--2">
+        <div class="turn" id="turn" aria-live="polite"></div>
+        <div class="stack">
+          <i class="stack__under stack__under--2" aria-hidden="true"></i>
+          <i class="stack__under stack__under--1" aria-hidden="true"></i>
+          <div class="dealt" id="dealt" role="button" tabindex="0" aria-label="Next card" data-i18n-aria="deal_a11y"></div>
+        </div>
+        <p class="deal__hint" data-i18n="deal_hint">Tap or swipe for the next one</p>
+      </div>
+    </div>
+    <dialog class="alert" id="adult" aria-labelledby="adultTitle" aria-describedby="adultText">
+      <form class="alert__box" method="dialog">
+        <h3 id="adultTitle" data-i18n="adult_title">Is everyone here over 18?</h3>
+        <p id="adultText" data-i18n="adult_text">These cards are about flirting, dating, and drinking. We'll only ask once.</p>
+        <div class="alert__actions">
+          <button class="btn btn--primary" value="yes" data-i18n="adult_yes">Yes, everyone is</button>
+          <button class="btn btn--quiet" value="no" data-i18n="adult_no">Cancel</button>
+        </div>
+      </form>
+    </dialog>
+  </section>
+
+  <!-- Every game has an end: the winner's card, dealt and turned over, with a title of its own. -->
+  <section class="section end" id="winners" aria-labelledby="endTitle">
+    <div class="end__in">
+      <div class="end__stage reveal" id="endStage">
+        <div class="flip" id="winner"></div>
+        <canvas class="burst" id="burst" aria-hidden="true"></canvas>
+      </div>
+      <div class="end__copy reveal reveal--2">
+        <p class="eyebrow" data-i18n="end_label">Game over</p>
+        <h2 class="display" id="endTitle" data-i18n-p="end_title">Every winner<br><span class="dim">gets a title.</span></h2>
+        <p class="text" data-i18n="end_text">Pick how long to play before you start, and a hairline at the top shows how far there is to go. At the end, the winner's card is dealt and turned over, then come the final standings and Play again.</p>
+        <ul class="awards" id="awards" aria-label="Titles" data-i18n-aria="awards_a11y"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Just the room: what Joy is not. -->
+  <section class="section room" id="privacy" aria-labelledby="roomTitle">
+    <div class="room__in">
+      <p class="eyebrow reveal" data-i18n="no_label">Just the room</p>
+      <h2 class="visually-hidden" id="roomTitle" data-i18n="no_a11y">What Joy doesn't need</h2>
+      <ul class="nos reveal">
+        <li style="--c:#E879F9"><span data-i18n="no_1">No account</span><b>.</b></li>
+        <li style="--c:#38BDF8"><span data-i18n="no_2">No sign-in</span><b>.</b></li>
+        <li style="--c:#FBBF24"><span data-i18n="no_3">No ads</span><b>.</b></li>
+        <li style="--c:#BEF264"><span data-i18n="no_4">No internet</span><b>.</b></li>
+      </ul>
+      <p class="nos__end reveal" data-i18n-p="no_end">Just friends, and <em>one phone</em></p>
+      <ul class="facts reveal">
+        <li><span class="step__icon"><i data-icon="lock"></i></span><h3 data-i18n="pv1_t">Nothing leaves the phone</h3><p data-i18n="pv1_x">Names, colours and settings are kept on the device and nowhere else. Joy has no server to send them to.</p></li>
+        <li><span class="step__icon"><i data-icon="airplane"></i></span><h3 data-i18n="pv2_t">Plays anywhere</h3><p data-i18n="pv2_x">In the mountains, on a plane, in a basement with no signal. Every card is already on the phone.</p></li>
+        <li><span class="step__icon"><i data-icon="eye.slash"></i></span><h3 data-i18n="pv3_t">Nobody watching</h3><p data-i18n="pv3_x">No analytics, no ad SDKs, no trackers. The only people watching the game are the ones playing it.</p></li>
+        <li><span class="step__icon"><b style="font:700 12.5px/1 var(--sans);letter-spacing:-.02em">18+</b></span><h3 data-i18n="pv4_t">18+ asks first</h3><p data-i18n="pv4_x">Before its first card is dealt, the 18+ deck asks once whether everyone is over 18.</p></li>
+      </ul>
+      <a class="more reveal" href="privacy.html"><span data-i18n="pv_link">Read the privacy policy</span><i data-icon="arrow.right"></i></a>
+    </div>
+  </section>
+
+  <!-- Questions -->
+  <section class="section faq" id="faq" aria-labelledby="faqTitle">
+    <div class="faq__in">
+      <div class="faq__head reveal">
+        <p class="eyebrow" data-i18n="faq_label">Questions</p>
+        <h2 class="display" id="faqTitle" data-i18n="faq_title">Good to know</h2>
+        <p class="text"><span data-i18n="faq_more">Something else?</span> <a href="support.html" data-i18n="faq_support">Visit support</a></p>
+      </div>
+      <div class="faq__list reveal reveal--2">
+        <details><summary><span data-i18n="q1">How many people can play?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a1"></p></details>
+        <details><summary><span data-i18n="q2">Do we need an internet connection?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a2"></p></details>
+        <details><summary><span data-i18n="q3">Will we see the same cards again?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a3"></p></details>
+        <details><summary><span data-i18n="q4">Is Joy in Georgian?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a4"></p></details>
+        <details><summary><span data-i18n="q5">What's in the 18+ decks?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a5"></p></details>
+        <details><summary><span data-i18n="q6">How long does a game take?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a6"></p></details>
+        <details><summary><span data-i18n="q7">iPhone or Android?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a7"></p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- The end: the deck laid out face down, turning over one by one. -->
+  <section class="finale" id="get" aria-labelledby="getTitle">
+    <div class="row" id="row"></div>
+    <h2 class="display finale__title reveal" id="getTitle" data-i18n="fi_title">Let's play.</h2>
+    <p class="text finale__text reveal reveal--2" id="finaleText" data-i18n="fi_soon">Joy is coming to iPhone and Android. Bring the friends; the games are on us.</p>
+    <div class="stores reveal reveal--3" data-stores></div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <a class="wordmark" href="#top" aria-label="Joy">
+    <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+      <rect class="mark__l" x="9.5" y="6" width="13" height="17.5" rx="3" fill="url(#jm-l)"/>
+      <rect class="mark__r" x="9.5" y="6" width="13" height="17.5" rx="3" fill="url(#jm-r)"/>
+      <rect x="9.5" y="5" width="13" height="17.5" rx="3" fill="url(#jm-c)"/>
+    </svg>
+    <span>Joy</span>
+  </a>
+  <nav class="foot__links" aria-label="More" data-i18n-aria="foot_a11y">
+    <a href="privacy.html" data-i18n="footer_privacy">Privacy policy</a>
+    <a href="support.html" data-i18n="footer_support">Support</a>
+  </nav>
+  <p class="foot__copy"><span data-i18n="footer_made">Made for great nights with friends</span><br><a href="https://factorylabs.app/">© 2026 Factory Labs</a></p>
+</footer>
+
+<script src="assets/cards.js"></script>
+<script src="assets/deck.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

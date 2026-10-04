@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-title-en="Joy · Support" data-title-ka="Joy · მხარდაჭერა">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Joy · Support</title>
+<meta name="description" content="Help with Joy: players, languages, settings and the decks. And how to reach us.">
+<meta name="theme-color" content="#09090B">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://factorylabs.app/joy/support.html">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&family=Noto+Sans+Georgian:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/page.css">
+<script>
+  (function () {
+    var lang = null;
+    try { lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('joy.lang'); } catch (e) {}
+    if (lang !== 'ka' && lang !== 'en') {
+      var prefs = navigator.languages || [navigator.language || 'en'];
+      lang = prefs.some(function (l) { return /^ka\b/i.test(l); }) ? 'ka' : 'en';
+    }
+    document.documentElement.lang = lang;
+  })();
+</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="jm-l" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38A3D8"/><stop offset="1" stop-color="#0B4F7A"/></linearGradient>
+    <linearGradient id="jm-c" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C04AD0"/><stop offset="1" stop-color="#4A0A72"/></linearGradient>
+    <linearGradient id="jm-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C76A22"/><stop offset="1" stop-color="#5A2306"/></linearGradient>
+  </defs>
+</svg>
+<header class="top">
+  <a class="wordmark" href="./" aria-label="Joy">
+    <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+      <rect class="mark__l" x="9.5" y="6" width="13" height="17.5" rx="3" fill="url(#jm-l)"/>
+      <rect class="mark__r" x="9.5" y="6" width="13" height="17.5" rx="3" fill="url(#jm-r)"/>
+      <rect x="9.5" y="5" width="13" height="17.5" rx="3" fill="url(#jm-c)"/>
+    </svg>
+    <span>Joy</span>
+  </a>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" lang="en">EN</button>
+    <button type="button" data-lang="ka" lang="ka">ქარ</button>
+  </div>
+</header>
+
+<main>
+  <!-- English -->
+  <article class="only" lang="en">
+    <a class="back" href="./">← Joy</a>
+    <p class="eyebrow">Support</p>
+    <h1>Need a hand? <span class="dim">We're here.</span></h1>
+    <p class="intro">Joy should just work: no account, nothing to set up. If something doesn't, or you have an idea for a card, write to us.</p>
+
+    <div class="contact">
+      <p>Write to <a href="mailto:factorylabsteam@gmail.com">factorylabsteam@gmail.com</a>. Tell us which phone you have and what happened, and we'll take it from there.</p>
+      <a class="btn" href="mailto:factorylabsteam@gmail.com?subject=Joy">Email us</a>
+    </div>
+
+    <h2>Common questions</h2>
+    <details><summary>How do I add or remove players?<i aria-hidden="true"></i></summary><p>Open Players from the home screen. Add up to 16 friends, tap someone to change their name or colour, swipe left to delete them, and touch and hold to reorder. When a new group is playing, clear the whole list in one go.</p></details>
+    <details><summary>Someone isn't playing tonight<i aria-hidden="true"></i></summary><p>Tap their circle in Players, or on a game's intro sheet, to sit them out. They stay saved for next time, and only tonight's players are dealt in.</p></details>
+    <details><summary>How do I switch between English and Georgian?<i aria-hidden="true"></i></summary><p>Settings → Language. The app and every card change at once, with no restart.</p></details>
+    <details><summary>Can I turn off vibration?<i aria-hidden="true"></i></summary><p>Yes: Settings → Vibration.</p></details>
+    <details><summary>Is there a light mode?<i aria-hidden="true"></i></summary><p>Joy is dark by default. Choose System, Light or Dark in Settings → Theme.</p></details>
+    <details><summary>We keep seeing the same cards<i aria-hidden="true"></i></summary><p>Every deck deals the cards your group hasn't seen first and only starts over once you've seen all of it. If you play a lot, try another game or another intensity: each one is a deck of its own.</p></details>
+    <details><summary>We don't want the 18+ cards<i aria-hidden="true"></i></summary><p>Joy only deals them when you pick 18+ on a game's intro sheet. Stay with Light or Bold and they never come up.</p></details>
+    <details><summary>What happens to my players if I delete the app?<i aria-hidden="true"></i></summary><p>They go with it: everything Joy keeps lives on the phone. A phone backup can bring them back.</p></details>
+
+    <p style="margin-top:36px">See also the <a href="privacy.html">privacy policy</a>.</p>
+  </article>
+
+  <!-- Georgian -->
+  <article class="only" lang="ka">
+    <a class="back" href="./">← Joy</a>
+    <p class="eyebrow">მხარდაჭერა</p>
+    <h1>დახმარება გჭირდებათ? <span class="dim">აქ ვართ.</span></h1>
+    <p class="intro">Joy უბრალოდ უნდა მუშაობდეს — ანგარიშისა და მომზადების გარეშე. თუ რამე ისე არ არის, ან ბარათის იდეა გაქვთ, მოგვწერეთ.</p>
+
+    <div class="contact">
+      <p>მოგვწერეთ: <a href="mailto:factorylabsteam@gmail.com">factorylabsteam@gmail.com</a>. მიუთითეთ, რა ტელეფონი გაქვთ და რა მოხდა, დანარჩენს ჩვენ მივხედავთ.</p>
+      <a class="btn" href="mailto:factorylabsteam@gmail.com?subject=Joy">წერილის გაგზავნა</a>
+    </div>
+
+    <h2>ხშირი კითხვები</h2>
+    <details><summary>როგორ დავამატო ან წავშალო მოთამაშე?<i aria-hidden="true"></i></summary><p>მთავარი ეკრანიდან გახსენით მოთამაშეები. დაამატეთ 16-მდე მეგობარი, სახელის ან ფერის შესაცვლელად შეეხეთ მოთამაშეს, წასაშლელად გადაწიეთ მარცხნივ, რიგის შესაცვლელად კი ხანგრძლივად დააჭირეთ და გადაწიეთ. ახალი კომპანიისთვის მთელი სია ერთბაშად გაასუფთავეთ.</p></details>
+    <details><summary>ვიღაც დღეს არ თამაშობს<i aria-hidden="true"></i></summary><p>შეეხეთ მის წრეს მოთამაშეების სიაში ან თამაშის შესავალ ფურცელზე და ის დღევანდელ თამაშს გამოაკლდება. შემდეგი ჯერისთვის შენახული დარჩება, ბარათები კი მხოლოდ დღევანდელ მოთამაშეებს დაურიგდება.</p></details>
+    <details><summary>როგორ გადავრთო ქართულსა და ინგლისურს შორის?<i aria-hidden="true"></i></summary><p>პარამეტრები → ენა. აპიც და ყველა ბარათიც ერთბაშად შეიცვლება, გადატვირთვის გარეშე.</p></details>
+    <details><summary>შეიძლება ვიბრაციის გამორთვა?<i aria-hidden="true"></i></summary><p>დიახ: პარამეტრები → ვიბრაცია.</p></details>
+    <details><summary>არის ღია თემა?<i aria-hidden="true"></i></summary><p>Joy ნაგულისხმევად მუქია. პარამეტრებში, თემის განყოფილებაში აირჩიეთ სისტემური, ღია ან მუქი.</p></details>
+    <details><summary>ერთსა და იმავე ბარათებს ვხედავთ<i aria-hidden="true"></i></summary><p>ყოველი დასტა ჯერ იმ ბარათებს არიგებს, რომლებიც თქვენს კომპანიას ჯერ არ უნახავს, და თავიდან მხოლოდ მაშინ იწყება, როცა მთელ დასტას გაივლით. თუ ხშირად თამაშობთ, სცადეთ სხვა თამაში ან სხვა სიმძაფრე — თითოეული ცალკე დასტაა.</p></details>
+    <details><summary>18+ ბარათები არ გვინდა<i aria-hidden="true"></i></summary><p>Joy მათ მხოლოდ მაშინ არიგებს, როცა თამაშის შესავალ ფურცელზე 18+‑ს აირჩევთ. დარჩით მსუბუქზე ან თამამზე და ისინი არასდროს გამოჩნდება.</p></details>
+    <details><summary>რა ემართება მოთამაშეებს, თუ აპს წავშლი?<i aria-hidden="true"></i></summary><p>ისინიც წაიშლება, რადგან ყველაფერი, რასაც Joy ინახავს, ტელეფონშია. ტელეფონის სარეზერვო ასლით მათი დაბრუნება შეიძლება.</p></details>
+
+    <p style="margin-top:36px">იხილეთ <a href="privacy.html">კონფიდენციალურობის პოლიტიკაც</a>.</p>
+  </article>
+</main>
+
+<footer class="foot">
+  <a href="./">Joy</a>
+  <a href="privacy.html"><span class="only" lang="en">Privacy policy</span><span class="only" lang="ka">კონფიდენციალურობის პოლიტიკა</span></a>
+  <span><a href="https://factorylabs.app/">© 2026 Factory Labs</a></span>
+</footer>
+<script src="assets/page.js"></script>
+</body>
+</html>
