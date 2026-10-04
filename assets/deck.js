@@ -29,50 +29,26 @@ window.JOY_DECK = {
    },
    "bold": {
     "truths": [
-     "What's the pettiest revenge you've ever taken?",
-     "Have you ever been in love with two people at once?",
-     "What's one thing you'd never want your ex to find out about you now?",
-     "Who was the last person you said \"I love you\" to and actually meant it?",
-     "Which of your exes would you get back with, if any?",
-     "What's your biggest insecurity?",
-     "Have you ever been dumped by text?",
-     "Have you ever stolen anything? What was it?",
-     "Who here gets on your nerves the most, and how?"
+     "What's an instant turn-off for you?",
+     "Who in this room would you trust least with a secret?",
+     "Who here do you think is the biggest flirt?",
+     "What's the longest you've gone without a kiss?",
+     "Have you ever fallen for someone you really shouldn't have?",
+     "What's the most humiliating thing that's happened to you in public?",
+     "What's the most romantic thing you've ever done for someone?",
+     "Who here gets on your nerves the most, and how?",
+     "Have you ever pretended to be busy to avoid someone in this room?"
     ],
     "dares": [
-     "Do the worm, or your best attempt at it.",
-     "Do 30 seconds of stand-up about your love life.",
-     "Tell the person on your left what you really thought of them when you first met.",
-     "Imitate the last person who texted you until someone guesses who it is.",
-     "Read the last thing in your notes app out loud.",
-     "Show the group your last five internet searches.",
-     "Close your eyes and guess who's touching your hand.",
-     "Let someone do your makeup with their eyes closed.",
-     "Do an impression of every person here, one by one."
-    ]
-   },
-   "adult": {
-    "truths": [
-     "What have you done on a night out that you'd never tell your parents?",
-     "What's the most attractive thing about the person on your right?",
-     "What's the wildest thing you've done at a party?",
-     "What's the first thing that attracts you to someone?",
-     "Have you ever been caught kissing somewhere you shouldn't have been?",
-     "Have you ever had a secret relationship?",
-     "If you had to go on a date with someone in this room, who would it be?",
-     "Would you date someone ten years older than you?",
-     "What's the boldest pickup line you've actually used?"
-    ],
-    "dares": [
-     "Give the person on your right a 10-second hug.",
-     "Whisper your biggest turn-on to the person on your left.",
-     "Dance cheek to cheek with someone for 20 seconds.",
-     "Write a short love letter to someone here and read it out loud.",
-     "Give the person across from you your best \"come here\" look.",
-     "Do your most seductive dance for 15 seconds.",
-     "Show the group how you'd ask someone out — on the person on your right.",
      "Show the group the last flirty message you sent.",
-     "Let the person on your left choose your next profile picture."
+     "Eat something as seductively as you can.",
+     "Let the group scroll through your dating app for 30 seconds, if you have one.",
+     "Do your most seductive dance for 15 seconds.",
+     "Drink a glass of water without using your hands.",
+     "Eat a spoonful of the spiciest thing the group can find.",
+     "Pay a compliment about their looks to everyone here.",
+     "Only whisper for the next three rounds.",
+     "Make a dramatic declaration of love to the nearest chair."
     ]
    }
   },
@@ -97,38 +73,20 @@ window.JOY_DECK = {
    },
    "bold": {
     "statements": [
-     "Never have I ever called in sick to skip work.",
-     "Never have I ever forgotten a close friend's birthday.",
-     "Never have I ever been caught lying by someone in this room.",
-     "Never have I ever regretted a kiss the moment it happened.",
-     "Never have I ever hidden something from my partner.",
-     "Never have I ever pretended to like a gift from someone here.",
-     "Never have I ever been in a fistfight.",
-     "Never have I ever gone skinny-dipping.",
-     "Never have I ever looked someone up online before a date.",
-     "Never have I ever been dumped.",
-     "Never have I ever given someone a fake number.",
-     "Never have I ever complained about someone who was standing right behind me.",
-     "Never have I ever gone through a partner's phone.",
-     "Never have I ever sent a screenshot of a chat to the very person it was about."
-    ]
-   },
-   "adult": {
-    "statements": [
-     "Never have I ever been told I'm a great kisser.",
-     "Never have I ever had a crush on my boss.",
-     "Never have I ever had a crush on two people in this room at once.",
-     "Never have I ever been friends with benefits.",
-     "Never have I ever had a one-night stand.",
-     "Never have I ever been in a hot tub with someone I'd just met.",
+     "Never have I ever stalked someone's ex online.",
+     "Never have I ever gone home with someone I met at a party.",
+     "Never have I ever broken up with someone over text.",
+     "Never have I ever said something bad about someone here.",
+     "Never have I ever flirted to get a free drink.",
+     "Never have I ever gotten back together with an ex for one night.",
+     "Never have I ever had a crush on someone in this room.",
+     "Never have I ever lied to get out of a date.",
+     "Never have I ever snuck someone into my room.",
+     "Never have I ever been jealous of a friend's success.",
      "Never have I ever dated two people at the same time.",
-     "Never have I ever kissed someone in this room.",
-     "Never have I ever kissed someone in public with everyone watching.",
-     "Never have I ever stayed the night after a first date.",
-     "Never have I ever danced on a table.",
-     "Never have I ever used a cheesy pickup line that actually worked.",
-     "Never have I ever drunk-texted an ex.",
-     "Never have I ever kissed someone in a lift."
+     "Never have I ever flirted with someone while I was in a relationship.",
+     "Never have I ever used a dating app.",
+     "Never have I ever had a crush on a friend's sibling."
     ]
    }
   },
@@ -188,104 +146,52 @@ window.JOY_DECK = {
    "bold": {
     "dilemmas": [
      {
-      "a": "Never be able to lie",
-      "b": "Never be able to tell when others lie"
+      "a": "Always know when someone is lying",
+      "b": "Always get away with lying"
      },
      {
-      "a": "Be dumped in public",
-      "b": "Have to dump someone in public"
+      "a": "Tell your best friend a painful truth",
+      "b": "Keep a secret that would hurt them"
      },
      {
-      "a": "Be a terrible kisser",
-      "b": "Be a terrible dancer"
+      "a": "Have a secret admirer",
+      "b": "Have a secret relationship"
      },
      {
-      "a": "Forget the last year of your life",
-      "b": "Forget your first love"
+      "a": "Kiss a stranger at midnight",
+      "b": "Spend New Year's alone"
      },
      {
-      "a": "Be the ex everyone talks about",
-      "b": "Be the ex nobody remembers"
-     },
-     {
-      "a": "Have your parents see your search history",
-      "b": "Have your boss read your chats"
+      "a": "Get married next week",
+      "b": "Never get married"
      },
      {
       "a": "Lose all your money",
       "b": "Lose all your photos"
      },
      {
-      "a": "Give a speech at your ex's wedding",
-      "b": "Sit next to your ex all night at a friend's wedding"
+      "a": "Unlimited free dates",
+      "b": "Unlimited free drinks"
      },
      {
-      "a": "Know how many people have had a crush on you",
-      "b": "Know exactly who"
-     },
-     {
-      "a": "Text your ex \"I miss you\"",
-      "b": "Text your boss \"I love you\""
+      "a": "Be dumped in public",
+      "b": "Have to dump someone in public"
      },
      {
       "a": "Never say sorry again",
       "b": "Never hear sorry again"
      },
      {
-      "a": "Have your mum read your chats",
-      "b": "Have your ex read your notes app"
-     }
-    ]
-   },
-   "adult": {
-    "dilemmas": [
-     {
-      "a": "Date in secret",
-      "b": "Date in front of everyone"
+      "a": "Wake up next to your celebrity crush",
+      "b": "Wake up with a million in your account"
      },
      {
-      "a": "A one-night romance in Paris",
-      "b": "A long relationship in your hometown"
+      "a": "Spend a night out with no phone",
+      "b": "Spend a night out with your parents"
      },
      {
-      "a": "Give up kissing",
-      "b": "Give up hugging"
-     },
-     {
-      "a": "A summer fling",
-      "b": "A winter romance"
-     },
-     {
-      "a": "Find love on a dating app",
-      "b": "Find love in a bar"
-     },
-     {
-      "a": "Get back with your first love",
-      "b": "Meet someone new"
-     },
-     {
-      "a": "A partner who's too romantic",
-      "b": "A partner who isn't romantic at all"
-     },
-     {
-      "a": "Date someone who talks too much",
-      "b": "Date someone who barely talks"
-     },
-     {
-      "a": "Have your first date filmed for TV",
-      "b": "Have your first kiss posted online"
-     },
-     {
-      "a": "Wild parties every weekend",
-      "b": "Quiet romantic nights at home"
-     },
-     {
-      "a": "Never have another hangover",
-      "b": "Never have another bad date"
-     },
-     {
-      "a": "Love at first sight",
-      "b": "Love that grows slowly"
+      "a": "Know what everyone really thinks of you",
+      "b": "Never find out"
      }
     ]
    }
@@ -311,38 +217,20 @@ window.JOY_DECK = {
    },
    "bold": {
     "prompts": [
-     "Who's most likely to be the most dramatic in a breakup?",
-     "Who's most likely to blow all their savings on a whim?",
-     "Who's most likely to have a secret account?",
+     "Who's most likely to go home with someone they just met?",
+     "Who's most likely to fall in love with a stranger on a trip?",
+     "Who's most likely to lose their shoes at a party?",
+     "Who's most likely to sleep through their alarm on an important day?",
+     "Who's most likely to date two people from this room?",
+     "Who's most likely to break up with someone over text?",
      "Who's most likely to pretend to be busy to get out of plans?",
-     "Who's most likely to reply \"ok.\" just to make a point?",
      "Who's most likely to stalk their crush on every social network?",
-     "Who's most likely to fake being sick to skip work?",
-     "Who's most likely to date two people at once?",
-     "Who's most likely to take credit for someone else's work?",
-     "Who's most likely to talk behind everyone's back?",
-     "Who's most likely to ruin a surprise party?",
-     "Who's most likely to start a fight at a wedding?",
-     "Who's most likely to secretly read their partner's messages?",
-     "Who's most likely to cheat at cards?"
-    ]
-   },
-   "adult": {
-    "prompts": [
-     "Who's most likely to be caught kissing at a wedding?",
-     "Who's most likely to have the most exes?",
-     "Who's most likely to get back with an ex for one night?",
-     "Who's most likely to be the most jealous partner?",
-     "Who's most likely to leave a party with someone's number in their pocket?",
-     "Who's most likely to dance on a table?",
-     "Who's most likely to have a dating profile right now?",
-     "Who's most likely to use a pickup line that actually works?",
-     "Who's most likely to kiss someone just to win a bet?",
-     "Who's most likely to marry someone they met at a party?",
-     "Who's most likely to have a secret crush on someone here?",
-     "Who's most likely to have a holiday fling?",
-     "Who's most likely to make the first move?",
-     "Who's most likely to get the flirtiest after a couple of drinks?"
+     "Who's most likely to post a passive-aggressive status?",
+     "Who's most likely to go through someone's bag?",
+     "Who's most likely to say \"five minutes away\" and turn up an hour later?",
+     "Who's most likely to get back together with their ex?",
+     "Who's most likely to cry after a couple of drinks?",
+     "Who's most likely to reply \"ok.\" just to make a point?"
     ]
    }
   },
@@ -367,38 +255,20 @@ window.JOY_DECK = {
    },
    "bold": {
     "questions": [
-     "Which friend here would you choose to be stuck in a lift with, and who would you avoid?",
-     "Who here do you envy, and for what?",
-     "When were you the most jealous you've ever been?",
-     "What's the biggest lie you've ever told someone here?",
-     "What's the craziest thing you've done for love?",
-     "What's the meanest thing you've ever thought about yourself?",
-     "What do you pretend to understand, but don't?",
-     "What's the worst thing you've ever done in a relationship?",
-     "Have you ever ghosted someone? Why?",
-     "What's your biggest red flag?",
-     "What's something you're ashamed of?",
-     "What's the worst breakup you've been through?",
-     "What would you never forgive, even from a best friend?",
-     "Have you ever had feelings for a friend?"
-    ]
-   },
-   "adult": {
-    "questions": [
-     "What's the first thing that attracts you to someone?",
-     "What's your love life like right now, honestly?",
-     "What's the most daring outfit you've ever worn?",
-     "What's the most embarrassing thing you've done while drunk?",
-     "Have you ever kissed someone to make another person jealous?",
-     "What's the boldest thing you've done to get someone's attention?",
      "Have you ever been in love with two people at once?",
-     "Have you ever been caught kissing somewhere you shouldn't have been?",
-     "What's your take on friends with benefits?",
+     "Have you ever had feelings for a friend?",
+     "What's the worst thing you've ever done in a relationship?",
      "Who here do you think is the best kisser?",
-     "Have you ever slid into someone's DMs? Did it work?",
-     "What's your best kiss story?",
-     "What was your most awkward romantic moment?",
-     "What's a dream date you've never been on?"
+     "What's the wildest night out you've ever had?",
+     "What's your worst kiss story?",
+     "What did you think of the person on your left when you first met?",
+     "Have you ever kissed someone to make another person jealous?",
+     "When were you the most jealous you've ever been?",
+     "Have you ever ghosted someone? Why?",
+     "What's the meanest thing you've ever thought about yourself?",
+     "What's an instant turn-off for you?",
+     "What are you secretly bad at but act like you're good at?",
+     "What's the longest you've gone without kissing anyone?"
     ]
    }
   }
@@ -431,50 +301,26 @@ window.JOY_DECK = {
    },
    "bold": {
     "truths": [
-     "ბოლოს ვის უთხარი „მიყვარხარ“ ისე, რომ მართლა ასე ფიქრობდი?",
+     "ყველაზე ძვირი რა გაგიტეხავს ისე, რომ არავისთვის გითქვამს?",
+     "ბოლოს როდის იტირე და რატომ?",
+     "ნასვამს ყველაზე სამარცხვინო რა გაგიკეთებია?",
+     "ამ ოთახიდან ვისთან ერთად ყველაზე ნაკლებად მოისურვებდი უკაცრიელ კუნძულზე მოხვედრას?",
+     "ყველაზე რომანტიკული რა გაგიკეთებია ვინმესთვის?",
+     "გულწრფელად — როგორი ადამიანები მოგწონს?",
      "ბოლოს ვინ დაბლოკე და რატომ?",
-     "ოდესმე თავი დაკავებულად მოგიჩვენებია, რომ აქ მყოფთაგან ვინმესთვის თავი აგერიდებინა?",
-     "ყველაზე სამარცხვინო რა გაგიკეთებია ვინმეს ყურადღების მისაპყრობად?",
-     "ამ ოთახში საიდუმლოს ყველაზე ნაკლებად ვის ანდობდი?",
-     "საკუთარ თავზე ყველაზე უხერხული რა მოგისმენია შემთხვევით?",
-     "ოდესმე მესიჯით დაგშორებია ვინმე?",
-     "რომელი მესიჯი წაშალე, სანამ ვინმე წაიკითხავდა?",
-     "რომელ ყოფილთან დაბრუნდებოდი, თუ საერთოდ დაბრუნდებოდი?"
+     "ყველაზე დიდხანს რამდენი ხანი გაძელი კოცნის გარეშე?",
+     "ოდესმე უცნობისთვის გიკოცნია?"
     ],
     "dares": [
+     "ყველას აჩვენე ბოლო სქრინშოტი, რომელიც გადაიღე.",
+     "აქ მყოფთაგან ვინმეს თვალებში ჩახედე და სასიყვარულო სიმღერა უმღერე.",
      "ჯგუფმა ხმამაღლა წაიკითხოს შენი ბოლო სამი მიმოწერა.",
-     "ჯგუფმა შენს ტელეფონზე ფონი შეცვალოს თამაშის ბოლომდე.",
-     "ხმამაღლა და გრძნობით წაიკითხე შენი ბოლო გაგზავნილი მესიჯი.",
-     "გაითამაშე, როგორ მოიქცეოდი, ახლა შენი ყოფილი რომ შემოვიდეს.",
-     "ერთი წუთი დასცინე საკუთარ თავს, როგორც სტენდაპზე.",
-     "30 წამი სტენდაპი გააკეთე შენს პირად ცხოვრებაზე.",
-     "დაურეკე მშობელს და უთხარი, რომ პროფესიონალი ჯამბაზობა გადაწყვიტე.",
-     "დაწერე პატარა ლექსი აქ მყოფ ვინმეზე და ხმამაღლა წაიკითხე.",
-     "აჩვენე შენი ყველაზე ძველი ფოტო, რომელიც ტელეფონში გაქვს."
-    ]
-   },
-   "adult": {
-    "truths": [
-     "ოდესმე გაგღვიძებია ისე, რომ არ იცოდი, სად იყავი?",
-     "როგორი იყო ყველაზე ცუდი კოცნა, რაც გახსოვს? სახელების გარეშე.",
-     "ოდესმე გქონია ურთიერთობა, რომელსაც სახელი არ ერქვა? როგორ დასრულდა?",
-     "მარჯვნივ მჯდომში ყველაზე მიმზიდველი რა არის?",
-     "ღამით, გართობისას, რა გაგიკეთებია ისეთი, რასაც მშობლებს არასდროს ეტყოდი?",
-     "ადამიანში პირველ რიგში რა გიზიდავს?",
-     "ოდესმე უცნობისთვის გიკოცნია?",
-     "ოდესმე წაგისწრიათ კოცნისას ისეთ ადგილას, სადაც არ უნდა ყოფილიყავით?",
-     "ყველაზე რომანტიკული რა გაგიკეთებია ვინმესთვის?"
-    ],
-    "dares": [
-     "დაწვრილებით აღწერე შენი იდეალური კოცნა — ხელების მოძრაობით.",
-     "თუ გაცნობის აპლიკაცია გაქვს, ჯგუფმა 30 წამით დაათვალიეროს.",
-     "შემდეგ სვლამდე მარჯვნივ მჯდომს ხელი ჩაჰკიდე.",
-     "რამე შეჭამე რაც შეიძლება მაცდურად.",
-     "20 წამი ლოყალოყაზე იცეკვე ვინმესთან.",
-     "გულწრფელად შეაფასე ყველას ჩაცმულობა ათქულიან სისტემაში.",
-     "თავი წარადგინე ისე, თითქოს გაცნობის შოუში მონაწილეობ.",
-     "პირდაპირ მჯდომს შენი ყველაზე მაცდური მზერით შეხედე.",
-     "მარცხნივ მჯდომს ხელზე აკოცე, როგორც რაინდმა."
+     "აქ მყოფთაგან ვინმე ზურგზე შეისვი და ოთახში გაასეირნე.",
+     "20 წამი ნელი ცეკვა იცეკვე ვინმესთან, ვისაც თავად აირჩევ.",
+     "ერთი რაუნდით ტელეფონი გაუცვალე მარცხნივ მჯდომს.",
+     "ყველამ ერთი კითხვა დაგისვას, რომელზეც „კი“ ან „არა“ უნდა უპასუხო. ტყუილი არ შეიძლება.",
+     "აჩვენე, როგორ დაპატიჟებდი ვინმეს პაემანზე — მარჯვნივ მჯდომზე.",
+     "დაწვრილებით აღწერე შენი იდეალური კოცნა — ხელების მოძრაობით."
     ]
    }
   },
@@ -499,38 +345,20 @@ window.JOY_DECK = {
    },
    "bold": {
     "statements": [
-     "მე არასდროს დავშორებივარ ვინმეს მესიჯით.",
-     "მე არასდროს შემიჭამია სხვისი საჭმელი და სხვისთვის დამიბრალებია.",
-     "მე არასდროს მითქვამს რამე ცუდი აქ მყოფ ვინმეზე.",
-     "მე არასდროს გამიტეხია ვინმესთვის გული.",
-     "მე არასდროს წამიკითხავს სხვისი დღიური.",
-     "მე არასდროს მინანია კოცნა იმავე წუთას.",
-     "მე არასდროს მიქექავს შეყვარებულის ტელეფონი.",
-     "მე არასდროს დამშორებია შეყვარებული.",
-     "მე არასდროს მისარგებლია სხვისი პაროლით უკითხავად.",
-     "მე არასდროს მილაპარაკია ყალბი აქცენტით, რომ ვინმესთვის თავი მომეწონებინა.",
-     "მე არასდროს მომიპარავს რამე მაღაზიიდან.",
-     "მე არასდროს მიცრუია ჩემს წონაზე ან სიმაღლეზე.",
-     "მე არასდროს დამიმალავს რამე შეყვარებულისთვის.",
-     "მე არასდროს მიბანავია ზღვაში შიშველს."
-    ]
-   },
-   "adult": {
-    "statements": [
-     "მე არასდროს მომისმენია, რომ კარგად ვკოცნი.",
-     "მე არასდროს მისარგებლია გაცნობის აპლიკაციით.",
-     "მე არასდროს მიკოცნია ვინმესთვის, ვინც იმავე ღამეს გავიცანი.",
-     "მე არასდროს მომწონებია ჩემი უფროსი.",
+     "მე არასდროს მომიჩვენებია თავი, თითქოს ნაცნობი ქუჩაში ვერ დავინახე.",
      "მე არასდროს მიკოცნია ერთ ღამეში ერთზე მეტი ადამიანისთვის.",
-     "მე არასდროს გამიცდენია პაემანი ნაბახუსევის გამო.",
-     "მე არასდროს მიკოცნია წვიმაში.",
-     "მე არასდროს მიკოცნია ვინმესთვის ისე, რომ ირგვლივ ყველა გვიყურებდა.",
-     "მე არასდროს მქონია ურთიერთობა „ვალდებულებების გარეშე“.",
-     "მე არასდროს მქონია რომანი შვებულებაში.",
-     "მე არასდროს წავსულვარ პაემანზე მხოლოდ უფასო ვახშმის გამო.",
+     "მე არასდროს მიტირია ყოფილზე საჯარო ადგილას.",
+     "მე არასდროს მიცრუია, რამდენი ადამიანისთვის მიკოცნია.",
+     "მე არასდროს მიქექავს შეყვარებულის ტელეფონი.",
+     "მე არასდროს მითქვამს რამე ცუდი აქ მყოფ ვინმეზე.",
+     "მე არასდროს გამიგზავნია ჩატის სქრინშოტი სწორედ იმისთვის, ვისზეც იყო საუბარი.",
+     "მე არასდროს მქონია საიდუმლო ანგარიში სოციალურ ქსელში.",
      "მე არასდროს დამიდია სთორი მხოლოდ იმიტომ, რომ ერთ ადამიანს ენახა.",
-     "მე არასდროს შემიპარებია ვინმე ჩემს ოთახში.",
-     "მე არასდროს დამვიწყებია სახელი ადამიანისა, ვისთვისაც მიკოცნია."
+     "მე არასდროს დამიბრალებია სხვისთვის უსიამოვნო სუნი.",
+     "მე არასდროს შემყვარებია ადამიანი, რომელმაც ჩემი არსებობის შესახებაც არ იცოდა.",
+     "მე არასდროს მომწონებია ამ ოთახში ერთდროულად ორი ადამიანი.",
+     "მე არასდროს ვყოფილვარ ვინმეს საიდუმლო.",
+     "მე არასდროს ვყოფილვარ ჯაკუზში ადამიანთან, რომელიც ახალი გაცნობილი მყავდა."
     ]
    }
   },
@@ -590,104 +418,52 @@ window.JOY_DECK = {
    "bold": {
     "dilemmas": [
      {
-      "a": "იმის ცოდნა, რამდენს მოსწონდი",
-      "b": "ზუსტად იმის ცოდნა, ვის"
+      "a": "შენი რომანების ისტორიის გასაჯაროება",
+      "b": "წუხანდელი მესიჯების გასაჯაროება"
      },
      {
-      "a": "ნიძლავის წაგება და თავის გადაპარსვა",
-      "b": "ნიძლავის წაგება და ჯგუფის არჩეული ტატუ"
+      "a": "ურთიერთობა ადამიანთან, რომელსაც შენი მეგობრები ვერ იტანენ",
+      "b": "მეგობრის დაკარგვა შენი არჩევანის გამო"
      },
      {
-      "a": "მთელი ფულის დაკარგვა",
-      "b": "ყველა ფოტოს დაკარგვა"
-     },
-     {
-      "a": "ყოფილი შენი უფროსი ხდება",
-      "b": "უფროსი შენი ყოფილი ხდება"
-     },
-     {
-      "a": "ყველასთვის ხელფასის თქმა",
-      "b": "ყველასთვის ბოლო ათი ფოტოს ჩვენება"
-     },
-     {
-      "a": "ერთი ნამდვილი მეგობარი",
-      "b": "ასი ზედაპირული მეგობარი"
-     },
-     {
-      "a": "ხუთი წელი მარტოობა",
-      "b": "ხუთი წელი უბედურ ურთიერთობაში"
-     },
-     {
-      "a": "შეყვარებულის საუკეთესო მეგობარი შენი ყოფილია",
-      "b": "შენი საუკეთესო მეგობარი შენს ყოფილს ხვდება"
-     },
-     {
-      "a": "სიმპათია გაიგებს, რომ მოგწონს",
-      "b": "ვერასდროს ეტყვი, რომ მოგწონს"
-     },
-     {
-      "a": "სამარცხვინო რამით პოპულარობა",
-      "b": "სრული უცნობობა"
-     },
-     {
-      "a": "ყველა კამათის მოგება",
-      "b": "ყოველთვის მართალი ყოფნა, მაგრამ არასდროს მოგება"
-     },
-     {
-      "a": "შეყვარებულის მესიჯების წაკითხვა",
-      "b": "საკუთარი მესიჯების მისთვის წასაკითხად მიცემა"
-     }
-    ]
-   },
-   "adult": {
-    "dilemmas": [
-     {
-      "a": "უფასო პაემნები მთელი ცხოვრება",
-      "b": "უფასო სასმელი მთელი ცხოვრება"
+      "a": "იდეალური პაემნის შემდეგ უსიტყვოდ გაქრობა",
+      "b": "საშინელი, მაგრამ გულწრფელი პაემანი"
      },
      {
       "a": "გრძნობების პირველად გამხელა",
       "b": "სამუდამო ლოდინი, სანამ ის გაგიმხელს"
      },
      {
-      "a": "აქ მყოფთაგან ვინმესთვის კოცნა",
-      "b": "ყველასთვის იმის თქმა, ვინ მოგწონს"
-     },
-     {
-      "a": "ყოფილი შენს ქორწილში სტუმრად",
-      "b": "ყოფილი შენს ქორწილში თამადად"
+      "a": "შესანიშნავი პირველი კოცნა და ცუდი ურთიერთობა",
+      "b": "ცუდი პირველი კოცნა და შესანიშნავი ურთიერთობა"
      },
      {
       "a": "ზედმეტად ეჭვიანი შეყვარებული",
       "b": "შეყვარებული, რომელიც საერთოდ არ ეჭვიანობს"
      },
      {
-      "a": "ქორწილი მომავალ კვირას",
-      "b": "არასდროს დაქორწინება"
+      "a": "საუკეთესო მეგობრის შეყვარება",
+      "b": "უცნობის შეყვარება"
      },
      {
-      "a": "შენი რომანების ისტორიის გასაჯაროება",
-      "b": "წუხანდელი მესიჯების გასაჯაროება"
+      "a": "შეყვარებული, რომელიც სულ ტელეფონშია",
+      "b": "შეყვარებული, რომელიც შენს ტელეფონს ამოწმებს"
      },
      {
-      "a": "სიყვარული პირველი დანახვისთანავე",
-      "b": "სიყვარული, რომელიც ნელა იზრდება"
+      "a": "საიდუმლო თაყვანისმცემელი",
+      "b": "საიდუმლო ურთიერთობა"
      },
      {
-      "a": "გაღვიძება საყვარელი ცნობილი ადამიანის გვერდით",
-      "b": "გაღვიძება მილიონით ანგარიშზე"
+      "a": "შენი დღიურის გამოქვეყნება",
+      "b": "შენი ძიების ისტორიის გამოქვეყნება"
      },
      {
-      "a": "შესანიშნავი პირველი კოცნა და ცუდი ურთიერთობა",
-      "b": "ცუდი პირველი კოცნა და შესანიშნავი ურთიერთობა"
+      "a": "შეყვარებულის მესიჯების წაკითხვა",
+      "b": "საკუთარი მესიჯების მისთვის წასაკითხად მიცემა"
      },
      {
-      "a": "შუაღამისას უცნობისთვის კოცნა",
-      "b": "ახალი წლის მარტო შეხვედრა"
-     },
-     {
-      "a": "კოცნა წვიმაში",
-      "b": "კოცნა სახურავზე, მზის ჩასვლისას"
+      "a": "პირველ სიყვარულთან დაბრუნება",
+      "b": "ახალი ადამიანის გაცნობა"
      }
     ]
    }
@@ -713,38 +489,20 @@ window.JOY_DECK = {
    },
    "bold": {
     "prompts": [
-     "ვინ აღმოჩნდება პოლიციის განყოფილებაში?",
-     "ვინ დაშორდება ვინმეს მესიჯით?",
-     "ვინ უპასუხებს მშრალ „ოკ“-ს მხოლოდ იმისთვის, რომ წყენა დაანახოს?",
-     "ვის დაიჭერენ ტყუილზე?",
-     "ვინ წამოიწყებს ჩხუბს ქორწილში?",
-     "ვინ იცრუებს ასაკზე გაცნობის აპლიკაციაში?",
-     "ვის აქვს ჯერ კიდევ გრძნობები ყოფილის მიმართ?",
-     "ვინ აირჩევს შეყვარებულს მხოლოდ გარეგნობის გამო?",
-     "ვინ ითაღლითებს კარტში?",
-     "ვინ დაბლოკავს ვინმეს სისულელის გამო?",
-     "ვინ მოიმიზეზებს ავადმყოფობას, რომ სამსახურში არ წავიდეს?",
+     "ვინ შეჭამს სხვის საჭმელს მაცივრიდან და მერე უარს იტყვის?",
+     "ვინ გაიქცევა ლას-ვეგასში დასაქორწინებლად?",
+     "ვინ შეხვდება ამ ოთახიდან ორ ადამიანს?",
+     "ვინ გაბრაზდება სამაგიდო თამაშის წაგებაზე?",
      "ვინ დაუბრუნდება ყოფილს?",
-     "ვინ ჩაიხედავს სხვის ჩანთაში?",
-     "ვინ წაიკითხავს ფარულად შეყვარებულის მესიჯებს?"
-    ]
-   },
-   "adult": {
-    "prompts": [
-     "ვინ ეფლირტავება უსირცხვილოდ მიმტანს?",
-     "ვინ დაქორწინდება ადამიანზე, რომელიც წვეულებაზე გაიცნო?",
-     "ვინ კოცნის აქ ყველაზე კარგად?",
-     "ვინ ხდება ყველაზე ფლირტის მოყვარული ორი ჭიქის შემდეგ?",
-     "ვინ იცეკვებს მაგიდაზე?",
-     "ვის მოსწონს ფარულად აქ მყოფი ვინმე?",
-     "ვინ აკოცებს ამაღამ უცნობს?",
-     "ვის გასაცნობ ფრაზას გაჭრის მართლა?",
-     "ვინ მისწერს ვინმეს ღამის სამ საათზე „გღვიძავს?“",
-     "ვის შეუყვარდება ბარმენი?",
-     "ვის გაეღვიძება ისე, რომ წინა ღამე არ ემახსოვრება?",
-     "ვინ დაკარგავს ფეხსაცმელს წვეულებაზე?",
+     "ვინ დაბლოკავს ვინმეს სისულელის გამო?",
      "ვინ იქნება ყველაზე ეჭვიანი შეყვარებული?",
-     "ვინ შეთვრება ყველაზე პირველი?"
+     "ვის ექნება რომანი შვებულებაში?",
+     "ვინ იცრუებს, რამდენი ყოფილი ჰყავს?",
+     "ვინ მისწერს ვინმეს ღამის სამ საათზე „გღვიძავს?“",
+     "ვის აქვს ყველაზე სამარცხვინო ძიების ისტორია?",
+     "ვინ ჩაშლის სიურპრიზ-წვეულებას?",
+     "ვინ დაუბრუნდება ყოფილს ერთი ღამით?",
+     "ვინ მისწერს ცნობილ ადამიანს პირადში?"
     ]
    }
   },
@@ -769,38 +527,20 @@ window.JOY_DECK = {
    },
    "bold": {
     "questions": [
-     "ოდესმე გიღალატია მეგობრის ნდობისთვის?",
-     "რა არის შენი ყველაზე დიდი ნაკლი ურთიერთობაში?",
-     "აქ მყოფთაგან ვინ გატკინა გული ისე, რომ თავად არც კი იცის?",
-     "ნათქვამიდან ერთს რომ დაიბრუნებდე, რას დაიბრუნებდი?",
-     "ურთიერთობაში ყველაზე ცუდი რა გაგიკეთებია?",
-     "შენს ხასიათში ერთ რამეს რომ შეცვლიდე, რა იქნებოდა?",
-     "რომელია შენი ყველაზე ტოქსიკური თვისება?",
-     "ოდესმე გიღალატეს? იგრძენი წინასწარ?",
-     "ყველაზე ბავშვური რა მიზეზით შეგიწყვეტია ვინმესთან ლაპარაკი?",
-     "ვისთან გქონდა პირველი კოცნა?",
-     "რას აჩვენებ, თითქოს გესმის, სინამდვილეში კი არა?",
-     "ყველაზე მეტად როდის იეჭვიანე?",
-     "რა გეგონა მარცხნივ მჯდომზე პირველი გაცნობისას?",
-     "ყველაზე დიდი რისკი, რაც ცხოვრებაში გაგიწევია?"
-    ]
-   },
-   "adult": {
-    "questions": [
-     "ოდესმე ერთდროულად ორი ადამიანი გყვარებია?",
-     "პირველ პაემანზე რომელი ნაბიჯი მუშაობს ყველაზე კარგად?",
-     "რომელ საოცნებო პაემანზე არასდროს ყოფილხარ?",
-     "გულწრფელად — როგორი ადამიანები მოგწონს?",
-     "შენი აზრით, აქ ყველაზე კარგად ვინ კოცნის?",
-     "რას ფიქრობ ურთიერთობაზე „ვალდებულებების გარეშე“?",
-     "ნასვამს ყველაზე სამარცხვინო რა გაგიკეთებია?",
-     "გულწრფელად — როგორ არის ახლა შენი პირადი ცხოვრება?",
-     "ყველაზე დიდხანს რამდენი ხანი გაძელი კოცნის გარეშე?",
-     "ოდესმე გქონია ერთღამიანი რომანი?",
+     "სიყვარულისთვის ყველაზე გიჟური რა გაგიკეთებია?",
+     "რა არის შენი ყველაზე დიდი კომპლექსი?",
+     "ოდესმე მიგიწერია ვინმესთვის პირადში ფლირტის მიზნით? გაჭრა?",
      "იქნებოდი ურთიერთობაში აქ მყოფი ვინმეს ყოფილთან?",
-     "მოგვიყევი შენი საუკეთესო კოცნის ამბავი.",
-     "ყველაზე გვიან როდის დაბრუნებულხარ სახლში და საიდან?",
-     "ოდესმე გქონია ურთიერთობა ერთდროულად ორ ადამიანთან?"
+     "რა გეგონა მარცხნივ მჯდომზე პირველი გაცნობისას?",
+     "თავისუფალი რომ იყო, აქ მყოფთაგან ვისთან წახვიდოდი პაემანზე?",
+     "აქ მყოფთაგან ვინ გატკინა გული ისე, რომ თავად არც კი იცის?",
+     "რა გიზიდავს ისეთი, რაც სხვებს უცნაურად ეჩვენებათ?",
+     "პირველ პაემანზე რომელი ნაბიჯი მუშაობს ყველაზე კარგად?",
+     "რა არის ყველაზე დიდი ტყუილი, რაც აქ მყოფთაგან ვინმესთვის გითქვამს?",
+     "ვინმეს ყურადღების მისაპყრობად ყველაზე თამამი რა გაგიკეთებია?",
+     "ყველაზე სამარცხვინო ფოტო შენს გალერეაში?",
+     "ოდესმე მოგწონებია აქ მყოფი ვინმე?",
+     "ოდესმე მეგობრის მიმართ გრძნობები გქონია?"
     ]
    }
   }

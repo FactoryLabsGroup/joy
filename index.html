@@ -190,7 +190,6 @@
           <i class="seg__thumb" id="segThumb" aria-hidden="true"></i>
           <button type="button" role="radio" data-level="light" data-i18n="intensity_light">Light</button>
           <button type="button" role="radio" data-level="bold" data-i18n="intensity_bold">Bold</button>
-          <button type="button" role="radio" data-level="adult">18+</button>
         </div>
         <p class="seg__caption" id="segCaption" aria-live="polite"></p>
       </div>
@@ -204,16 +203,6 @@
         <p class="deal__hint" data-i18n="deal_hint">Tap or swipe for the next one</p>
       </div>
     </div>
-    <dialog class="alert" id="adult" aria-labelledby="adultTitle" aria-describedby="adultText">
-      <form class="alert__box" method="dialog">
-        <h3 id="adultTitle" data-i18n="adult_title">Is everyone here over 18?</h3>
-        <p id="adultText" data-i18n="adult_text">These cards are about flirting, dating, and drinking. We'll only ask once.</p>
-        <div class="alert__actions">
-          <button class="btn btn--primary" value="yes" data-i18n="adult_yes">Yes, everyone is</button>
-          <button class="btn btn--quiet" value="no" data-i18n="adult_no">Cancel</button>
-        </div>
-      </form>
-    </dialog>
   </section>
 
   <!-- Every game has an end: the winner's card, dealt and turned over, with a title of its own. -->
@@ -248,7 +237,7 @@
         <li><span class="step__icon"><i data-icon="lock"></i></span><h3 data-i18n="pv1_t">Nothing leaves the phone</h3><p data-i18n="pv1_x">Names, colours and settings are kept on the device and nowhere else. Joy has no server to send them to.</p></li>
         <li><span class="step__icon"><i data-icon="airplane"></i></span><h3 data-i18n="pv2_t">Plays anywhere</h3><p data-i18n="pv2_x">In the mountains, on a plane, in a basement with no signal. Every card is already on the phone.</p></li>
         <li><span class="step__icon"><i data-icon="eye.slash"></i></span><h3 data-i18n="pv3_t">Nobody watching</h3><p data-i18n="pv3_x">No analytics, no ad SDKs, no trackers. The only people watching the game are the ones playing it.</p></li>
-        <li><span class="step__icon"><b style="font:700 12.5px/1 var(--sans);letter-spacing:-.02em">18+</b></span><h3 data-i18n="pv4_t">18+ asks first</h3><p data-i18n="pv4_x">Before its first card is dealt, the 18+ deck asks once whether everyone is over 18.</p></li>
+        <li><span class="step__icon"><i data-icon="checkmark.shield"></i></span><h3 data-i18n="pv4_t">Nothing to allow</h3><p data-i18n="pv4_x">Joy never asks for your contacts, location, camera or notifications. It has no use for them.</p></li>
       </ul>
       <a class="more reveal" href="privacy.html"><span data-i18n="pv_link">Read the privacy policy</span><i data-icon="arrow.right"></i></a>
     </div>
@@ -267,7 +256,7 @@
         <details><summary><span data-i18n="q2">Do we need an internet connection?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a2"></p></details>
         <details><summary><span data-i18n="q3">Will we see the same cards again?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a3"></p></details>
         <details><summary><span data-i18n="q4">Is Joy in Georgian?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a4"></p></details>
-        <details><summary><span data-i18n="q5">What's in the 18+ decks?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a5"></p></details>
+        <details><summary><span data-i18n="q5">Light or Bold?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a5"></p></details>
         <details><summary><span data-i18n="q6">How long does a game take?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a6"></p></details>
         <details><summary><span data-i18n="q7">iPhone or Android?</span><i class="tog" aria-hidden="true"><i data-icon="plus"></i></i></summary><p data-i18n="a7"></p></details>
       </div>

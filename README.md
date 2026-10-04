@@ -46,7 +46,7 @@ pages), and takes `?lang=ka` or `?lang=en`. All the copy on the main page is in
 
 Where the app already has the line (`Localizable.xcstrings`), the site uses it
 word for word: the welcome page, every game's name, line and rules, the
-intensity captions, the 18+ question and the winners' titles. The rest follows
+intensity captions and the winners' titles. The rest follows
 the app's own rules for Georgian: the polite plural, never upper-cased, „…“
 quotes, and a non-breaking hyphen where a Georgian ending meets a Latin name
 (`Android‑ზე`), so the line never breaks inside it.
@@ -85,7 +85,7 @@ the cards, because the cards are the show.
   and *Surprise me* spins to a random game. A card turns over to show the rules.
 - **The cards section** deals real cards from `deck.js` in the page's language,
   one deck per game and intensity, each dealt once before any repeats
-  (`PromptDeck`). The 18+ deck asks once, in the app's words.
+  (`PromptDeck`), Light or Bold, as in the app.
 - **The end** is `GameOverView`: the winner's card between laurels, turned over
   with the `SparkBurst`, and a title for every winner.
 - **Motion** is the app's: `.arrive` (smooth, no overshoot) and its springs.

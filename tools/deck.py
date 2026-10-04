@@ -36,7 +36,7 @@ for lang in ['en', 'ka']:
     for game, (name, kinds) in GAMES.items():
         content = json.load(open(os.path.join(SRC, f'{name}.{lang}.json'), encoding='utf-8'))
         deck[lang][game] = {}
-        for level in ['light', 'bold', 'adult']:
+        for level in ['light', 'bold']:
             deck[lang][game][level] = {}
             for kind, count in kinds.items():
                 pool = [card for card in content[level][kind] if fits(card)]

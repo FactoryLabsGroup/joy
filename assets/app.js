@@ -48,18 +48,14 @@
       games_text: 'Eight games, each on a card of its own with an illustration that moves. Turn a card over to see how it plays.',
       surprise: 'Surprise me', prev_a11y: 'Previous game', next_a11y: 'Next game',
       how_to_play: 'How to play', min_players: 'At least %s players', card_open_a11y: '%s: how to play', card_close_a11y: '%s: turn back',
-      levels: 'Light, Bold or 18+',
+      levels: 'Light or Bold',
 
       cards_label: 'The cards', cards_title: 'Pick a deck.\n_Read it out loud._',
       cards_text: 'About 3,000 cards, written separately in English and Georgian rather than translated. Every deck remembers what it has dealt, so the next night starts with cards nobody has seen.',
       picker_a11y: 'Game', seg_a11y: 'Intensity',
       intensity_light: 'Light', intensity_bold: 'Bold',
       intensity_light_caption: 'Easygoing cards for any company',
-      intensity_bold_caption: 'More personal and more daring, for friends who know each other well',
-      intensity_adult_caption: 'Flirting, dating, and nights out. For adults only.',
-      adult_title: 'Is everyone here over 18?',
-      adult_text: "These cards are about flirting, dating, and drinking. We'll only ask once.",
-      adult_yes: 'Yes, everyone is', adult_no: 'Cancel',
+      intensity_bold_caption: 'More personal and more daring: secrets, flirting, and nights out. For friends who know each other well.',
       truth: 'Truth', dare: 'Dare', card_no: 'No. %s', wyr_or: 'or', opt_a: 'A', opt_b: 'B',
       cap_turn: 'Your turn', cap_wyr: 'What would they pick?', cap_hot: 'In the hot seat',
       hint_nhie: 'Who has? They lose a finger', hint_mlt: 'On three, everyone point',
@@ -80,7 +76,7 @@
       pv1_t: 'Nothing leaves the phone', pv1_x: 'Names, colours and settings are kept on the device and nowhere else. Joy has no server to send them to.',
       pv2_t: 'Plays anywhere', pv2_x: 'In the mountains, on a plane, in a basement with no signal. Every card is already on the phone.',
       pv3_t: 'Nobody watching', pv3_x: 'No analytics, no ad SDKs, no trackers. The only people watching the game are the ones playing it.',
-      pv4_t: '18+ asks first', pv4_x: 'Before its first card is dealt, the 18+ deck asks once whether everyone is over 18.',
+      pv4_t: 'Nothing to allow', pv4_x: 'Joy never asks for your contacts, location, camera or notifications. It has no use for them.',
       pv_link: 'Read the privacy policy',
 
       faq_label: 'Questions', faq_title: 'Good to know', faq_more: 'Something else?', faq_support: 'Visit support',
@@ -92,8 +88,8 @@
       a3: "Not for a long while. Every deck remembers what it has dealt, across nights, and deals what your group hasn't seen first. Once you've been through a whole deck, it starts over.",
       q4: 'Is Joy in Georgian?',
       a4: 'Fully. Switch between English and Georgian in Settings and everything changes at once, cards included. The Georgian cards were written in Georgian, for Georgian tables, not translated.',
-      q5: "What's in the 18+ decks?",
-      a5: "Flirting, dating and nights out: suggestive, never explicit, and a physical dare always asks for the other person's agreement. Joy asks once whether everyone is over 18.",
+      q5: 'Light or Bold?',
+      a5: "Light is for any company. Bold gets personal, with secrets, flirting and nights out: suggestive, never explicit, and a physical dare always asks for the other person's agreement. Each game remembers which one you picked last.",
       q6: 'How long does a game take?',
       a6: 'As long as you like. Before you start, pick Short, Standard or Long, and a hairline at the top shows how far there is to go.',
       q7: 'iPhone or Android?',
@@ -129,18 +125,14 @@
       games_text: 'რვა თამაში, თითოეული საკუთარ ბარათზე, მოძრავი ილუსტრაციით. გადმოაბრუნეთ ბარათი და ნახეთ, როგორ ითამაშება.',
       surprise: 'შემთხვევითი თამაში', prev_a11y: 'წინა თამაში', next_a11y: 'შემდეგი თამაში',
       how_to_play: 'როგორ ვითამაშოთ', min_players: 'მინიმუმ %s მოთამაშე', card_open_a11y: '%s: როგორ ვითამაშოთ', card_close_a11y: '%s: უკან გადაბრუნება',
-      levels: 'მსუბუქი, თამამი ან 18+',
+      levels: 'მსუბუქი ან თამამი',
 
       cards_label: 'ბარათები', cards_title: 'აირჩიეთ დასტა.\n_წაიკითხეთ ხმამაღლა._',
       cards_text: 'დაახლოებით 3 000 ბარათი, ქართულად და ინგლისურად ცალ-ცალკე დაწერილი და არა თარგმნილი. ყოველ დასტას ახსოვს, რა დაარიგა, ამიტომ შემდეგი საღამო ისეთი ბარათებით იწყება, რომლებიც ჯერ არავის უნახავს.',
       picker_a11y: 'თამაში', seg_a11y: 'სიმძაფრე',
       intensity_light: 'მსუბუქი', intensity_bold: 'თამამი',
       intensity_light_caption: 'მსუბუქი ბარათები ნებისმიერი კომპანიისთვის',
-      intensity_bold_caption: 'უფრო პირადი და უფრო გაბედული — მეგობრებისთვის, რომლებიც ერთმანეთს კარგად იცნობენ',
-      intensity_adult_caption: 'ფლირტი, პაემნები და ღამის თავგადასავლები. მხოლოდ სრულწლოვნებისთვის.',
-      adult_title: 'აქ ყველა სრულწლოვანია?',
-      adult_text: 'ეს ბარათები ფლირტზე, პაემნებსა და ალკოჰოლზეა. ამას მხოლოდ ერთხელ გკითხავთ.',
-      adult_yes: 'დიახ, ყველა', adult_no: 'გაუქმება',
+      intensity_bold_caption: 'უფრო პირადი და გაბედული: საიდუმლოები, ფლირტი და ღამის თავგადასავლები — მეგობრებისთვის, რომლებიც ერთმანეთს კარგად იცნობენ.',
       truth: 'სიმართლე', dare: 'მოქმედება', card_no: '№ %s', wyr_or: 'ან', opt_a: 'ა', opt_b: 'ბ',
       cap_turn: 'თქვენი ჯერია', cap_wyr: 'რას აირჩევს?', cap_hot: 'ცხელ სკამზე ზის',
       hint_nhie: 'ვისაც გაუკეთებია, თითს კარგავს', hint_mlt: 'სამის თვლაზე ყველამ მიუთითოს',
@@ -161,7 +153,7 @@
       pv1_t: 'ტელეფონიდან არაფერი გადის', pv1_x: 'სახელები, ფერები და პარამეტრები მხოლოდ მოწყობილობაზე ინახება. Joy‑ს სერვერი არც აქვს, რომ სადმე გაგზავნოს.',
       pv2_t: 'ყველგან ითამაშება', pv2_x: 'მთაში, თვითმფრინავში, სარდაფში, სადაც სიგნალი არ არის. ყველა ბარათი უკვე ტელეფონშია.',
       pv3_t: 'არავინ გითვალთვალებთ', pv3_x: 'არც ანალიტიკა, არც სარეკლამო SDK‑ები, არც ტრეკერები. თამაშს მხოლოდ ისინი უყურებენ, ვინც თამაშობს.',
-      pv4_t: '18+ ჯერ გეკითხებათ', pv4_x: 'სანამ პირველ ბარათს დაარიგებს, 18+ დასტა ერთხელ გკითხავთ, არის თუ არა ყველა სრულწლოვანი.',
+      pv4_t: 'ნებართვები არ სჭირდება', pv4_x: 'Joy არასდროს ითხოვს წვდომას კონტაქტებზე, მდებარეობაზე, კამერასა თუ შეტყობინებებზე. ეს უბრალოდ არ სჭირდება.',
       pv_link: 'კონფიდენციალურობის პოლიტიკა',
 
       faq_label: 'კითხვები', faq_title: 'კარგია, რომ იცოდეთ', faq_more: 'სხვა რამე გაინტერესებთ?', faq_support: 'მხარდაჭერის გვერდი',
@@ -173,8 +165,8 @@
       a3: 'დიდხანს — არა. ყოველ დასტას ახსოვს, რა დაარიგა წინა საღამოებზე, და ჯერ იმას გაძლევთ, რაც თქვენს კომპანიას ჯერ არ უნახავს. როცა მთელ დასტას გაივლით, ის თავიდან იწყება.',
       q4: 'Joy ქართულად არის?',
       a4: 'სრულად. პარამეტრებში ქართულსა და ინგლისურს შორის გადართეთ და ყველაფერი ერთბაშად შეიცვლება, ბარათების ჩათვლით. ქართული ბარათები ქართულად დაიწერა, ქართული სუფრისთვის, და არა თარგმანით.',
-      q5: 'რა არის 18+ დასტაში?',
-      a5: 'ფლირტი, პაემნები და ღამის თავგადასავლები: პიკანტური, მაგრამ არასდროს უხამსი, ფიზიკური დავალება კი ყოველთვის მეორე ადამიანის თანხმობას ითხოვს. Joy ერთხელ გკითხავთ, არის თუ არა ყველა სრულწლოვანი.',
+      q5: 'მსუბუქი თუ თამამი?',
+      a5: 'მსუბუქი ნებისმიერი კომპანიისთვისაა. თამამი უფრო პირადია — საიდუმლოები, ფლირტი და ღამის თავგადასავლები: პიკანტური, მაგრამ არასდროს უხამსი, ფიზიკური დავალება კი ყოველთვის მეორე ადამიანის თანხმობას ითხოვს. ყოველ თამაშს ახსოვს, რომელი აირჩიეთ ბოლოს.',
       q6: 'რამდენ ხანს გრძელდება თამაში?',
       a6: 'იმდენს, რამდენსაც მოისურვებთ. დაწყებამდე აირჩიეთ მოკლე, სტანდარტული ან გრძელი თამაში, ზემოთ კი თხელი ხაზი გაჩვენებთ, რამდენი დარჩა.',
       q7: 'iPhone თუ Android?',
@@ -733,16 +725,14 @@
   // ---------------------------------------------------------------------------
   // The cards: the app's own decks, dealt face down and turned over. Each deck
   // deals every card once before any repeat, and never the same card twice in a
-  // row (PromptDeck). The 18+ deck asks once.
+  // row (PromptDeck).
   // ---------------------------------------------------------------------------
   (function dealer() {
     var CARD_GAMES = ['truthOrDare', 'neverHaveIEver', 'wouldYouRather', 'mostLikelyTo', 'hotSeat'];
-    var LEVELS = ['light', 'bold', 'adult'];
+    var LEVELS = ['light', 'bold'];
     var picker = $('#picker'), seg = $('#seg'), thumb = $('#segThumb'), caption = $('#segCaption');
-    var dealt = $('#dealt'), turnEl = $('#turn'), dialog = $('#adult');
+    var dealt = $('#dealt'), turnEl = $('#turn');
     var state = { game: 'truthOrDare', level: 'light', number: {}, decks: {}, seat: 0, hot: 0 };
-    var adultOk = false;
-    try { adultOk = localStorage.getItem('joy.adult') === '1'; } catch (e) {}
     var current = null, started = false, dealtIn = null;
 
     function draw(key, pool) {
@@ -874,7 +864,11 @@
       var k = LEVELS.indexOf(state.level);
       $$('button', seg).forEach(function (b, i) { b.setAttribute('aria-checked', String(i === k)); b.tabIndex = i === k ? 0 : -1; });
       thumb.style.transform = 'translateX(' + (k * 100) + '%)';
-      caption.textContent = t('intensity_' + state.level + '_caption');
+      // Every caption sits in the same place and only the chosen one shows, so the
+      // line keeps the height of the longest and nothing moves when the level does.
+      caption.innerHTML = LEVELS.map(function (l) {
+        return '<span' + (l === state.level ? '' : ' aria-hidden="true"') + '>' + esc(t('intensity_' + l + '_caption')) + '</span>';
+      }).join('');
     }
     picker.addEventListener('click', function (e) {
       var b = e.target.closest('button');
@@ -885,11 +879,6 @@
     });
     function setLevel(level) {
       if (level === state.level) return;
-      if (level === 'adult' && !adultOk) {
-        if (dialog.showModal) { dialog.returnValue = ''; dialog.showModal(); return; }
-        if (!window.confirm(t('adult_title') + '\n' + t('adult_text'))) return;
-        adultOk = true;
-      }
       state.level = level;
       controls();
       deal(-1);
@@ -899,16 +888,10 @@
       var k = LEVELS.indexOf(state.level);
       if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
         e.preventDefault();
-        setLevel(LEVELS[(k + (e.key === 'ArrowRight' ? 1 : 2)) % 3]);
+        setLevel(LEVELS[(k + (e.key === 'ArrowRight' ? 1 : LEVELS.length - 1)) % LEVELS.length]);
         var b = $('[aria-checked="true"]', seg);
         if (b) b.focus();
       }
-    });
-    dialog.addEventListener('close', function () {
-      if (dialog.returnValue !== 'yes') return;
-      adultOk = true;
-      try { localStorage.setItem('joy.adult', '1'); } catch (e) {}
-      setLevel('adult');
     });
 
     controls();
