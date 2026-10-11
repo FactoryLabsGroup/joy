@@ -1,4 +1,4 @@
-/* Joy — every word on the page in both languages, and everything that moves. */
+/* Joy: every word on the page in both languages, and everything that moves. */
 (function () {
   'use strict';
 
@@ -107,7 +107,7 @@
       nav_a11y: 'სექციები', nav_how: 'როგორ მუშაობს', nav_games: 'თამაშები', nav_cards: 'ბარათები', nav_faq: 'კითხვები', nav_get: 'ჩამოტვირთვა',
       fan_a11y: 'რვა თამაში, ხელში გაშლილი ბარათებივით',
       hero_l: 'რვა თამაში.', hero_r: 'ერთი ტელეფონი.',
-      hero_lede: 'ყველაფერი მეგობრებთან კარგი საღამოსთვის — რეგისტრაციისა და მომზადების გარეშე.',
+      hero_lede: 'ყველაფერი მეგობრებთან კარგი საღამოსთვის, რეგისტრაციისა და მომზადების გარეშე.',
       hero_note: 'iPhone‑სა და Android‑ზე, ქართულად და ინგლისურად',
       store_soon: 'მალე', store_apple_small: 'ჩამოტვირთეთ', store_google_small: 'ჩამოტვირთეთ',
 
@@ -132,7 +132,7 @@
       picker_a11y: 'თამაში', seg_a11y: 'სიმძაფრე',
       intensity_light: 'მსუბუქი', intensity_bold: 'თამამი',
       intensity_light_caption: 'მსუბუქი ბარათები ნებისმიერი კომპანიისთვის',
-      intensity_bold_caption: 'უფრო პირადი და გაბედული: საიდუმლოები, ფლირტი და ღამის თავგადასავლები — მეგობრებისთვის, რომლებიც ერთმანეთს კარგად იცნობენ.',
+      intensity_bold_caption: 'უფრო პირადი და გაბედული: საიდუმლოები, ფლირტი და ღამის თავგადასავლები, მეგობრებისთვის, რომლებიც ერთმანეთს კარგად იცნობენ.',
       truth: 'სიმართლე', dare: 'მოქმედება', card_no: '№ %s', wyr_or: 'ან', opt_a: 'ა', opt_b: 'ბ',
       cap_turn: 'თქვენი ჯერია', cap_wyr: 'რას აირჩევს?', cap_hot: 'ცხელ სკამზე ზის',
       hint_nhie: 'ვისაც გაუკეთებია, თითს კარგავს', hint_mlt: 'სამის თვლაზე ყველამ მიუთითოს',
@@ -158,23 +158,23 @@
 
       faq_label: 'კითხვები', faq_title: 'კარგია, რომ იცოდეთ', faq_more: 'სხვა რამე გაინტერესებთ?', faq_support: 'მხარდაჭერის გვერდი',
       q1: 'რამდენ ადამიანს შეუძლია თამაში?',
-      a1: 'ორიდან თექვსმეტამდე. თამაშების უმეტესობისთვის ორიც საკმარისია, „ვინ უფრო?“, „ცხელი სკამი“ და „ჯაშუში“ სამ მოთამაშეს ითხოვს, „ალიასი“ კი — ოთხს, ორი გუნდისთვის.',
+      a1: 'ორიდან თექვსმეტამდე. თამაშების უმეტესობისთვის ორიც საკმარისია, „ვინ უფრო?“, „ცხელი სკამი“ და „ჯაშუში“ სამ მოთამაშეს ითხოვს, „ალიასი“ კი ოთხს, ორი გუნდისთვის.',
       q2: 'ინტერნეტი გვჭირდება?',
       a2: 'არა. ყველაფერი, რაც Joy‑ს სჭირდება, უკვე ტელეფონშია, ამიტომ სარდაფშიც ისევე ითამაშება, როგორც სახლში. არც ანგარიშია საჭირო და არც შესვლა.',
       q3: 'იგივე ბარათები განმეორდება?',
-      a3: 'დიდხანს — არა. ყოველ დასტას ახსოვს, რა დაარიგა წინა საღამოებზე, და ჯერ იმას გაძლევთ, რაც თქვენს კომპანიას ჯერ არ უნახავს. როცა მთელ დასტას გაივლით, ის თავიდან იწყება.',
+      a3: 'დიდხანს არა. ყოველ დასტას ახსოვს, რა დაარიგა წინა საღამოებზე, და ჯერ იმას გაძლევთ, რაც თქვენს კომპანიას ჯერ არ უნახავს. როცა მთელ დასტას გაივლით, ის თავიდან იწყება.',
       q4: 'Joy ქართულად არის?',
       a4: 'სრულად. პარამეტრებში ქართულსა და ინგლისურს შორის გადართეთ და ყველაფერი ერთბაშად შეიცვლება, ბარათების ჩათვლით. ქართული ბარათები ქართულად დაიწერა, ქართული სუფრისთვის, და არა თარგმანით.',
       q5: 'მსუბუქი თუ თამამი?',
-      a5: 'მსუბუქი ნებისმიერი კომპანიისთვისაა. თამამი უფრო პირადია — საიდუმლოები, ფლირტი და ღამის თავგადასავლები: პიკანტური, მაგრამ არასდროს უხამსი, ფიზიკური დავალება კი ყოველთვის მეორე ადამიანის თანხმობას ითხოვს. ყოველ თამაშს ახსოვს, რომელი აირჩიეთ ბოლოს.',
+      a5: 'მსუბუქი ნებისმიერი კომპანიისთვისაა. თამამი უფრო პირადია: საიდუმლოები, ფლირტი და ღამის თავგადასავლები. ის პიკანტურია, მაგრამ არასდროს უხამსი, ფიზიკური დავალება კი ყოველთვის მეორე ადამიანის თანხმობას ითხოვს. ყოველ თამაშს ახსოვს, რომელი აირჩიეთ ბოლოს.',
       q6: 'რამდენ ხანს გრძელდება თამაში?',
       a6: 'იმდენს, რამდენსაც მოისურვებთ. დაწყებამდე აირჩიეთ მოკლე, სტანდარტული ან გრძელი თამაში, ზემოთ კი თხელი ხაზი გაჩვენებთ, რამდენი დარჩა.',
       q7: 'iPhone თუ Android?',
-      a7: 'ორივე — იგივე თამაშებით, იგივე ბარათებითა და იგივე იერით.',
+      a7: 'ორივე, იგივე თამაშებით, იგივე ბარათებითა და იგივე იერით.',
 
       fi_title: 'ვითამაშოთ.',
-      fi_soon: 'Joy მალე გამოჩნდება iPhone‑სა და Android‑ზე. მეგობრები თქვენზეა, თამაშები — ჩვენზე.',
-      fi_live: 'Joy უკვე App Store‑სა და Google Play‑შია. მეგობრები თქვენზეა, თამაშები — ჩვენზე.',
+      fi_soon: 'Joy მალე გამოჩნდება iPhone‑სა და Android‑ზე. მეგობრები თქვენზეა, თამაშები კი ჩვენზე.',
+      fi_live: 'Joy უკვე App Store‑სა და Google Play‑შია. მეგობრები თქვენზეა, თამაშები კი ჩვენზე.',
       row_a11y: '%s: თამაშის ნახვა',
       foot_a11y: 'მეტი', footer_privacy: 'კონფიდენციალურობის პოლიტიკა', footer_support: 'მხარდაჭერა', footer_made: 'მეგობრებთან გატარებული კარგი საღამოებისთვის'
     }
@@ -183,23 +183,23 @@
   // Each game's name, line and rules, word for word from the app.
   var GAME_TEXT = {
     en: {
-      truthOrDare: ['Truth or Dare', 'Spill a secret or take on a challenge', ["Take turns — the app tells you who's up", 'Pick Truth or Dare, or let fate decide', 'No backing out. Whoever takes the most dares is crowned the bravest.'], '2, 3 or 5 rounds'],
+      truthOrDare: ['Truth or Dare', 'Spill a secret or take on a challenge', ["Take turns. The app tells you who's up", 'Pick Truth or Dare, or let fate decide', 'No backing out. Whoever takes the most dares is crowned the bravest.'], '2, 3 or 5 rounds'],
       charades: ['Charades', 'Act it out, no words allowed', ['Pick categories and how long each turn lasts', 'Act out the word on screen while everyone else guesses', 'Tap Got it for every correct guess before the timer runs out'], '1, 2 or 3 rounds'],
       neverHaveIEver: ['Never Have I Ever', "Find out who's done what", ['Everyone starts with their fingers up', "Read the card out loud. If you've done it, put a finger down.", 'Out of fingers, out of the game. The last one with a finger up wins.'], '3, 5 or 10 fingers'],
       wouldYouRather: ['Would You Rather', 'How well do you know your friends?', ['Each turn, one player faces a tough choice', "Everyone else guesses out loud which way they'll go", 'The player reveals their answer. Every right guess scores a point.'], '2, 3 or 5 rounds'],
       mostLikelyTo: ['Most Likely To', 'Point at the friend who fits best', ['Read the question out loud', 'On three, everyone points at a player', 'Tap whoever got the most votes. After the last card, the most points wins.'], '10, 15 or 25 questions'],
-      hotSeat: ['Hot Seat', 'One player, a barrage of questions', ['One player takes the hot seat', 'Everyone else takes turns reading questions out loud', 'Answer fast and honestly — no skipping'], '3, 5 or 7 questions each'],
+      hotSeat: ['Hot Seat', 'One player, a barrage of questions', ['One player takes the hot seat', 'Everyone else takes turns reading questions out loud', 'Answer fast and honestly, no skipping'], '3, 5 or 7 questions each'],
       alias: ['Alias', 'Explain it without saying it', ['Split into teams. On each turn, one player explains words to their own team.', "Don't say the word or anything with the same root. No gestures, rhymes, or other languages.", 'A guessed word scores a point and a skip costs one. The team with the most points wins.'], '3, 5 or 7 turns per team'],
       spy: ['Spy', 'Everyone knows where they are, except one', ['Pass the phone round. Everyone sees the same place, except the spy.', 'Ask each other about the place. Answer so the others believe you, without giving it away.', 'Unmask the spy before time runs out. If they slip away or guess the place, the spy wins.'], '1, 3 or 5 rounds']
     },
     ka: {
-      truthOrDare: ['სიმართლე თუ მოქმედება', 'გაამხილეთ საიდუმლო ან მიიღეთ გამოწვევა', ['ითამაშეთ რიგრიგობით — აპი გეტყვით, ვისი ჯერია', 'აირჩიეთ სიმართლე ან მოქმედება — ან არჩევანი ბედს მიანდეთ', 'უკან დახევა არ შეიძლება. ვინც ყველაზე მეტ მოქმედებას აირჩევს, ყველაზე გაბედული გახდება.'], '2, 3 ან 5 რაუნდი'],
-      charades: ['პანტომიმა', 'აჩვენეთ ჟესტებით, სიტყვების გარეშე', ['აირჩიეთ კატეგორიები და ერთი ჯერის ხანგრძლივობა', 'აჩვენეთ ეკრანზე გამოსული სიტყვა, დანარჩენები კი გამოიცნობენ', 'ყოველ სწორ პასუხზე დააჭირეთ „გამოიცნეს“ — სანამ დრო ამოიწურება'], '1, 2 ან 3 რაუნდი'],
+      truthOrDare: ['სიმართლე თუ მოქმედება', 'გაამხილეთ საიდუმლო ან მიიღეთ გამოწვევა', ['ითამაშეთ რიგრიგობით, აპი გეტყვით, ვისი ჯერია', 'აირჩიეთ სიმართლე ან მოქმედება, ან არჩევანი ბედს მიანდეთ', 'უკან დახევა არ შეიძლება. ვინც ყველაზე მეტ მოქმედებას აირჩევს, ყველაზე გაბედული გახდება.'], '2, 3 ან 5 რაუნდი'],
+      charades: ['პანტომიმა', 'აჩვენეთ ჟესტებით, სიტყვების გარეშე', ['აირჩიეთ კატეგორიები და ერთი ჯერის ხანგრძლივობა', 'აჩვენეთ ეკრანზე გამოსული სიტყვა, დანარჩენები კი გამოიცნობენ', 'ყოველ სწორ პასუხზე დააჭირეთ „გამოიცნეს“, სანამ დრო ამოიწურება'], '1, 2 ან 3 რაუნდი'],
       neverHaveIEver: ['მე არასდროს', 'გაიგეთ, ვის რა ჩაუდენია', ['თამაშს ყველა აწეული თითებით იწყებს', 'ხმამაღლა წაიკითხეთ ბარათი. თუ ეს გაგიკეთებიათ, ერთი თითი ჩაკეცეთ.', 'ვისაც თითები გაუთავდება, თამაშიდან გადის. იგებს ის, ვისაც ბოლომდე შერჩება აწეული თითი.'], '3, 5 ან 10 თითი'],
       wouldYouRather: ['რას აირჩევდით?', 'რამდენად კარგად იცნობთ მეგობრებს?', ['ყოველ ჯერზე ერთი მოთამაშე რთული არჩევანის წინაშე დგება', 'დანარჩენები ხმამაღლა ცდილობენ გამოიცნონ, რას აირჩევს', 'მოთამაშე თავის პასუხს ამხელს. ყოველი სწორი გამოცნობა ერთი ქულაა.'], '2, 3 ან 5 რაუნდი'],
       mostLikelyTo: ['ვინ უფრო?', 'მიუთითეთ მეგობარზე, ვისაც ყველაზე მეტად შეეფერება', ['ხმამაღლა წაიკითხეთ კითხვა', 'სამის თვლაზე ყველამ ერთ მოთამაშეზე მიუთითოს', 'შეეხეთ ყველაზე მეტი ხმის მქონე მოთამაშეს. ბოლო ბარათის შემდეგ იგებს ის, ვისაც მეტი ქულა აქვს.'], '10, 15 ან 25 კითხვა'],
-      hotSeat: ['ცხელი სკამი', 'ერთი მოთამაშე და კითხვების ქარცეცხლი', ['ერთი მოთამაშე ცხელ სკამზე ჯდება', 'დანარჩენები რიგრიგობით კითხულობენ კითხვებს', 'უპასუხეთ სწრაფად და გულწრფელად — გამოტოვება არ შეიძლება'], 'თითოეულს 3, 5 ან 7 კითხვა'],
-      alias: ['ალიასი', 'ახსენი ისე, რომ არ თქვა', ['დაიყავით გუნდებად. ყოველ ჯერზე ერთი მოთამაშე საკუთარ გუნდს სიტყვებს უხსნის.', 'თავად სიტყვა ან მისი ძირის შემცველი სიტყვები არ თქვათ. ჟესტები, რითმები და უცხო ენა აკრძალულია.', 'გამოცნობილი სიტყვა ერთი ქულაა, გამოტოვებული — მინუს ერთი. იგებს გუნდი, რომელიც მეტ ქულას დააგროვებს.'], 'თითო გუნდს 3, 5 ან 7 ჯერი'],
+      hotSeat: ['ცხელი სკამი', 'ერთი მოთამაშე და კითხვების ქარცეცხლი', ['ერთი მოთამაშე ცხელ სკამზე ჯდება', 'დანარჩენები რიგრიგობით კითხულობენ კითხვებს', 'უპასუხეთ სწრაფად და გულწრფელად, გამოტოვება არ შეიძლება'], 'თითოეულს 3, 5 ან 7 კითხვა'],
+      alias: ['ალიასი', 'ახსენი ისე, რომ არ თქვა', ['დაიყავით გუნდებად. ყოველ ჯერზე ერთი მოთამაშე საკუთარ გუნდს სიტყვებს უხსნის.', 'თავად სიტყვა ან მისი ძირის შემცველი სიტყვები არ თქვათ. ჟესტები, რითმები და უცხო ენა აკრძალულია.', 'გამოცნობილი სიტყვა ერთი ქულაა, გამოტოვებული კი მინუს ერთი. იგებს გუნდი, რომელიც მეტ ქულას დააგროვებს.'], 'თითო გუნდს 3, 5 ან 7 ჯერი'],
       spy: ['ჯაშუში', 'ყველამ იცის, სად არის. ერთის გარდა', ['ტელეფონი ხელიდან ხელში გადაეცით. ყველა ერთსა და იმავე ადგილს ხედავს, ჯაშუშის გარდა.', 'ერთმანეთს ადგილზე კითხვები დაუსვით. უპასუხეთ ისე, რომ დაგიჯერონ, მაგრამ ადგილი არ გასცეთ.', 'გამოავლინეთ ჯაშუში, სანამ დრო ამოიწურება. თუ გაგექცათ ან ადგილს გამოიცნობს, ჯაშუში იგებს.'], '1, 3 ან 5 რაუნდი']
     }
   };
@@ -409,7 +409,7 @@
   })();
 
   // ---------------------------------------------------------------------------
-  // 01 — the roster: everyone saved stays saved, and a tap sits someone out.
+  // 01: the roster: everyone saved stays saved, and a tap sits someone out.
   // ---------------------------------------------------------------------------
   (function roster() {
     var list = $('#rosterList'), count = $('#rosterCount');
@@ -450,7 +450,7 @@
   })();
 
   // ---------------------------------------------------------------------------
-  // 02 — the deck flicked through on its own, the focused card alive.
+  // 02: the deck flicked through on its own, the focused card alive.
   // ---------------------------------------------------------------------------
   (function mini() {
     var host = $('#mini'), active = 0, timer = 0;
@@ -486,7 +486,7 @@
   })();
 
   // ---------------------------------------------------------------------------
-  // 03 — the table from above, and the phone going round it.
+  // 03: the table from above, and the phone going round it.
   // ---------------------------------------------------------------------------
   (function table() {
     var host = $('#table'), arm = $('#phoneArm'), phone = $('#phone'), name = $('#tableName');

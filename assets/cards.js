@@ -1,4 +1,4 @@
-/* Joy — the cards, as the app makes them.
+/* Joy: the cards, as the app makes them.
    Ported from joy-ios: the games and their hues (GameID.swift), the card material
    (CardSurface, HoloFoil, CardBack, Emblem), the lean towards the hand (TiltSensor),
    and every game's living illustration, drawn in code (GameArtwork.swift). */

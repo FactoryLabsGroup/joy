@@ -1,4 +1,4 @@
-/* Joy — the quieter pages: both languages are in the page, one shows at a time. */
+/* Joy: the quieter pages: both languages are in the page, one shows at a time. */
 (function () {
   'use strict';
   var root = document.documentElement;

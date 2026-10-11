@@ -1,4 +1,4 @@
-/* Joy — dark, quiet and premium everywhere except the cards. The cards are the show.
+/* Joy: dark, quiet and premium everywhere except the cards. The cards are the show.
    A near-black canvas, graphite surfaces with a one-pixel hairline, and colour kept
    for the games and the players: each owns a hue, a deep gradient for its cards and
    a lifted glow for its small accents. One sans, set bold and tight, as in Theme.swift. */
@@ -254,7 +254,7 @@ html[lang="ka"] .hero__title { font-size: clamp(32px, 5.4vw, 82px); line-height:
 html[lang="ka"] .step h3 { font-size: 20px; letter-spacing: 0; }
 .step__body p { color: var(--text-2); font-size: 15.5px; line-height: 1.55; }
 
-/* 01 — the roster: tap a circle to sit someone out tonight */
+/* 01: the roster: tap a circle to sit someone out tonight */
 .roster { display: flex; flex-wrap: wrap; justify-content: center; align-content: center; gap: 12px; width: min(100%, 270px); }
 .roster .avatar { --s: 54px; border: 0; padding: 0; cursor: pointer; transition: opacity .3s var(--quiet), filter .3s var(--quiet), transform .32s var(--press); -webkit-tap-highlight-color: transparent; }
 .roster .avatar:active { transform: scale(.93); }
@@ -267,7 +267,7 @@ html[lang="ka"] .step h3 { font-size: 20px; letter-spacing: 0; }
 .roster__count { position: absolute; left: 0; right: 0; bottom: 18px; text-align: center; color: var(--text-3); font: 500 13px/1 var(--sans); font-variant-numeric: tabular-nums; }
 @keyframes pop { from { transform: scale(.4); opacity: 0; } to { transform: none; opacity: 1; } }
 
-/* 02 — the deck, flicked through on its own */
+/* 02: the deck, flicked through on its own */
 .mini { position: absolute; inset: 0; perspective: 720px; }
 .mini__card { position: absolute; left: 50%; top: 50%; width: 112px; height: 160px; margin: -88px 0 0 -56px; transition: transform .7s var(--arrive), opacity .7s var(--arrive); will-change: transform; }
 .mini__card .card { --r: 16px; --foil: .5; width: 100%; height: 100%; display: flex; flex-direction: column; padding: 9px 10px 11px; box-shadow: 0 12px 30px -8px rgba(0, 0, 0, .6); }
@@ -275,7 +275,7 @@ html[lang="ka"] .step h3 { font-size: 20px; letter-spacing: 0; }
 .mini__card b { font: 700 12.5px/1.15 var(--display); letter-spacing: -.01em; text-align: left; }
 .mini__card .num { font-size: 9.5px; }
 
-/* 03 — the table from above, and the phone going round it */
+/* 03: the table from above, and the phone going round it */
 .step__stage--table { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; }
 .round-table { position: relative; width: 200px; height: 200px; flex: none; }
 .round-table__top { position: absolute; inset: 36px; border-radius: 50%; background: radial-gradient(circle at 50% 35%, #202026, var(--raised)); box-shadow: inset 0 0 0 1px var(--hair), 0 24px 40px -24px #000; }
