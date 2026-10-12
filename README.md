@@ -24,18 +24,19 @@ A static site with no build step:
 
 ## Store links
 
-Joy isn't live in the stores yet, so both buttons say *Coming soon*. When it
-is, set the links at the top of `assets/app.js`:
+Joy is live on the App Store (Apple ID `6819158531`); Google Play still says
+*Coming soon*. The links are at the top of `assets/app.js`:
 
 ```js
 var STORE = {
-  appStore: 'https://apps.apple.com/app/id…',
-  googlePlay: 'https://play.google.com/store/apps/details?id=com.factorylabs.joy'
+  appStore: 'https://apps.apple.com/app/id6819158531',
+  googlePlay: ''  // 'https://play.google.com/store/apps/details?id=com.factorylabs.joy'
 };
 ```
 
-Each button becomes a download link everywhere on the page, and the last
-section says Joy is in the stores.
+A store with a link becomes a download button everywhere on the page, and the
+last section says where Joy is. On iPhone, Safari also shows Apple's Smart App
+Banner (`apple-itunes-app` in `index.html`).
 
 ## Languages
 

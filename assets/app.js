@@ -7,7 +7,7 @@
   // button becomes a download link everywhere on the page.
   // ---------------------------------------------------------------------------
   var STORE = {
-    appStore: '',
+    appStore: 'https://apps.apple.com/app/id6819158531',
     googlePlay: ''
   };
 
@@ -97,6 +97,7 @@
 
       fi_title: "Let's play.",
       fi_soon: 'Joy is coming to iPhone and Android. Bring the friends; the games are on us.',
+      fi_ios: 'Joy is on the App Store, and coming soon to Google Play. Bring the friends; the games are on us.',
       fi_live: 'Joy is on the App Store and Google Play. Bring the friends; the games are on us.',
       row_a11y: '%s: see the game',
       foot_a11y: 'More', footer_privacy: 'Privacy policy', footer_support: 'Support', footer_made: 'Made for great nights with friends'
@@ -174,6 +175,7 @@
 
       fi_title: 'ვითამაშოთ.',
       fi_soon: 'Joy მალე გამოჩნდება iPhone‑სა და Android‑ზე. მეგობრები თქვენზეა, თამაშები კი ჩვენზე.',
+      fi_ios: 'Joy უკვე App Store‑შია, Google Play‑ზე კი მალე გამოჩნდება. მეგობრები თქვენზეა, თამაშები კი ჩვენზე.',
       fi_live: 'Joy უკვე App Store‑სა და Google Play‑შია. მეგობრები თქვენზეა, თამაშები კი ჩვენზე.',
       row_a11y: '%s: თამაშის ნახვა',
       foot_a11y: 'მეტი', footer_privacy: 'კონფიდენციალურობის პოლიტიკა', footer_support: 'მხარდაჭერა', footer_made: 'მეგობრებთან გატარებული კარგი საღამოებისთვის'
@@ -336,7 +338,8 @@
     var html = store('apple', STORE.appStore, APPLE, t('store_apple_small'), 'App Store') +
       store('google', STORE.googlePlay, PLAY, t('store_google_small'), 'Google Play');
     $$('[data-stores]').forEach(function (el) { el.innerHTML = html; });
-    $('#finaleText').textContent = t(STORE.appStore && STORE.googlePlay ? 'fi_live' : 'fi_soon');
+    $('#finaleText').textContent = t(STORE.appStore && STORE.googlePlay ? 'fi_live'
+      : STORE.appStore ? 'fi_ios' : 'fi_soon');
   }
   onLanguage.push(renderStores);
 
