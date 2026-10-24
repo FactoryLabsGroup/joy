@@ -51,7 +51,7 @@
       levels: 'Light or Bold',
 
       cards_label: 'The cards', cards_title: 'Pick a deck.\n_Read it out loud._',
-      cards_text: 'About 3,000 cards, written separately in English and Georgian rather than translated. Every deck remembers what it has dealt, so the next night starts with cards nobody has seen.',
+      cards_text: 'About 6,000 cards, written separately in English and Georgian rather than translated. Every deck remembers what it has dealt, so the next night starts with cards nobody has seen.',
       picker_a11y: 'Game', seg_a11y: 'Intensity',
       intensity_light: 'Light', intensity_bold: 'Bold',
       intensity_light_caption: 'Easygoing cards for any company',
@@ -64,24 +64,24 @@
       end_label: 'Game over', end_title: 'Every winner\n_gets a title._',
       end_text: "Pick how long to play before you start, and a hairline at the top shows how far there is to go. At the end, the winner's card is dealt and turned over, then come the final standings and Play again.",
       awards_a11y: 'Titles',
-      award_bravest: 'The bravest', award_best_performer: 'Best performer', award_last_standing: 'Last one standing',
-      award_mind_reader: 'Mind reader', award_groups_pick: "The group's pick", award_hot_seat: 'Everyone survived the hot seat',
+      award_bravest: 'The bravest', award_coolest: 'Coolest head', award_last_standing: 'Last one standing',
+      award_mind_reader: 'Mind reader', award_reads_the_room: 'Reads the room', award_open_book: 'The open book',
       award_best_team: 'Masters of words', award_sharpest: 'Sharpest mind',
-      score_dares: '%s dares', score_points: '%s points', score_fingers: '%s fingers left',
+      score_points: '%s points', score_fingers: '%s fingers left', score_blasts: '%s blasts', score_answers: '%s answers',
       team_b: 'Team B',
 
       no_label: 'Just the room', no_a11y: "What Joy doesn't need",
       no_1: 'No account', no_2: 'No sign-in', no_3: 'No ads', no_4: 'No internet',
       no_end: 'Just friends, and *one phone*',
-      pv1_t: 'Nothing leaves the phone', pv1_x: 'Names, colours and settings are kept on the device and nowhere else. Joy has no server to send them to.',
+      pv1_t: 'Names stay on the phone', pv1_x: 'Names, colours and settings are kept on the device and nowhere else. Nothing anyone types in a game is ever sent.',
       pv2_t: 'Plays anywhere', pv2_x: 'In the mountains, on a plane, in a basement with no signal. Every card is already on the phone.',
-      pv3_t: 'Nobody watching', pv3_x: 'No analytics, no ad SDKs, no trackers. The only people watching the game are the ones playing it.',
+      pv3_t: 'No ads, no tracking', pv3_x: 'No ad SDKs and no tracking across apps. The iPhone app counts which games get played and reports crashes, with no names attached, so we know what to fix.',
       pv4_t: 'Nothing to allow', pv4_x: 'Joy never asks for your contacts, location, camera or notifications. It has no use for them.',
       pv_link: 'Read the privacy policy',
 
       faq_label: 'Questions', faq_title: 'Good to know', faq_more: 'Something else?', faq_support: 'Visit support',
       q1: 'How many people can play?',
-      a1: 'Two to sixteen. Most games start at two; Most Likely To, Hot Seat and Spy need three, and Alias needs four, for two teams.',
+      a1: 'Two to sixteen. Most games start at two; Most Likely To, Hot Seat and Spy need three. In Who Am I?, four or more can play in teams.',
       q2: 'Do we need an internet connection?',
       a2: "No. Everything Joy needs is already on the phone, so it plays the same in a basement as it does at home. There's no account and nothing to sign in to.",
       q3: 'Will we see the same cards again?',
@@ -91,9 +91,9 @@
       q5: 'Light or Bold?',
       a5: "Light is for any company. Bold gets personal, with secrets, flirting and nights out: suggestive, never explicit, and a physical dare always asks for the other person's agreement. Each game remembers which one you picked last.",
       q6: 'How long does a game take?',
-      a6: 'As long as you like. Before you start, pick Short, Standard or Long, and a hairline at the top shows how far there is to go.',
+      a6: 'Before most games, pick Short, Standard or Long. Truth or Dare, Who Am I? and Bomb always run the same length. A hairline at the top shows how far there is to go.',
       q7: 'iPhone or Android?',
-      a7: 'Both, with the same games, the same cards and the same look.',
+      a7: 'iPhone now, on the App Store. Android is on its way, with the same games, the same cards and the same look.',
 
       fi_title: "Let's play.",
       fi_soon: 'Joy is coming to iPhone and Android. Bring the friends; the games are on us.',
@@ -108,7 +108,7 @@
       nav_a11y: 'სექციები', nav_how: 'როგორ მუშაობს', nav_games: 'თამაშები', nav_cards: 'ბარათები', nav_faq: 'კითხვები', nav_get: 'ჩამოტვირთვა',
       fan_a11y: 'რვა თამაში, ხელში გაშლილი ბარათებივით',
       hero_l: 'რვა თამაში.', hero_r: 'ერთი ტელეფონი.',
-      hero_lede: 'ყველაფერი მეგობრებთან კარგი საღამოსთვის, რეგისტრაციისა და მომზადების გარეშე.',
+      hero_lede: 'ყველაფერი მეგობრებთან კარგი საღამოსთვის. რეგისტრაციისა და მომზადების გარეშე.',
       hero_note: 'iPhone‑სა და Android‑ზე, ქართულად და ინგლისურად',
       store_soon: 'მალე', store_apple_small: 'ჩამოტვირთეთ', store_google_small: 'ჩამოტვირთეთ',
 
@@ -119,8 +119,8 @@
       step2_t: 'აირჩიეთ თამაში',
       step2_x: 'გადაფურცლეთ დასტა, აირჩიეთ ხანგრძლივობა და სიმძაფრე და დაიწყეთ. ან არჩევანი Joy‑ს მიანდეთ.',
       step3_t: 'ტელეფონი გადაეცით',
-      step3_x: 'Joy გეტყვით, ვისი ჯერია, დაარიგებს ბარათს, დაითვლის ქულებს და ბოლოს გამარჯვებულს გამოავლენს.',
-      your_turn: 'თქვენი ჯერია',
+      step3_x: 'Joy გეტყვით, ვისი სვლაა, დაარიგებს ბარათს, დაითვლის ქულებს და ბოლოს გამარჯვებულს გამოავლენს.',
+      your_turn: 'თქვენი სვლაა',
 
       games_label: 'თამაშები', games_title: 'რას ვთამაშობთ?',
       games_text: 'რვა თამაში, თითოეული საკუთარ ბარათზე, მოძრავი ილუსტრაციით. გადმოაბრუნეთ ბარათი და ნახეთ, როგორ ითამაშება.',
@@ -129,49 +129,49 @@
       levels: 'მსუბუქი ან თამამი',
 
       cards_label: 'ბარათები', cards_title: 'აირჩიეთ დასტა.\n_წაიკითხეთ ხმამაღლა._',
-      cards_text: 'დაახლოებით 3 000 ბარათი, ქართულად და ინგლისურად ცალ-ცალკე დაწერილი და არა თარგმნილი. ყოველ დასტას ახსოვს, რა დაარიგა, ამიტომ შემდეგი საღამო ისეთი ბარათებით იწყება, რომლებიც ჯერ არავის უნახავს.',
+      cards_text: 'დაახლოებით 6 000 ბარათი, ქართულად და ინგლისურად ცალ-ცალკე დაწერილი და არა თარგმნილი. ყოველ დასტას ახსოვს, რა დაარიგა, ამიტომ შემდეგი საღამო ისეთი ბარათებით იწყება, რომლებიც ჯერ არავის უნახავს.',
       picker_a11y: 'თამაში', seg_a11y: 'სიმძაფრე',
       intensity_light: 'მსუბუქი', intensity_bold: 'თამამი',
-      intensity_light_caption: 'მსუბუქი ბარათები ნებისმიერი კომპანიისთვის',
-      intensity_bold_caption: 'უფრო პირადი და გაბედული: საიდუმლოები, ფლირტი და ღამის თავგადასავლები, მეგობრებისთვის, რომლებიც ერთმანეთს კარგად იცნობენ.',
+      intensity_light_caption: 'უწყინარი ბარათები ნებისმიერი წრისთვის',
+      intensity_bold_caption: 'უფრო პირადი და გაბედული: საიდუმლოები, ფლირტი და ღამის თავგადასავლები. მეგობრებისთვის, რომლებიც ერთმანეთს კარგად იცნობენ.',
       truth: 'სიმართლე', dare: 'მოქმედება', card_no: '№ %s', wyr_or: 'ან', opt_a: 'ა', opt_b: 'ბ',
-      cap_turn: 'თქვენი ჯერია', cap_wyr: 'რას აირჩევს?', cap_hot: 'ცხელ სკამზე ზის',
+      cap_turn: 'თქვენი სვლაა', cap_wyr: 'რას აირჩევს?', cap_hot: 'ცხელ სკამზე ზის',
       hint_nhie: 'ვისაც გაუკეთებია, თითს კარგავს', hint_mlt: 'სამის თვლაზე ყველამ მიუთითოს',
       deal_hint: 'შემდეგზე გადასასვლელად შეეხეთ ან გადაწიეთ', deal_a11y: 'შემდეგი ბარათი',
 
       end_label: 'თამაში დასრულდა', end_title: 'ყველა გამარჯვებულს\n_თავისი ტიტული აქვს._',
       end_text: 'დაწყებამდე აირჩიეთ, რამდენ ხანს ითამაშებთ, ზემოთ კი თხელი ხაზი გაჩვენებთ, რამდენი დარჩა. ბოლოს გამარჯვებულის ბარათი რიგდება და გადმობრუნდება, მას კი მოსდევს საბოლოო ცხრილი და „კიდევ ვითამაშოთ“.',
       awards_a11y: 'ტიტულები',
-      award_bravest: 'ყველაზე გაბედული', award_best_performer: 'საუკეთესო მსახიობი', award_last_standing: 'ბოლომდე გაძლო',
-      award_mind_reader: 'აზრების მკითხველი', award_groups_pick: 'კომპანიის რჩეული', award_hot_seat: 'ცხელ სკამს ყველამ გაუძლო',
+      award_bravest: 'ყველაზე გაბედული', award_coolest: 'ყველაზე ცივსისხლიანი', award_last_standing: 'ბოლომდე გაძლო',
+      award_mind_reader: 'აზრების მკითხველი', award_reads_the_room: 'წრეს ყველაზე კარგად იცნობს', award_open_book: 'ყველაზე გულახდილი',
       award_best_team: 'სიტყვის ოსტატები', award_sharpest: 'ყველაზე გამჭრიახი',
-      score_dares: '%s მოქმედება', score_points: '%s ქულა', score_fingers: 'დარჩა %s თითი',
+      score_points: '%s ქულა', score_fingers: 'დარჩა %s თითი', score_blasts: '%s აფეთქება', score_answers: '%s პასუხი',
       team_b: 'გუნდი ბ',
 
       no_label: 'მხოლოდ თქვენი კომპანია', no_a11y: 'რა არ სჭირდება Joy‑ს',
       no_1: 'არც ანგარიში', no_2: 'არც რეგისტრაცია', no_3: 'არც რეკლამა', no_4: 'არც ინტერნეტი',
       no_end: 'მხოლოდ მეგობრები და *ერთი ტელეფონი*',
-      pv1_t: 'ტელეფონიდან არაფერი გადის', pv1_x: 'სახელები, ფერები და პარამეტრები მხოლოდ მოწყობილობაზე ინახება. Joy‑ს სერვერი არც აქვს, რომ სადმე გაგზავნოს.',
+      pv1_t: 'სახელები ტელეფონში რჩება', pv1_x: 'სახელები, ფერები და პარამეტრები მხოლოდ მოწყობილობაზე ინახება. ის, რასაც თამაშში წერთ, არასდროს იგზავნება.',
       pv2_t: 'ყველგან ითამაშება', pv2_x: 'მთაში, თვითმფრინავში, სარდაფში, სადაც სიგნალი არ არის. ყველა ბარათი უკვე ტელეფონშია.',
-      pv3_t: 'არავინ გითვალთვალებთ', pv3_x: 'არც ანალიტიკა, არც სარეკლამო SDK‑ები, არც ტრეკერები. თამაშს მხოლოდ ისინი უყურებენ, ვინც თამაშობს.',
+      pv3_t: 'არც რეკლამა, არც თვალთვალი', pv3_x: 'არც სარეკლამო SDK‑ები, არც აპებს შორის თვალთვალი. iPhone‑ის აპი, სახელების გარეშე, ითვლის, რომელ თამაშებს თამაშობენ და შეცდომებს გვატყობინებს, რომ ვიცოდეთ, რა გამოვასწოროთ.',
       pv4_t: 'ნებართვები არ სჭირდება', pv4_x: 'Joy არასდროს ითხოვს წვდომას კონტაქტებზე, მდებარეობაზე, კამერასა თუ შეტყობინებებზე. ეს უბრალოდ არ სჭირდება.',
       pv_link: 'კონფიდენციალურობის პოლიტიკა',
 
       faq_label: 'კითხვები', faq_title: 'კარგია, რომ იცოდეთ', faq_more: 'სხვა რამე გაინტერესებთ?', faq_support: 'მხარდაჭერის გვერდი',
       q1: 'რამდენ ადამიანს შეუძლია თამაში?',
-      a1: 'ორიდან თექვსმეტამდე. თამაშების უმეტესობისთვის ორიც საკმარისია, „ვინ უფრო?“, „ცხელი სკამი“ და „ჯაშუში“ სამ მოთამაშეს ითხოვს, „ალიასი“ კი ოთხს, ორი გუნდისთვის.',
+      a1: 'ორიდან თექვსმეტამდე. თამაშების უმეტესობისთვის ორიც საკმარისია, „ვინ უფრო?“, „ცხელი სკამი“ და „ჯაშუში“ სამ მოთამაშეს ითხოვს. „ვინ ვარ მე?“ ოთხი ან მეტი მოთამაშით გუნდებადაც ითამაშება.',
       q2: 'ინტერნეტი გვჭირდება?',
       a2: 'არა. ყველაფერი, რაც Joy‑ს სჭირდება, უკვე ტელეფონშია, ამიტომ სარდაფშიც ისევე ითამაშება, როგორც სახლში. არც ანგარიშია საჭირო და არც შესვლა.',
       q3: 'იგივე ბარათები განმეორდება?',
-      a3: 'დიდხანს არა. ყოველ დასტას ახსოვს, რა დაარიგა წინა საღამოებზე, და ჯერ იმას გაძლევთ, რაც თქვენს კომპანიას ჯერ არ უნახავს. როცა მთელ დასტას გაივლით, ის თავიდან იწყება.',
+      a3: 'დიდხანს არა. ყოველ დასტას ახსოვს, რა დაარიგა წინა საღამოებზე, და ჯერ იმას გაძლევთ, რაც თქვენს წრეს ჯერ არ უნახავს. როცა მთელ დასტას გაივლით, ის თავიდან იწყება.',
       q4: 'Joy ქართულად არის?',
       a4: 'სრულად. პარამეტრებში ქართულსა და ინგლისურს შორის გადართეთ და ყველაფერი ერთბაშად შეიცვლება, ბარათების ჩათვლით. ქართული ბარათები ქართულად დაიწერა, ქართული სუფრისთვის, და არა თარგმანით.',
       q5: 'მსუბუქი თუ თამამი?',
-      a5: 'მსუბუქი ნებისმიერი კომპანიისთვისაა. თამამი უფრო პირადია: საიდუმლოები, ფლირტი და ღამის თავგადასავლები. ის პიკანტურია, მაგრამ არასდროს უხამსი, ფიზიკური დავალება კი ყოველთვის მეორე ადამიანის თანხმობას ითხოვს. ყოველ თამაშს ახსოვს, რომელი აირჩიეთ ბოლოს.',
+      a5: 'მსუბუქი ნებისმიერი წრისთვისაა. თამამი უფრო პირადია: საიდუმლოები, ფლირტი და ღამის თავგადასავლები. ის პიკანტურია, მაგრამ არასდროს უხამსი, ფიზიკური დავალება კი ყოველთვის მეორე ადამიანის თანხმობას ითხოვს. ყოველ თამაშს ახსოვს, რომელი აირჩიეთ ბოლოს.',
       q6: 'რამდენ ხანს გრძელდება თამაში?',
-      a6: 'იმდენს, რამდენსაც მოისურვებთ. დაწყებამდე აირჩიეთ მოკლე, სტანდარტული ან გრძელი თამაში, ზემოთ კი თხელი ხაზი გაჩვენებთ, რამდენი დარჩა.',
+      a6: 'თამაშების უმეტესობის დაწყებამდე აირჩიეთ მოკლე, სტანდარტული ან გრძელი თამაში. „სიმართლე თუ მოქმედება“, „ვინ ვარ მე?“ და „ბომბი“ ყოველთვის ერთნაირ ხანს გრძელდება. ზემოთ თხელი ხაზი გაჩვენებთ, რამდენი დარჩა.',
       q7: 'iPhone თუ Android?',
-      a7: 'ორივე, იგივე თამაშებით, იგივე ბარათებითა და იგივე იერით.',
+      a7: 'ჯერ iPhone, App Store‑ში. Android‑ის ვერსიაც მალე გამოვა, იგივე თამაშებით, იგივე ბარათებითა და იგივე იერით.',
 
       fi_title: 'ვითამაშოთ.',
       fi_soon: 'Joy მალე გამოჩნდება iPhone‑სა და Android‑ზე. მეგობრები თქვენზეა, თამაშები კი ჩვენზე.',
@@ -182,27 +182,27 @@
     }
   };
 
-  // Each game's name, line and rules, word for word from the app.
+  // Each game's name, line, rules, length and ways to play, word for word from the app.
   var GAME_TEXT = {
     en: {
-      truthOrDare: ['Truth or Dare', 'Spill a secret or take on a challenge', ["Take turns. The app tells you who's up", 'Pick Truth or Dare, or let fate decide', 'No backing out. Whoever takes the most dares is crowned the bravest.'], '2, 3 or 5 rounds'],
-      charades: ['Charades', 'Act it out, no words allowed', ['Pick categories and how long each turn lasts', 'Act out the word on screen while everyone else guesses', 'Tap Got it for every correct guess before the timer runs out'], '1, 2 or 3 rounds'],
-      neverHaveIEver: ['Never Have I Ever', "Find out who's done what", ['Everyone starts with their fingers up', "Read the card out loud. If you've done it, put a finger down.", 'Out of fingers, out of the game. The last one with a finger up wins.'], '3, 5 or 10 fingers'],
-      wouldYouRather: ['Would You Rather', 'How well do you know your friends?', ['Each turn, one player faces a tough choice', "Everyone else guesses out loud which way they'll go", 'The player reveals their answer. Every right guess scores a point.'], '2, 3 or 5 rounds'],
-      mostLikelyTo: ['Most Likely To', 'Point at the friend who fits best', ['Read the question out loud', 'On three, everyone points at a player', 'Tap whoever got the most votes. After the last card, the most points wins.'], '10, 15 or 25 questions'],
-      hotSeat: ['Hot Seat', 'One player, a barrage of questions', ['One player takes the hot seat', 'Everyone else takes turns reading questions out loud', 'Answer fast and honestly, no skipping'], '3, 5 or 7 questions each'],
-      alias: ['Alias', 'Explain it without saying it', ['Split into teams. On each turn, one player explains words to their own team.', "Don't say the word or anything with the same root. No gestures, rhymes, or other languages.", 'A guessed word scores a point and a skip costs one. The team with the most points wins.'], '3, 5 or 7 turns per team'],
-      spy: ['Spy', 'Everyone knows where they are, except one', ['Pass the phone round. Everyone sees the same place, except the spy.', 'Ask each other about the place. Answer so the others believe you, without giving it away.', 'Unmask the spy before time runs out. If they slip away or guess the place, the spy wins.'], '1, 3 or 5 rounds']
+      truthOrDare: ['Truth or Dare', 'Spill a secret or take on a challenge', ["Take turns. The app tells you who's up.", 'Pick Truth or Dare, or let fate decide.', 'A dare done is 2 points, an honest answer is 1, and refusing costs a point. You can swap a card once. The most points is the bravest.'], '3 rounds'],
+      alias: ['Who Am I?', "Guess what's on your forehead", ['One player holds the phone to their forehead. The others explain the word without saying it.', 'Guessed it? Tilt the phone down. To skip, tilt it up.', 'A guess scores a point, a skip costs one.'], '3 rounds', 'Teams or Each for themselves'],
+      bomb: ['Bomb', 'Say a word and pass it before it blows', ['Each round has a topic. Light the fuse and the phone starts ticking.', 'Say a word on the topic and pass the phone on. No repeats.', 'Nobody knows when it goes off. Whoever is holding it takes the blast, and the fewest blasts wins.'], '5 blasts'],
+      neverHaveIEver: ['Never Have I Ever', "Find out who's done what", ['Everyone starts with their fingers up.', "Read the card out loud. If you've done it, put a finger down.", 'Out of fingers, out of the game. The last one with a finger up wins.'], '3, 5 or 10 fingers'],
+      wouldYouRather: ['Would You Rather', 'How well do you know your friends?', ['Each turn, one player faces a tough choice.', "Everyone else guesses out loud which way they'll go.", 'The player reveals their answer. Every right guess scores a point.'], '2, 3 or 5 rounds'],
+      mostLikelyTo: ['Most Likely To', 'Point at the friend who fits best', ['Read the question out loud. One player guesses in secret who the group will point at.', 'On three, everyone points at a player. Tap whoever got the most votes.', 'A right guess is a point, and the guess goes round the table. The most points wins.'], '10, 15 or 25 questions', 'Classic or Paranoia'],
+      hotSeat: ['Hot Seat', 'One player, a barrage of questions', ['One player takes the hot seat.', 'Everyone else takes turns reading questions out loud.', 'Each question has 20 seconds. Every answer in time is a point, and the most open book wins. Each player can swap one question.'], '3, 5 or 7 questions each', 'Questions or One lie'],
+      spy: ['Spy', 'One of you is the spy', ['Pass the phone round. Everyone sees the same place, except the spy.', 'Ask each other about the place. Answer so the others believe you, without giving it away.', 'Unmask the spy before time runs out. If they slip away or guess the place, the spy wins.'], '2, 3 or 5 rounds', 'Place or Word']
     },
     ka: {
-      truthOrDare: ['სიმართლე თუ მოქმედება', 'გაამხილეთ საიდუმლო ან მიიღეთ გამოწვევა', ['ითამაშეთ რიგრიგობით, აპი გეტყვით, ვისი ჯერია', 'აირჩიეთ სიმართლე ან მოქმედება, ან არჩევანი ბედს მიანდეთ', 'უკან დახევა არ შეიძლება. ვინც ყველაზე მეტ მოქმედებას აირჩევს, ყველაზე გაბედული გახდება.'], '2, 3 ან 5 რაუნდი'],
-      charades: ['პანტომიმა', 'აჩვენეთ ჟესტებით, სიტყვების გარეშე', ['აირჩიეთ კატეგორიები და ერთი ჯერის ხანგრძლივობა', 'აჩვენეთ ეკრანზე გამოსული სიტყვა, დანარჩენები კი გამოიცნობენ', 'ყოველ სწორ პასუხზე დააჭირეთ „გამოიცნეს“, სანამ დრო ამოიწურება'], '1, 2 ან 3 რაუნდი'],
-      neverHaveIEver: ['მე არასდროს', 'გაიგეთ, ვის რა ჩაუდენია', ['თამაშს ყველა აწეული თითებით იწყებს', 'ხმამაღლა წაიკითხეთ ბარათი. თუ ეს გაგიკეთებიათ, ერთი თითი ჩაკეცეთ.', 'ვისაც თითები გაუთავდება, თამაშიდან გადის. იგებს ის, ვისაც ბოლომდე შერჩება აწეული თითი.'], '3, 5 ან 10 თითი'],
-      wouldYouRather: ['რას აირჩევდით?', 'რამდენად კარგად იცნობთ მეგობრებს?', ['ყოველ ჯერზე ერთი მოთამაშე რთული არჩევანის წინაშე დგება', 'დანარჩენები ხმამაღლა ცდილობენ გამოიცნონ, რას აირჩევს', 'მოთამაშე თავის პასუხს ამხელს. ყოველი სწორი გამოცნობა ერთი ქულაა.'], '2, 3 ან 5 რაუნდი'],
-      mostLikelyTo: ['ვინ უფრო?', 'მიუთითეთ მეგობარზე, ვისაც ყველაზე მეტად შეეფერება', ['ხმამაღლა წაიკითხეთ კითხვა', 'სამის თვლაზე ყველამ ერთ მოთამაშეზე მიუთითოს', 'შეეხეთ ყველაზე მეტი ხმის მქონე მოთამაშეს. ბოლო ბარათის შემდეგ იგებს ის, ვისაც მეტი ქულა აქვს.'], '10, 15 ან 25 კითხვა'],
-      hotSeat: ['ცხელი სკამი', 'ერთი მოთამაშე და კითხვების ქარცეცხლი', ['ერთი მოთამაშე ცხელ სკამზე ჯდება', 'დანარჩენები რიგრიგობით კითხულობენ კითხვებს', 'უპასუხეთ სწრაფად და გულწრფელად, გამოტოვება არ შეიძლება'], 'თითოეულს 3, 5 ან 7 კითხვა'],
-      alias: ['ალიასი', 'ახსენი ისე, რომ არ თქვა', ['დაიყავით გუნდებად. ყოველ ჯერზე ერთი მოთამაშე საკუთარ გუნდს სიტყვებს უხსნის.', 'თავად სიტყვა ან მისი ძირის შემცველი სიტყვები არ თქვათ. ჟესტები, რითმები და უცხო ენა აკრძალულია.', 'გამოცნობილი სიტყვა ერთი ქულაა, გამოტოვებული კი მინუს ერთი. იგებს გუნდი, რომელიც მეტ ქულას დააგროვებს.'], 'თითო გუნდს 3, 5 ან 7 ჯერი'],
-      spy: ['ჯაშუში', 'ყველამ იცის, სად არის. ერთის გარდა', ['ტელეფონი ხელიდან ხელში გადაეცით. ყველა ერთსა და იმავე ადგილს ხედავს, ჯაშუშის გარდა.', 'ერთმანეთს ადგილზე კითხვები დაუსვით. უპასუხეთ ისე, რომ დაგიჯერონ, მაგრამ ადგილი არ გასცეთ.', 'გამოავლინეთ ჯაშუში, სანამ დრო ამოიწურება. თუ გაგექცათ ან ადგილს გამოიცნობს, ჯაშუში იგებს.'], '1, 3 ან 5 რაუნდი']
+      truthOrDare: ['სიმართლე თუ მოქმედება', 'გაამხილეთ საიდუმლო ან მიიღეთ გამოწვევა', ['ითამაშეთ რიგრიგობით. აპი გეტყვით, ვისი სვლაა.', 'აირჩიეთ სიმართლე ან მოქმედება, ან არჩევანი ბედს მიანდეთ.', 'შესრულებული მოქმედება ორი ქულაა, გულწრფელი პასუხი ერთი, უარი კი ერთ ქულას აკლებს. ბარათის შეცვლა ერთხელ შეგიძლიათ. ყველაზე მეტი ქულით ყველაზე გაბედული გახდებით.'], '3 რაუნდი'],
+      alias: ['ვინ ვარ მე?', 'გამოიცანით, რა გაწერიათ შუბლზე', ['ერთი ტელეფონს შუბლზე იდებს, დანარჩენები სიტყვას უხსნიან ისე, რომ თავად არ თქვან.', 'გამოიცანით? ტელეფონი ქვემოთ დახარეთ. გამოსატოვებლად ზემოთ.', 'გამოცნობა ერთი ქულაა, გამოტოვება მინუს ერთი.'], '3 რაუნდი', 'გუნდებად ან თითოეული თავისთვის'],
+      bomb: ['ბომბი', 'თქვით სიტყვა და გადაეცით, სანამ აფეთქდება', ['ყოველ რაუნდს თავისი თემა აქვს. აანთეთ ფითილი და თამაში დაიწყება.', 'თქვით თემაზე ერთი სიტყვა და ტელეფონი მეზობელს გადაეცით. გამეორება არ შეიძლება.', 'არავინ იცის, როდის აფეთქდება. ვის ხელშიც აფეთქდება, ის იწერს აფეთქებას. იგებს ის, ვისაც ყველაზე ნაკლები ექნება.'], '5 აფეთქება'],
+      neverHaveIEver: ['მე არასდროს', 'გაიგეთ, ვის რა ჩაუდენია', ['თამაშს ყველა აწეული თითებით იწყებს.', 'ხმამაღლა წაიკითხეთ ბარათი. თუ ეს გაგიკეთებიათ, ერთი თითი ჩაკეცეთ.', 'ვისაც თითები გაუთავდება, თამაშიდან გადის. იგებს ის, ვისაც ბოლომდე შერჩება აწეული თითი.'], '3, 5 ან 10 თითი'],
+      wouldYouRather: ['რას აირჩევდით?', 'რამდენად კარგად იცნობთ მეგობრებს?', ['ყოველ სვლაზე ერთი მოთამაშე რთული არჩევანის წინაშე დგება.', 'დანარჩენები ხმამაღლა ცდილობენ გამოიცნონ, რას აირჩევს.', 'მოთამაშე თავის პასუხს ამხელს. ყოველი სწორი გამოცნობა ერთი ქულაა.'], '2, 3 ან 5 რაუნდი'],
+      mostLikelyTo: ['ვინ უფრო?', 'მიუთითეთ მეგობარზე, ვისაც ყველაზე მეტად შეეფერება', ['ხმამაღლა წაიკითხეთ კითხვა. ერთი მოთამაშე ფარულად ივარაუდებს, ვისზე მიუთითებს წრე.', 'სამის თვლაზე ყველამ ერთ მოთამაშეზე მიუთითოს. შეეხეთ ყველაზე მეტი ხმის მქონე მოთამაშეს.', 'სწორი ვარაუდი ერთი ქულაა, ვარაუდის რიგი კი წრეზე გადადის. იგებს ის, ვისაც მეტი ქულა აქვს.'], '10, 15 ან 25 კითხვა', 'კლასიკური ან პარანოია'],
+      hotSeat: ['ცხელი სკამი', 'ერთი მოთამაშე და კითხვების ქარცეცხლი', ['ერთი მოთამაშე ცხელ სკამზე ჯდება.', 'დანარჩენები რიგრიგობით კითხულობენ კითხვებს.', 'ყოველ კითხვაზე 20 წამია. ყოველი დროული პასუხი ერთი ქულაა, იგებს ყველაზე გულახდილი. ყოველ მოთამაშეს ერთი კითხვის შეცვლა შეუძლია.'], 'თითოეულს 3, 5 ან 7 კითხვა', 'კითხვები ან ერთი ტყუილი'],
+      spy: ['ჯაშუში', 'ერთი თქვენგანი ჯაშუშია', ['ტელეფონი ხელიდან ხელში გადაეცით. ყველა ერთსა და იმავე ადგილს ხედავს, ჯაშუშის გარდა.', 'ერთმანეთს ადგილის შესახებ კითხვები დაუსვით. უპასუხეთ ისე, რომ დაგიჯერონ, მაგრამ ადგილი არ გასცეთ.', 'გამოავლინეთ ჯაშუში, სანამ დრო ამოიწურება. თუ გაგექცათ ან ადგილს გამოიცნობს, ჯაშუში იგებს.'], '2, 3 ან 5 რაუნდი', 'ადგილი ან სიტყვა']
     }
   };
 
@@ -223,7 +223,7 @@
   function $$(sel, ctx) { return Array.prototype.slice.call((ctx || document).querySelectorAll(sel)); }
   function pad(n) { return ('0' + n).slice(-2); }
   function game(id) { return C.byId[id]; }
-  function gt(id) { var g = GAME_TEXT[lang][id]; return { title: g[0], tagline: g[1], rules: g[2], length: g[3] }; }
+  function gt(id) { var g = GAME_TEXT[lang][id]; return { title: g[0], tagline: g[1], rules: g[2], length: g[3], modes: g[4] }; }
   function person(i) { var p = PEOPLE[i % PEOPLE.length]; return { name: lang === 'ka' ? p[1] : p[0], tint: C.TINTS[p[2]] }; }
   function avatar(i, cls) {
     var p = person(i);
@@ -554,6 +554,7 @@
             '<h3 class="gback__title" data-g="title"></h3>' +
             '<ol class="rules"><li data-g="rule0"></li><li data-g="rule1"></li><li data-g="rule2"></li></ol>' +
             '<div class="gback__meta"><span class="pill">' + C.icon('person.2.fill') + '<span data-g="min"></span></span><span class="pill" data-g="length"></span>' +
+              (gt(g.id).modes ? '<span class="pill" data-g="modes"></span>' : '') +
               (g.intensity ? '<span class="pill" data-g="levels"></span>' : '') + '</div>' +
           '</div>' +
         '</div></div></div>';
@@ -580,7 +581,7 @@
         $$('[data-g]', s.el).forEach(function (el) {
           var k = el.getAttribute('data-g');
           el.textContent = k === 'title' ? txt.title : k === 'tagline' ? txt.tagline : k === 'cta' ? t('how_to_play') :
-            k === 'min' ? fill(t('min_players'), s.g.min) : k === 'length' ? txt.length : k === 'levels' ? t('levels') : txt.rules[+k.slice(4)];
+            k === 'min' ? fill(t('min_players'), s.g.min) : k === 'length' ? txt.length : k === 'levels' ? t('levels') : k === 'modes' ? txt.modes : txt.rules[+k.slice(4)];
         });
         s.flip.setAttribute('aria-label', fill(t(s.open ? 'card_close_a11y' : 'card_open_a11y'), txt.title));
       });
@@ -913,13 +914,13 @@
   // ---------------------------------------------------------------------------
   (function winners() {
     var AWARDS = [
-      { game: 'truthOrDare', award: 'bravest', who: [1], score: ['dares', 4] },
-      { game: 'charades', award: 'best_performer', who: [2], score: ['points', 9] },
+      { game: 'truthOrDare', award: 'bravest', who: [1], score: ['points', 7] },
+      { game: 'alias', award: 'best_team', team: 'team_b', who: [5, 4, 7], score: ['points', 23] },
+      { game: 'bomb', award: 'coolest', who: [2], score: ['blasts', 0] },
       { game: 'neverHaveIEver', award: 'last_standing', who: [3], score: ['fingers', 2] },
       { game: 'wouldYouRather', award: 'mind_reader', who: [0], score: ['points', 6] },
-      { game: 'mostLikelyTo', award: 'groups_pick', who: [6], score: ['points', 7] },
-      { game: 'hotSeat', award: 'hot_seat', who: [] },
-      { game: 'alias', award: 'best_team', team: 'team_b', who: [5, 4, 7], score: ['points', 23] },
+      { game: 'mostLikelyTo', award: 'reads_the_room', who: [6], score: ['points', 5] },
+      { game: 'hotSeat', award: 'open_book', who: [7], score: ['answers', 12] },
       { game: 'spy', award: 'sharpest', who: [4], score: ['points', 5] }
     ];
     var stage = $('#endStage'), flip = $('#winner'), list = $('#awards'), canvas = $('#burst');

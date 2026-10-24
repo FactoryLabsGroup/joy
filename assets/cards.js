@@ -16,12 +16,12 @@
   // ---------------------------------------------------------------------------
   var GAMES = [
     { id: 'truthOrDare', top: '#A21CAF', bottom: '#3B0764', glow: '#E879F9', symbol: 'flame', min: 2, intensity: true },
-    { id: 'charades', top: '#0369A1', bottom: '#082F49', glow: '#38BDF8', symbol: 'theatermasks', min: 2 },
+    { id: 'alias', top: '#0369A1', bottom: '#082F49', glow: '#38BDF8', symbol: 'text.bubble', min: 2 },
+    { id: 'bomb', top: '#EA580C', bottom: '#431407', glow: '#FDBA74', symbol: 'burst', min: 2 },
     { id: 'neverHaveIEver', top: '#0F766E', bottom: '#042F2E', glow: '#2DD4BF', symbol: 'hand.raised', min: 2, intensity: true },
     { id: 'wouldYouRather', top: '#4338CA', bottom: '#1E1B4B', glow: '#818CF8', symbol: 'square.split.2x1', min: 2, intensity: true },
     { id: 'mostLikelyTo', top: '#B45309', bottom: '#451A03', glow: '#FBBF24', symbol: 'hand.point.right', min: 3, intensity: true },
     { id: 'hotSeat', top: '#B91C1C', bottom: '#450A0A', glow: '#F87171', symbol: 'chair', min: 3, intensity: true },
-    { id: 'alias', top: '#4D7C0F', bottom: '#1A2E05', glow: '#BEF264', symbol: 'text.bubble', min: 4 },
     { id: 'spy', top: '#475569', bottom: '#0B1220', glow: '#CBD5E1', symbol: 'eye', min: 3 }
   ];
   var byId = {};
@@ -200,12 +200,12 @@
   // ---------------------------------------------------------------------------
   var ICONS = {
     'flame': '<path d="M12 3c2.6 2.4 6 6.3 6 10.6 0 3.8-2.7 6.9-6 6.9s-6-3.1-6-6.6c0-2.7 1.4-4.6 2.6-5.9.1 2.2 1 3.6 2.3 4.2-.5-3.6.1-6.6 1.1-9.2Z"/><path d="M12 20.5c-1.6 0-2.6-1.3-2.6-2.8 0-1.7 1.4-2.9 2.6-4.1 1.2 1.2 2.6 2.4 2.6 4.1 0 1.5-1 2.8-2.6 2.8Z"/>',
-    'theatermasks': '<path d="M3.6 8.3c3-1 6-1 9 0 .3 4.7-1.3 9.4-4.5 10.4-3.2-1-4.8-5.7-4.5-10.4Z"/><path d="M5.8 11.3h1.7M8.8 11.3h1.7M6.4 15.6c1-.9 2.3-.9 3.3 0"/><path d="M11.6 5.6c3-1 6-1 9 0 .3 4.7-1.3 9.4-4.5 10.4-.9-.3-1.7-.8-2.4-1.6"/><path d="M14.3 8.7c.4-.5 1.2-.5 1.6 0M17.3 8.7c.4-.5 1.2-.5 1.6 0M14.8 11.6c.9 1.1 2.3 1.1 3.2 0"/>',
     'hand.raised': '<path d="M8 13V6a1.25 1.25 0 0 1 2.5 0v5M10.5 11V4.6a1.25 1.25 0 0 1 2.5 0V11M13 11V5.6a1.25 1.25 0 0 1 2.5 0V12M15.5 12V8a1.25 1.25 0 0 1 2.5 0v6.2c0 4-2.4 6.6-5.8 6.6-2.2 0-3.5-.8-4.6-2.4l-2.7-4c-.5-.8-.3-1.7.4-2.1.7-.4 1.5-.2 2 .5L8 14.4"/>',
     'square.split.2x1': '<rect x="3.5" y="5.5" width="17" height="13" rx="3"/><path d="M12 5.5v13"/>',
     'hand.point.right': '<path d="M20 10.6h-6.3l.4-.5c.5-.6.4-1.5-.2-1.9-.5-.4-1.3-.3-1.8.2l-2.8 2.9C8.5 12.1 8 13.2 8 14.4v1.3c0 2 1.6 3.6 3.6 3.6h2.8a1.15 1.15 0 0 0 0-2.3 1.2 1.2 0 0 0 0-2.4 1.25 1.25 0 0 0 0-2.5H20a1.25 1.25 0 0 0 0-2.5Z"/><path d="M4 12.2h2.2v6.2H4"/>',
     'chair': '<path d="M7.6 3.5h8.8a1 1 0 0 1 1 1V12H6.6V4.5a1 1 0 0 1 1-1Z"/><path d="M5.5 12h13v2.5h-13zM7 14.5v6M17 14.5v6"/>',
     'text.bubble': '<path d="M4 6.6a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3h-6.3L7 19.5v-3.9a3 3 0 0 1-3-3Z"/><path d="M8 8.2h8M8 11.2h5"/>',
+    'burst': '<path d="M12 2.8l1.9 4.6 4.6-1.9-1.9 4.6 4.6 1.9-4.6 1.9 1.9 4.6-4.6-1.9-1.9 4.6-1.9-4.6-4.6 1.9 1.9-4.6-4.6-1.9 4.6-1.9-1.9-4.6 4.6 1.9Z"/>',
     'eye': '<path d="M2.5 12C5 7.6 8.3 5.5 12 5.5s7 2.1 9.5 6.5c-2.5 4.4-5.8 6.5-9.5 6.5S5 16.4 2.5 12Z"/><circle cx="12" cy="12" r="3.2"/>',
     'trophy': '<path d="M7.5 4h9v5.5a4.5 4.5 0 0 1-9 0Z"/><path d="M7.5 6H5.2a2.2 2.2 0 0 0 2.6 3.9M16.5 6h2.3a2.2 2.2 0 0 1-2.6 3.9M12 14v3M8.5 20.5h7M9.5 17h5v3.5h-5z"/>',
     'questionmark': '<path d="M8.8 8.7a3.2 3.2 0 1 1 4.5 2.9c-.8.4-1.3 1-1.3 1.9v.9"/><circle cx="12" cy="17.8" r=".4"/>',
@@ -423,12 +423,12 @@
 
     switch (hue.id) {
       case 'truthOrDare': flame(); break;
-      case 'charades': spotlight(); break;
+      case 'alias': cardOnForehead(); break;
+      case 'bomb': bomb(); break;
       case 'neverHaveIEver': raisedHand(); break;
       case 'wouldYouRather': twoOrbs(); break;
       case 'mostLikelyTo': allEyesOnOne(); break;
       case 'hotSeat': heatRings(); break;
-      case 'alias': wordsInFlight(); break;
       case 'spy': watchfulEye(); break;
     }
 
@@ -457,41 +457,6 @@
         var x = bx + (fract(i * 0.618) - 0.5) * unit * 0.42 + Math.sin(time * 2 + i) * unit * 0.03;
         var y = by - unit * 0.18 - progress * unit * 0.62;
         dot(x, y, unit * 0.013 * (1 - progress * 0.7), i % 3 === 0 ? WHITE : hue.glow, (1 - progress) * 0.9);
-      }
-    }
-
-    // Charades: a spotlight sweeping a stage.
-    function spotlight() {
-      var stageY = h * 0.8, sx = cx, sy = -unit * 0.06;
-      var sweep = Math.sin(time * 0.6) * 0.2;
-      var spotX = cx + Math.tan(sweep) * (stageY - sy);
-      ellipseGlow(cx, stageY, w * 0.95, unit * 0.14, WHITE, 0.08);
-      ctx.beginPath();
-      ctx.moveTo(sx - unit * 0.035, sy);
-      ctx.lineTo(sx + unit * 0.035, sy);
-      ctx.lineTo(spotX + unit * 0.34, stageY);
-      ctx.lineTo(spotX - unit * 0.34, stageY);
-      ctx.closePath();
-      ctx.fillStyle = linear(sx, sy, spotX, stageY, [[WHITE, 0, 0], [WHITE, 0.3, 0.3], [hue.glow, 0.1, 1]]);
-      ctx.fill();
-      ellipseGlow(spotX, stageY, unit * 0.74, unit * 0.15, WHITE, 0.55);
-      for (var i = 0; i < 20; i++) {
-        var along = fract(i * 0.381 + time * 0.03);
-        var lateral = (fract(i * 0.773) - 0.5) * along;
-        var x = sx + (spotX - sx) * along + lateral * unit * 0.6;
-        var y = sy + (stageY - sy) * along + Math.sin(time * 0.8 + i) * unit * 0.01;
-        dot(x, y, unit * 0.006, WHITE, 0.35 + 0.35 * Math.sin(time * 2.3 + i * 1.7));
-      }
-      var masks = masksImage();
-      if (masks) {
-        var bob = Math.sin(time * 1.6) * unit * 0.015;
-        var s = unit * 0.36;
-        ctx.save();
-        ctx.globalAlpha = 0.92;
-        ctx.shadowColor = hue.glow;
-        ctx.shadowBlur = 18 * scale;
-        ctx.drawImage(masks, spotX - s / 2, stageY - unit * 0.17 + bob - s / 2, s, s);
-        ctx.restore();
       }
     }
 
@@ -601,48 +566,150 @@
       strokeCircle(sx, sy, core * 1.35, WHITE, 0.55, 1);
     }
 
-    // Alias: words flying from the one explaining to the ones guessing.
-    function wordsInFlight() {
-      var spx = w * 0.3, spy = cy - unit * 0.06;
-      var lsx = w * 0.7, lsy = cy + unit * 0.08;
-      var bw = unit * 0.34, bh = unit * 0.24;
-      glow(spx, spy, unit * 0.42, hue.glow, 0.45);
-      for (var i = 0; i < 5; i++) {
-        var p = fract(time * 0.34 + i / 5);
-        var lift = Math.sin(p * Math.PI) * unit * 0.22;
-        var x = spx + (lsx - spx) * p, y = spy + (lsy - spy) * p - lift;
-        var cw = unit * (0.07 + 0.03 * fract(i * 0.618));
-        ctx.beginPath();
-        roundRect(ctx, x - cw / 2, y - unit * 0.012, cw, unit * 0.024, unit * 0.012);
-        ctx.fillStyle = rgba(WHITE, Math.sin(p * Math.PI) * 0.9);
-        ctx.fill();
+    // Who Am I?: a card on the guesser's forehead, the clues arcing in from the room.
+    function cardOnForehead() {
+      var hx = cx, hy = h * 0.56, hr = unit * 0.16;
+      // Every few seconds the guesser nods: the card tips towards the floor and a new word goes up.
+      var beat = 4.2, cycle = fract(time / beat);
+      var nod = cycle > 0.74 && cycle < 0.92 ? Math.sin((cycle - 0.74) / 0.18 * Math.PI) : 0;
+      var word = Math.floor(time / beat);
+      glow(hx, hy, unit * 0.46, hue.glow, 0.4);
+      for (var i = 0; i < 8; i++) {
+        var p = fract(time * 0.3 + i * 0.37);
+        var startX = i % 2 === 0 ? w * 0.06 : w * 0.94, startY = hy + unit * (0.02 + 0.1 * fract(i * 0.618));
+        var lift = Math.sin(p * Math.PI) * unit * 0.12;
+        dot(startX + (hx - startX) * p * 0.78, startY + (hy - startY) * p - lift, unit * 0.008, WHITE, Math.sin(p * Math.PI) * 0.75);
       }
-      bubble(spx, spy, bw, bh, true);
-      ctx.fillStyle = linear(spx, spy - bh / 2, spx, spy + bh / 2, [[WHITE, 1], [hue.glow, 1]]);
-      ctx.fill();
-      for (var k = 0; k < 3; k++) {
-        var bounce = Math.max(0, Math.sin(time * 5 - k * 0.7));
-        ctx.fillStyle = rgba(hue.top, 0.9);
-        circlePath(spx + (k - 1) * unit * 0.065, spy - bounce * unit * 0.02, unit * 0.02);
-        ctx.fill();
-      }
-      glow(lsx, lsy, unit * 0.3, WHITE, 0.12 + 0.08 * Math.sin(time * 2));
-      bubble(lsx, lsy, bw * 0.86, bh * 0.86, false);
-      ctx.strokeStyle = rgba(WHITE, 0.85);
-      ctx.lineWidth = 1.5;
-      ctx.stroke();
-      strokeCircle(lsx, lsy, unit * 0.022 * (1 + 0.15 * Math.sin(time * 4)), hue.glow, 0.9, 1.5);
-    }
-    function bubble(x, y, bw, bh, tailOnLeft) {
-      var l = x - bw / 2, t = y - bh / 2, b = t + bh;
+      // Head and shoulders as one silhouette, fading into the card below.
+      var dip = nod * unit * 0.025;
+      var shY = hy + hr * 1.12;
       ctx.beginPath();
-      roundRect(ctx, l, t, bw, bh, bh * 0.42);
-      var tailX = tailOnLeft ? l + bw * 0.2 : l + bw - bw * 0.2;
-      var dir = tailOnLeft ? -1 : 1;
-      ctx.moveTo(tailX - bw * 0.07, b - 1);
-      ctx.lineTo(tailX + dir * bw * 0.12, b + bh * 0.3);
-      ctx.lineTo(tailX + bw * 0.07, b - 1);
-      ctx.closePath();
+      ctx.arc(hx, hy + dip, hr, 0, TAU);
+      roundRect(ctx, hx - unit * 0.3, shY, unit * 0.56, unit * 0.4, unit * 0.2);
+      ctx.fillStyle = linear(hx, hy - hr, hx, shY + unit * 0.2, [[WHITE, 0.55], [hue.glow, 0.35], [hue.glow, 0]]);
+      ctx.fill();
+      // The card, sideways on the forehead, facing the room. Tipping, it foreshortens.
+      var cw = unit * 0.34, ch = unit * 0.17 * (1 - 0.35 * nod);
+      var ccx = hx, ccy = hy - hr * 0.82 + dip * 1.6;
+      var l = ccx - cw / 2, t = ccy - ch / 2;
+      glow(ccx, ccy, unit * 0.3, WHITE, 0.16 + 0.2 * nod);
+      ctx.beginPath();
+      roundRect(ctx, l, t, cw, ch, unit * 0.035);
+      ctx.fillStyle = linear(l, t, l + cw, t + ch, [[WHITE, 1], [hue.glow, 1]]);
+      ctx.fill();
+      // The word only the room can read: two strokes that change with every nod.
+      var lh = unit * 0.022 * (1 - 0.35 * nod);
+      for (var k = 0; k < 2; k++) {
+        var len = cw * (k === 0 ? 0.5 + 0.22 * fract(word * 0.618) : 0.28 + 0.16 * fract(word * 0.382));
+        var y = ccy + (k === 0 ? -1 : 1) * ch * 0.16 - lh / 2;
+        ctx.beginPath();
+        roundRect(ctx, ccx - len / 2, y, len, lh, lh / 2);
+        ctx.fillStyle = rgba(hue.top, k === 0 ? 0.85 : 0.5);
+        ctx.fill();
+      }
+      // A guess lands: a ring spreads off the card just after the nod.
+      var since = cycle - 0.84;
+      if (since > 0 && since < 0.16) {
+        var q = since / 0.16, grow = unit * 0.1 * q;
+        ctx.beginPath();
+        roundRect(ctx, l - grow, t - grow, cw + grow * 2, ch + grow * 2, unit * (0.035 + 0.1 * q));
+        ctx.strokeStyle = rgba(WHITE, (1 - q) * 0.7);
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+      }
+    }
+
+    // Bomb: a glossy black bomb, its fuse lit and spitting sparks (BombPainter).
+    function bomb() {
+      var heat = 0.3, r = unit * 0.27;
+      var bx = cx - unit * 0.04, by = cy + unit * 0.1;
+      var nd = -0.95, ndx = Math.cos(nd), ndy = Math.sin(nd);
+      var fsx = bx + ndx * r * 1.15, fsy = by + ndy * r * 1.15;
+      var tx = fsx + r * 0.5, ty = fsy - r * 0.42;
+      var flicker = 0.85 + 0.15 * Math.sin(time * 23) * Math.sin(time * 7.1);
+      var lit = (0.4 + heat * 0.6) * flicker;
+      glow(bx, by, r * 1.9, hue.glow, 0.1);
+      glow(tx, ty, r * (1.1 + heat * 0.8), hue.glow, (0.35 + heat * 0.35) * flicker);
+      // Its shadow on the table.
+      ctx.save();
+      ctx.translate(bx, by + r * 1.02);
+      ctx.scale(1, 0.18);
+      glow(0, 0, r * 1.05, '#000000', 0.45);
+      ctx.restore();
+      // The body, lit from the top left, with the spark's light caught on the rim nearest it.
+      var lx = bx - r * 0.38, ly = by - r * 0.42;
+      var body = ctx.createRadialGradient(lx, ly, 0, lx, ly, r * 1.55);
+      body.addColorStop(0, '#5B5B66'); body.addColorStop(0.5, '#24242A'); body.addColorStop(1, '#09090B');
+      ctx.fillStyle = body;
+      circlePath(bx, by, r); ctx.fill();
+      ctx.strokeStyle = linear(bx - r, by + r, bx + r * 0.7, by - r * 0.7, [[hue.glow, 0], [hue.glow, 0.75 * lit]]);
+      ctx.lineWidth = r * 0.05;
+      ctx.stroke();
+      ctx.save();
+      ctx.translate(bx - r * 0.42, by - r * 0.46);
+      ctx.rotate(-35 * Math.PI / 180);
+      ctx.scale(1, 0.55);
+      glow(0, 0, r * 0.24, WHITE, 0.42);
+      ctx.restore();
+      ctx.fillStyle = rgba(WHITE, 0.85);
+      circlePath(bx - r * 0.48, by - r * 0.5, r * 0.045); ctx.fill();
+      // The metal collar the fuse comes out of.
+      ctx.save();
+      ctx.translate(bx + ndx * r * 1.02, by + ndy * r * 1.02);
+      ctx.rotate(nd + Math.PI / 2);
+      ctx.beginPath();
+      roundRect(ctx, -r * 0.22, -r * 0.14, r * 0.44, r * 0.28, r * 0.05);
+      ctx.fillStyle = linear(-r * 0.22, 0, r * 0.22, 0, [['#6B6B76', 1], ['#2A2A30', 1], ['#141417', 1]]);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.moveTo(-r * 0.22, -r * 0.14 + 1); ctx.lineTo(r * 0.22, -r * 0.14 + 1);
+      ctx.strokeStyle = rgba(WHITE, 0.35); ctx.lineWidth = 1; ctx.stroke();
+      ctx.restore();
+      // A twisted cord curling up from the collar, charred towards the burning end.
+      var fw = r * 0.075;
+      function cord() {
+        ctx.beginPath();
+        ctx.moveTo(fsx, fsy);
+        ctx.bezierCurveTo(fsx + r * 0.05, fsy - r * 0.38, tx - r * 0.32, ty + r * 0.12, tx, ty);
+      }
+      cord();
+      ctx.lineCap = 'round';
+      ctx.strokeStyle = linear(fsx, fsy, tx, ty, [['#C9B48A', 1], ['#A8916A', 1], ['#2B2622', 1]]);
+      ctx.lineWidth = fw;
+      ctx.stroke();
+      ctx.lineCap = 'butt';
+      ctx.setLineDash([fw * 0.45, fw * 0.75]);
+      ctx.strokeStyle = rgba('#000000', 0.28);
+      ctx.lineWidth = fw * 0.5;
+      ctx.stroke();
+      ctx.setLineDash([]);
+      // The spark: rays that flare and change every frame, like a sparkler, and embers falling away.
+      var ss = r * (0.32 + heat * 0.22);
+      glow(tx, ty, ss * 1.6, '#FFE7A3', 0.85 * flicker);
+      var seed = Math.floor(time * 24) >>> 0;
+      function rand() { seed = (seed + 0x6D2B79F5) >>> 0; var z = seed; z = Math.imul(z ^ (z >>> 15), z | 1); z ^= z + Math.imul(z ^ (z >>> 7), z | 61); return ((z ^ (z >>> 14)) >>> 0) / 4294967296; }
+      ctx.lineWidth = 1.2;
+      for (var i = 0; i < 9; i++) {
+        var a = rand() * TAU, len = ss * (0.45 + rand() * 0.65);
+        var ex = tx + Math.cos(a) * len, ey = ty + Math.sin(a) * len;
+        ctx.beginPath(); ctx.moveTo(tx, ty); ctx.lineTo(ex, ey);
+        ctx.strokeStyle = linear(tx, ty, ex, ey, [[WHITE, 0.95], ['#FDBA74', 0]]);
+        ctx.stroke();
+      }
+      var embers = 12 + Math.floor(heat * 14);
+      for (var j = 0; j < embers; j++) {
+        var p = fract(time * (0.9 + fract(j * 0.37) * 0.8) + j * 0.173);
+        var ang = -Math.PI / 2 + (fract(j * 0.618) - 0.5) * 2.6;
+        var dist = r * 0.65 * p, fall = r * 0.35 * p * p;
+        var px = tx + Math.cos(ang) * dist, py = ty + Math.sin(ang) * dist + fall;
+        var color = j % 3 === 0 ? WHITE : j % 2 === 0 ? '#FDE68A' : hue.glow;
+        var op = (1 - p) * 0.95, er = r * 0.022 * (1 - p * 0.6);
+        if (op <= 0.01) continue;
+        ctx.fillStyle = rgba(color, op * 0.25); circlePath(px, py, er * 2.6); ctx.fill();
+        ctx.fillStyle = rgba(color, op); circlePath(px, py, er); ctx.fill();
+      }
+      ctx.fillStyle = WHITE;
+      circlePath(tx, ty, r * 0.06); ctx.fill();
     }
 
     // Spy: an eye that keeps looking round the room.
@@ -682,47 +749,6 @@
       ctx.lineWidth = 1.5;
       ctx.stroke();
     }
-  }
-
-  // The theatre masks for the Charades stage, cut once into an offscreen canvas.
-  var masks = null;
-  function masksImage() {
-    if (masks !== null) return masks;
-    try {
-      var px = 256, c = document.createElement('canvas');
-      c.width = c.height = px;
-      var x = c.getContext('2d');
-      x.scale(px / 100, px / 100);
-      var shield = 'M-25-22Q0-32 25-22C26 2 16 28 0 30C-16 28-26 2-25-22Z';
-      function mask(cx, cy, rot, happy) {
-        x.save();
-        x.translate(cx, cy);
-        x.rotate(rot * Math.PI / 180);
-        var d = shield;
-        if (happy) {
-          d += 'M-17-6Q-10-14-3-6Q-10-10-17-6Z M3-6Q10-14 17-6Q10-10 3-6Z M-13 7Q0 24 13 7Q0 14-13 7Z';
-        } else {
-          d += 'M-17-10Q-10-4-3-7Q-10-12-17-10Z M3-7Q10-4 17-10Q10-12 3-7Z M-12 19Q0 6 12 19Q0 13-12 19Z';
-        }
-        x.fillStyle = '#fff';
-        x.fill(new Path2D(d), 'evenodd');
-        x.restore();
-      }
-      mask(61, 40, 13, true);
-      // A clean gap where the front mask overlaps the back one.
-      x.save();
-      x.translate(39, 58);
-      x.rotate(-11 * Math.PI / 180);
-      x.globalCompositeOperation = 'destination-out';
-      x.lineWidth = 7;
-      var cut = new Path2D(shield);
-      x.stroke(cut);
-      x.fill(cut);
-      x.restore();
-      mask(39, 58, -11, false);
-      masks = c;
-    } catch (e) { masks = false; }
-    return masks;
   }
 
   window.JoyCards = {

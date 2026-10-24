@@ -1,8 +1,8 @@
 # Joy web
 
 The landing page for Joy, eight party games to play with friends on one phone:
-Truth or Dare, Charades, Never Have I Ever, Would You Rather, Most Likely To,
-Hot Seat, Alias and Spy. Joy is built for iPhone
+Truth or Dare, Who Am I?, Bomb, Never Have I Ever, Would You Rather,
+Most Likely To, Hot Seat and Spy. Joy is built for iPhone
 ([joy-ios](https://github.com/FactoryLabsGroup/joy-ios)) and Android
 ([joy-android](https://github.com/FactoryLabsGroup/joy-android)).
 
@@ -71,9 +71,9 @@ the cards, because the cards are the show.
   the browser reports its tilt, and sways on its own otherwise, as it does in the
   simulator. The cards lean with the hand (`TiltSensor`, `tiltEffect`).
 - **The artwork** is `GameArtwork.swift` ported line for line to a canvas: the
-  flame and its embers, the spotlight on the stage, the hand folding its fingers,
-  the two orbs, every line leading to one, the heat rings, the words in flight and
-  the eye looking round the room. It plays at 30 fps while it's on screen.
+  flame and its embers, the card on the forehead, the lit bomb (`BombPainter.swift`),
+  the hand folding its fingers, the two orbs, every line leading to one, the heat
+  rings and the eye looking round the room. It plays at 30 fps while it's on screen.
 - **Dealing** is `FlipReveal` and `DealtCard`: cards arrive face down with the
   guilloché back and the game's emblem, and turn over on the app's spring. Dealt
   cards carry their number and the game's symbol as a watermark, and can be
@@ -99,9 +99,12 @@ deals. The sample is seeded, the same one each time. When the decks change, run
 
 ## Privacy
 
-The privacy claims come from the apps themselves: Joy has no accounts and no
-servers, the iOS code makes no network requests, and the Android app asks for no
-permission except vibration. Change the policy if that ever changes.
+The privacy claims come from the apps themselves. Joy has no accounts, and player
+names never leave the phone. The iOS app sends usage events (`AnalyticsEvent`),
+crash reports and Remote Config fetches through Firebase, and feedback through a
+Telegram bot; the Android app asks for no permission except vibration. When either
+app starts collecting something new, update `privacy.html` (and the *Just the room*
+copy in `assets/app.js`) before that version ships.
 
 ## Running locally
 

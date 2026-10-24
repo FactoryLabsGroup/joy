@@ -5,70 +5,70 @@ window.JOY_DECK = {
   "truthOrDare": {
    "light": {
     "truths": [
-     "What's the weirdest food combination you actually enjoy?",
-     "Who do you text the most?",
-     "What's the strangest dream you remember?",
-     "Who here would you call first if you got arrested?",
-     "What's a rumor you once believed for way too long?",
-     "What's the worst haircut you've ever had?",
-     "Have you ever blamed something you did on someone else?",
-     "What's the cringiest thing you posted on social media?",
-     "What's one thing on your bucket list you've never told anyone?"
+     "What's the strangest thing you've ever eaten?",
+     "What do your neighbors know about you that nobody here does?",
+     "What nickname did you have at school, and why?",
+     "What's the worst gift you've ever received, and did you pretend to like it?",
+     "Have you ever eaten someone else's share and acted like it was yours?",
+     "What's the most rebellious thing you've ever done?",
+     "What's the last thing you searched for on your phone?",
+     "If you could swap lives with someone here for a day, who would it be?",
+     "What's the strangest thing you collected as a kid?"
     ],
     "dares": [
-     "Call a friend and sing them happy birthday, even if it's not their birthday.",
-     "Try to lick your elbow. Commit to it.",
-     "Do your best impression of someone in this room until someone guesses who it is.",
-     "Do your best runway walk across the room.",
-     "Speak in an accent of the group's choice until your next turn.",
-     "Let the group pick an emoji and use it as your profile picture for an hour.",
-     "Pretend you're a news anchor and report on what's happening in this room.",
      "Act like a cat until someone laughs.",
-     "Compliment every person in the room in under 30 seconds."
+     "Speak in an accent of the group's choice until your next turn.",
+     "Talk in a dramatic movie-trailer voice until your next turn.",
+     "Do your best robot dance for 20 seconds.",
+     "Don't blink for 20 seconds while everyone tries to make you.",
+     "Do your best runway walk across the room.",
+     "Moonwalk across the room.",
+     "Call a friend and ask for a recipe as if your life depends on it.",
+     "Sing any song, but replace every word with \"meow\"."
     ]
    },
    "bold": {
     "truths": [
+     "What have you done that you've never told anyone here?",
      "What's an instant turn-off for you?",
      "Who in this room would you trust least with a secret?",
      "Who here do you think is the biggest flirt?",
      "What's the longest you've gone without a kiss?",
+     "What's your biggest regret in love?",
      "Have you ever fallen for someone you really shouldn't have?",
      "What's the most humiliating thing that's happened to you in public?",
-     "What's the most romantic thing you've ever done for someone?",
-     "Who here gets on your nerves the most, and how?",
-     "Have you ever pretended to be busy to avoid someone in this room?"
+     "What's the most romantic thing you've ever done for someone?"
     ],
     "dares": [
+     "Until the game ends, finish every message you send with an emoji the group picks.",
      "Show the group the last flirty message you sent.",
+     "Send your crush, or a friend, a single heart emoji and nothing else.",
      "Eat something as seductively as you can.",
-     "Let the group scroll through your dating app for 30 seconds, if you have one.",
-     "Do your most seductive dance for 15 seconds.",
+     "Let the group scroll through your dating app for 30 seconds, if you have one.",
+     "Do your most seductive dance for 15 seconds.",
      "Drink a glass of water without using your hands.",
      "Eat a spoonful of the spiciest thing the group can find.",
-     "Pay a compliment about their looks to everyone here.",
-     "Only whisper for the next three rounds.",
-     "Make a dramatic declaration of love to the nearest chair."
+     "Call a friend, tell them you've fallen madly in love, and hang up."
     ]
    }
   },
   "neverHaveIEver": {
    "light": {
     "statements": [
-     "Never have I ever gone a whole day without my phone.",
-     "Never have I ever cheated in a board game.",
-     "Never have I ever waved back at someone who wasn't waving at me.",
-     "Never have I ever told a secret I promised to keep.",
      "Never have I ever talked my way out of a ticket.",
-     "Never have I ever cried at a cartoon.",
-     "Never have I ever laughed at a funeral.",
-     "Never have I ever cried to get out of trouble.",
-     "Never have I ever had a crush on a teacher.",
-     "Never have I ever tripped on a flat surface for no reason.",
-     "Never have I ever stayed up all night talking to someone.",
-     "Never have I ever burned food so badly the smoke alarm went off.",
-     "Never have I ever pretended to be someone else online.",
-     "Never have I ever ridden in an ambulance."
+     "Never have I ever eaten breakfast for dinner.",
+     "Never have I ever cheated in a board game.",
+     "Never have I ever looked busy at work while doing absolutely nothing.",
+     "Never have I ever binge-watched a whole season in one day.",
+     "Never have I ever eaten a whole tub of ice cream in one go.",
+     "Never have I ever missed a flight.",
+     "Never have I ever said \"five minutes away\" before getting dressed.",
+     "Never have I ever had a song stuck in my head for a whole week.",
+     "Never have I ever forgotten a friend's name while introducing them.",
+     "Never have I ever lied about my age.",
+     "Never have I ever performed on a stage in front of a crowd.",
+     "Never have I ever been kicked out of a class.",
+     "Never have I ever laughed at my own joke before I finished telling it."
     ]
    },
    "bold": {
@@ -78,15 +78,15 @@ window.JOY_DECK = {
      "Never have I ever broken up with someone over text.",
      "Never have I ever said something bad about someone here.",
      "Never have I ever flirted to get a free drink.",
+     "Never have I ever written a love letter.",
      "Never have I ever gotten back together with an ex for one night.",
      "Never have I ever had a crush on someone in this room.",
      "Never have I ever lied to get out of a date.",
+     "Never have I ever flirted at a friend's wedding.",
      "Never have I ever snuck someone into my room.",
      "Never have I ever been jealous of a friend's success.",
      "Never have I ever dated two people at the same time.",
-     "Never have I ever flirted with someone while I was in a relationship.",
-     "Never have I ever used a dating app.",
-     "Never have I ever had a crush on a friend's sibling."
+     "Never have I ever pretended to like a friend's partner."
     ]
    }
   },
@@ -94,52 +94,52 @@ window.JOY_DECK = {
    "light": {
     "dilemmas": [
      {
-      "a": "Live without music",
-      "b": "Live without movies"
+      "a": "Never use social media again",
+      "b": "Never watch TV again"
      },
      {
-      "a": "Be the best player on a losing team",
-      "b": "Be the worst player on a winning team"
+      "a": "Always win at cards",
+      "b": "Always win at quizzes"
      },
      {
-      "a": "Have a rewind button for your life",
-      "b": "Have a pause button for your life"
-     },
-     {
-      "a": "Live by the beach",
-      "b": "Live in the mountains"
-     },
-     {
-      "a": "Win the lottery",
-      "b": "Live twice as long"
-     },
-     {
-      "a": "Explore space",
-      "b": "Explore the deep ocean"
-     },
-     {
-      "a": "Have your search history made public",
-      "b": "Have your text messages made public"
+      "a": "Give up coffee forever",
+      "b": "Give up chocolate forever"
      },
      {
       "a": "Only whisper",
       "b": "Only shout"
      },
      {
-      "a": "Be the funniest person in the room",
-      "b": "Be the smartest person in the room"
+      "a": "Go on a road trip with friends",
+      "b": "Go on a luxury trip alone"
      },
      {
-      "a": "Eat a bug",
-      "b": "Hold a snake"
+      "a": "Control the weather",
+      "b": "Change your hair color just by thinking"
      },
      {
-      "a": "Have your dream job",
-      "b": "Find your soulmate"
+      "a": "Always be overdressed",
+      "b": "Always be underdressed"
      },
      {
-      "a": "Wear pajamas everywhere",
-      "b": "Wear a suit everywhere"
+      "a": "A summer at grandma's in the village",
+      "b": "A summer at camp with friends"
+     },
+     {
+      "a": "Have a pet dinosaur",
+      "b": "Have a pet unicorn"
+     },
+     {
+      "a": "Have a dragon",
+      "b": "Be a dragon"
+     },
+     {
+      "a": "Have hiccups for a whole day",
+      "b": "Feel about to sneeze for a whole day"
+     },
+     {
+      "a": "Never do laundry again",
+      "b": "Never wash dishes again"
      }
     ]
    },
@@ -170,28 +170,28 @@ window.JOY_DECK = {
       "b": "Lose all your photos"
      },
      {
+      "a": "A first kiss right after a garlicky dinner",
+      "b": "A first kiss in front of your parents"
+     },
+     {
       "a": "Unlimited free dates",
       "b": "Unlimited free drinks"
      },
      {
+      "a": "Have your parents pick your outfit for a date",
+      "b": "Have your friends pick your date"
+     },
+     {
+      "a": "Kiss in the rain",
+      "b": "Kiss on a rooftop at sunset"
+     },
+     {
+      "a": "Read your ex's diary",
+      "b": "Have your ex read yours"
+     },
+     {
       "a": "Be dumped in public",
       "b": "Have to dump someone in public"
-     },
-     {
-      "a": "Never say sorry again",
-      "b": "Never hear sorry again"
-     },
-     {
-      "a": "Wake up next to your celebrity crush",
-      "b": "Wake up with a million in your account"
-     },
-     {
-      "a": "Spend a night out with no phone",
-      "b": "Spend a night out with your parents"
-     },
-     {
-      "a": "Know what everyone really thinks of you",
-      "b": "Never find out"
      }
     ]
    }
@@ -199,20 +199,20 @@ window.JOY_DECK = {
   "mostLikelyTo": {
    "light": {
     "prompts": [
-     "Who's most likely to forget their own birthday?",
-     "Who's most likely to plan the perfect surprise party?",
-     "Who's most likely to fall asleep at a party?",
-     "Who's most likely to be the last one dancing?",
-     "Who's most likely to spend all their money on shoes?",
-     "Who's most likely to start a business?",
+     "Who's most likely to win a reality show?",
+     "Who's most likely to have the messiest room?",
+     "Who's most likely to become a politician?",
+     "Who's most likely to get kicked out of a restaurant?",
+     "Who's most likely to have a secret talent?",
+     "Who's most likely to be the first to leave a party?",
+     "Who's most likely to lose their phone while holding it?",
+     "Who's most likely to sneak snacks into the cinema?",
+     "Who's most likely to talk to plants?",
      "Who's most likely to believe a conspiracy theory?",
-     "Who's most likely to get married first?",
-     "Who's most likely to sing karaoke without being asked?",
-     "Who's most likely to talk their way out of anything?",
-     "Who's most likely to cry during a movie?",
+     "Who's most likely to get lost with GPS on?",
      "Who's most likely to become famous?",
-     "Who's most likely to buy something they don't need at 3 a.m.?",
-     "Who's most likely to cancel plans last minute?"
+     "Who's most likely to laugh loudest at their own jokes?",
+     "Who's most likely to have their own cooking show?"
     ]
    },
    "bold": {
@@ -220,55 +220,55 @@ window.JOY_DECK = {
      "Who's most likely to go home with someone they just met?",
      "Who's most likely to fall in love with a stranger on a trip?",
      "Who's most likely to lose their shoes at a party?",
+     "Who's most likely to be the last to leave the bar?",
      "Who's most likely to sleep through their alarm on an important day?",
      "Who's most likely to date two people from this room?",
      "Who's most likely to break up with someone over text?",
+     "Who's most likely to sing a love song to their crush in public?",
      "Who's most likely to pretend to be busy to get out of plans?",
+     "Who's most likely to have a crush on a friend's sibling?",
      "Who's most likely to stalk their crush on every social network?",
+     "Who's most likely to start a rumor just to see how far it goes?",
      "Who's most likely to post a passive-aggressive status?",
-     "Who's most likely to go through someone's bag?",
-     "Who's most likely to say \"five minutes away\" and turn up an hour later?",
-     "Who's most likely to get back together with their ex?",
-     "Who's most likely to cry after a couple of drinks?",
-     "Who's most likely to reply \"ok.\" just to make a point?"
+     "Who's most likely to go through someone's bag?"
     ]
    }
   },
   "hotSeat": {
    "light": {
     "questions": [
-     "What's a talent you wish you had?",
-     "What's the meanest thing you've ever said to someone?",
-     "Which friend here would you call at 3 a.m.?",
-     "What's one question you're afraid someone will ask you right now?",
-     "What would your last meal be?",
-     "What's one thing you're really proud of?",
+     "What's the most embarrassing song on your playlist?",
+     "What's the most useful thing you own?",
+     "What compliment would you give the person across from you?",
      "What's something you've never told your parents?",
-     "What's the last thing that made you really laugh?",
-     "If your life were a movie, what would it be called?",
-     "What's the worst thing you've done to a friend?",
-     "What's the most adventurous thing you'd like to try?",
-     "What's your love language?",
-     "What's your biggest regret so far?",
-     "What's the most money you've spent in one day?"
+     "If you could have dinner with anyone, dead or alive, who would it be?",
+     "Which birthday do you remember best?",
+     "What's the weirdest thing you believed as a kid?",
+     "What's the best concert you've ever been to?",
+     "Which app do you open first in the morning?",
+     "What's a secret skill nobody here knows about?",
+     "What's your most used emoji, and why?",
+     "What's your weirdest habit?",
+     "What's the most money you've spent in one day?",
+     "What's the last thing you bought that you really love?"
     ]
    },
    "bold": {
     "questions": [
-     "Have you ever been in love with two people at once?",
+     "Which message did you rewrite more than five times before sending it?",
+     "Have you ever had feelings for a friend's ex?",
      "Have you ever had feelings for a friend?",
      "What's the worst thing you've ever done in a relationship?",
      "Who here do you think is the best kisser?",
      "What's the wildest night out you've ever had?",
+     "Whose first impression did you get completely wrong?",
+     "What was your most dramatic exit, from a party or a relationship?",
      "What's your worst kiss story?",
      "What did you think of the person on your left when you first met?",
-     "Have you ever kissed someone to make another person jealous?",
-     "When were you the most jealous you've ever been?",
-     "Have you ever ghosted someone? Why?",
-     "What's the meanest thing you've ever thought about yourself?",
-     "What's an instant turn-off for you?",
-     "What are you secretly bad at but act like you're good at?",
-     "What's the longest you've gone without kissing anyone?"
+     "What's the fastest way to win your heart?",
+     "What's the most expensive date you've been on, and was it worth it?",
+     "What do people assume about your love life that isn't true?",
+     "What's your guiltiest pleasure?"
     ]
    }
   }
@@ -277,26 +277,26 @@ window.JOY_DECK = {
   "truthOrDare": {
    "light": {
     "truths": [
-     "რა იყო ბოლო სიცრუე, რომელიც მშობლებს უთხარი?",
-     "ყველაზე სასაცილო მიზეზი, რის გამოც გიტირია?",
-     "მარშრუტკაში ან მეტროში ყველაზე უხერხული რა შეგმთხვევია?",
-     "სად ჩაგძინებია ისეთ ადგილას, სადაც ნამდვილად არ უნდა ჩაგძინებოდა?",
+     "სუფრასთან ყველაზე უხერხული რა გადაგხდენია?",
+     "რომელ თამაშში წაგება გაბრაზებს ყველაზე მეტად?",
+     "ყველაზე ხშირად ვის წერ მესიჯებს?",
      "ქორწილში ან დაბადების დღეზე ყველაზე უხერხულად როდის იცეკვე?",
-     "ამ ოთახში ვინ გიცნობს ყველაზე კარგად?",
-     "ყველაზე ამბოხებული რა ჩაგიდენია?",
+     "ყველაზე უაზროდ რაში დახარჯე ფული?",
+     "აქ მყოფთაგან ვის ანდობდი თმის შეჭრას?",
+     "ყველაზე სამარცხვინო რა ჩაგიცვამს მხოლოდ იმიტომ, რომ გაიძულეს?",
      "შენგან მარცხნივ მჯდომში რა გაღიზიანებს ყველაზე მეტად?",
-     "რომელ სერიალს უყურებ ფარულად და გრცხვენია?"
+     "ბოლოს რაზე იცრუე?"
     ],
     "dares": [
-     "შემდეგ სვლამდე წინდები ხელებზე გეცვას.",
-     "ანბანი უკუღმა თქვი, რაც შეიძლება სწრაფად.",
-     "20 წამი იცეკვე როგორც რობოტმა.",
-     "30 წამში ოთახში ყველას კომპლიმენტი უთხარი.",
-     "დაურეკე მეგობარს და დაბადების დღე მიულოცე, თუნდაც დღეს არ ჰქონდეს.",
-     "მარჯვნივ მჯდომს ხელი სთხოვე სრული დრამატიზმით.",
-     "ითამაშე მიმტანი და ყველას შეკვეთა მიიღე.",
+     "შემდეგ სვლამდე ყოველი წინადადების ბოლოს თქვი სიტყვა, რომელსაც დანარჩენები აგირჩევენ.",
+     "დაურეკე ბებიას ან ბაბუას და უთხარი, რომ ძალიან გიყვარს.",
+     "მეგობარს გაუგზავნე ხმოვანი მესიჯი: „არწივი დაეშვა“. მეტი არაფერი.",
+     "შემდეგ სვლამდე იმოძრავე, როგორც ტირანოზავრმა, პაწაწინა ხელებით.",
+     "მოიქეცი, როგორც კატა, სანამ ვინმეს არ გაეცინება.",
+     "სცადე, ჟონგლიორივით აათამაშო სამი ნივთი, რომელსაც დანარჩენები აგირჩევენ.",
+     "20 წამი იცეკვე ქართული, როგორც შეგიძლია.",
      "გააჯავრე ამ ოთახში ვინმე, სანამ არ გამოიცნობენ, ვინ არის.",
-     "შემდეგ სვლამდე ყველაფერი, რასაც ამბობ, იმღერე."
+     "შენი დღე ზღაპარივით მოგვიყევი: „იყო და არა იყო რა…“"
     ]
    },
    "bold": {
@@ -306,59 +306,59 @@ window.JOY_DECK = {
      "ნასვამს ყველაზე სამარცხვინო რა გაგიკეთებია?",
      "ამ ოთახიდან ვისთან ერთად ყველაზე ნაკლებად მოისურვებდი უკაცრიელ კუნძულზე მოხვედრას?",
      "ყველაზე რომანტიკული რა გაგიკეთებია ვინმესთვის?",
+     "აქ მყოფთაგან ვის დაურეკავდი, სახლიდან ღამით გაპარვაში რომ დაგხმარებოდა?",
      "გულწრფელად, როგორი ადამიანები მოგწონს?",
      "ბოლოს ვინ დაბლოკე და რატომ?",
-     "ყველაზე დიდხანს რამდენი ხანი გაძელი კოცნის გარეშე?",
-     "ოდესმე უცნობისთვის გიკოცნია?"
+     "ყველაზე დიდხანს რამდენი ხანი გაძელი კოცნის გარეშე?"
     ],
     "dares": [
      "ყველას აჩვენე ბოლო სქრინშოტი, რომელიც გადაიღე.",
      "აქ მყოფთაგან ვინმეს თვალებში ჩახედე და სასიყვარულო სიმღერა უმღერე.",
-     "ჯგუფმა ხმამაღლა წაიკითხოს შენი ბოლო სამი მიმოწერა.",
-     "აქ მყოფთაგან ვინმე ზურგზე შეისვი და ოთახში გაასეირნე.",
-     "20 წამი ნელი ცეკვა იცეკვე ვინმესთან, ვისაც თავად აირჩევ.",
-     "ერთი რაუნდით ტელეფონი გაუცვალე მარცხნივ მჯდომს.",
-     "ყველამ ერთი კითხვა დაგისვას, რომელზეც „კი“ ან „არა“ უნდა უპასუხო. ტყუილი არ შეიძლება.",
-     "აჩვენე, როგორ დაპატიჟებდი მარჯვნივ მჯდომს პაემანზე.",
-     "დაწვრილებით აღწერე შენი იდეალური კოცნა ხელების მოძრაობით."
+     "გაითამაშე, როგორ იქცევი, როცა ვინმე მოგწონს.",
+     "დანარჩენებმა ხმამაღლა წაიკითხონ შენი ბოლო სამი მიმოწერა.",
+     "30 წამი პოდიუმზე გაიარე იმ სიმღერის ქვეშ, რომელსაც დანარჩენები აგირჩევენ.",
+     "აქ მყოფთაგან ვინმე, ვინც თანახმაა, ზურგზე შეისვი და ოთახში გაასეირნე.",
+     "დანარჩენებმა 30 წამით დაათვალიერონ, ვის ადევნებ თვალს სოციალურ ქსელში.",
+     "შენი ბოლო სამი პაემანი ათქულიანი სისტემით შეაფასე და ახსენი, რატომ.",
+     "აირჩიე ვინმე და, თუ თანახმაა, 20 წამი ისე იცეკვე მასთან, თითქოს თქვენი ქორწილია."
     ]
    }
   },
   "neverHaveIEver": {
    "light": {
     "statements": [
-     "მე არასდროს დამვიწყებია ადამიანის სახელი გაცნობისთანავე.",
-     "მე არასდროს გამიცინია ხუმრობაზე, რომელიც ვერ გავიგე.",
-     "მე არასდროს ჩამრჩენია სიმღერა თავში მთელი კვირით.",
-     "მე არასდროს გავუგდივარ მასწავლებელს გაკვეთილიდან.",
-     "მე არასდროს მყოლია წარმოსახვითი მეგობარი.",
-     "მე არასდროს მცმია ერთი და იგივე ტანსაცმელი სამი დღე ზედიზედ.",
-     "მე არასდროს ჩამძინებია მარშრუტკაში ისე, რომ ჩემი გაჩერება გამომეტოვებინოს.",
-     "მე არასდროს ვყოფილვარ ბრმა პაემანზე.",
-     "მე არასდროს გამიგზავნია ხმოვანი მესიჯი შემთხვევით.",
-     "მე არასდროს მიჭამია იატაკზე დავარდნილი საჭმელი.",
-     "მე არასდროს გამიკეთებია ხინკალი საკუთარი ხელით.",
-     "მე არასდროს მიჭამია ვადაგასული საჭმელი შეგნებულად.",
-     "მე არასდროს წამიგია ნიძლავი.",
-     "მე არასდროს დამიყოლიებია პოლიციელი, რომ ჯარიმა არ დაეწერა."
+     "მე არასდროს წავქცეულვარ ველოსიპედიდან ხალხის თვალწინ.",
+     "მე არასდროს გადამიღია 50-ზე მეტი სელფი ერთი კარგი ფოტოსთვის.",
+     "მე არასდროს მილაპარაკია ძილში.",
+     "მე არასდროს დამიძახია მასწავლებლისთვის „დედა“.",
+     "მე არასდროს დავბრუნებულვარ შუა გზიდან, რომ შემემოწმებინა, გაზი გამოვრთე თუ არა.",
+     "მე არასდროს მიყიდია რამე სოციალურ ქსელში ნანახი რეკლამიდან.",
+     "მე არასდროს გამომკიდებია ძაღლი.",
+     "მე არასდროს წამიკითხავს წიგნის დასასრული, სანამ დასაწყისს წავიკითხავდი.",
+     "მე არასდროს გამიგზავნია მესიჯი და მაშინვე წამიშლია.",
+     "მე არასდროს გამიტეხია რამე და მერე დამიმალავს.",
+     "მე არასდროს მიმიცია ძაღლისთვის ჩემი წილი მაგიდის ქვემოდან, რომ არ შემეჭამა.",
+     "მე არასდროს მიპასუხია „თქვენც“, როცა მიმტანმა „გემრიელად მიირთვით“ მითხრა.",
+     "მე არასდროს მივსულვარ წვეულებაზე დაუპატიჟებლად.",
+     "მე არასდროს ჩავმჯდარვარ არასწორ მარშრუტკაში."
     ]
    },
    "bold": {
     "statements": [
      "მე არასდროს მომიჩვენებია თავი, თითქოს ნაცნობი ქუჩაში ვერ დავინახე.",
      "მე არასდროს მიკოცნია ერთ ღამეში ერთზე მეტი ადამიანისთვის.",
+     "მე არასდროს დამიმალავს ტელეფონის ეკრანი, როცა გვერდით ვინმე იჯდა.",
+     "მე არასდროს უღალატია ჩემთვის შეყვარებულს.",
      "მე არასდროს მიტირია ყოფილზე საჯარო ადგილას.",
      "მე არასდროს მიცრუია, რამდენი ადამიანისთვის მიკოცნია.",
      "მე არასდროს მიქექავს შეყვარებულის ტელეფონი.",
      "მე არასდროს მითქვამს რამე ცუდი აქ მყოფ ვინმეზე.",
+     "მე არასდროს გამიგზავნია მესიჯი, რომელიც მეორე დილით ვინანე.",
      "მე არასდროს გამიგზავნია ჩატის სქრინშოტი სწორედ იმისთვის, ვისზეც იყო საუბარი.",
+     "მე არასდროს მიმიწერია უცნობისთვის პირადში ფლირტის მიზნით.",
      "მე არასდროს მქონია საიდუმლო ანგარიში სოციალურ ქსელში.",
-     "მე არასდროს დამიდია სთორი მხოლოდ იმიტომ, რომ ერთ ადამიანს ენახა.",
-     "მე არასდროს დამიბრალებია სხვისთვის უსიამოვნო სუნი.",
-     "მე არასდროს შემყვარებია ადამიანი, რომელმაც ჩემი არსებობის შესახებაც არ იცოდა.",
-     "მე არასდროს მომწონებია ამ ოთახში ერთდროულად ორი ადამიანი.",
-     "მე არასდროს ვყოფილვარ ვინმეს საიდუმლო.",
-     "მე არასდროს ვყოფილვარ ჯაკუზში ადამიანთან, რომელიც ახალი გაცნობილი მყავდა."
+     "მე არასდროს წავსულვარ კლუბიდან პირდაპირ სამსახურში ან ლექციაზე.",
+     "მე არასდროს დამიძახია სხვისი სახელი რომანტიკულ მომენტში."
     ]
    }
   },
@@ -366,52 +366,52 @@ window.JOY_DECK = {
    "light": {
     "dilemmas": [
      {
-      "a": "საუკეთესო მოთამაშე წაგებულ გუნდში",
-      "b": "ყველაზე სუსტი მოთამაშე გამარჯვებულ გუნდში"
-     },
-     {
-      "a": "საკუთარი დრაკონი",
-      "b": "თავად დრაკონად ქცევა"
+      "a": "სახლი აუზით",
+      "b": "სახლი საკუთარი კინოდარბაზით"
      },
      {
       "a": "ყველაფერზე სიცილი",
       "b": "არაფერზე სიცილი"
      },
      {
-      "a": "მთელი წელი მხოლოდ ხინკალი",
-      "b": "ხინკალზე სამუდამოდ უარის თქმა"
+      "a": "ყოველი ფილმის დასასრულის წინასწარ ცოდნა",
+      "b": "ვერცერთი ფილმის ბოლომდე ნახვა"
      },
      {
-      "a": "სამყარო ზამთრის გარეშე",
-      "b": "სამყარო ზაფხულის გარეშე"
+      "a": "პოპულარობა, მაგრამ სიღარიბე",
+      "b": "სიმდიდრე, მაგრამ უცნობობა"
      },
      {
-      "a": "ფრენის უნარი",
-      "b": "უჩინრობის უნარი"
+      "a": "ერთი საათი გაჭედილ საბაგიროში",
+      "b": "ერთი საათი გაჭედილ ეშმაკის ბორბალზე"
      },
      {
-      "a": "ხოჭოს შეჭმა",
-      "b": "გველის ხელში დაჭერა"
+      "a": "ყველგან 10 წუთით დაგვიანება",
+      "b": "ყველგან 20 წუთით ადრე მისვლა"
      },
      {
-      "a": "ყველა სუფრაზე თამადობა",
-      "b": "ყველა სუფრაზე სრული დუმილი"
+      "a": "მთელი დღე სლოკინი",
+      "b": "მთელი დღე ცემინების შეგრძნება"
      },
      {
-      "a": "უფასო ფრენები მთელი ცხოვრება",
-      "b": "უფასო საჭმელი მთელი ცხოვრება"
+      "a": "ერთ საქმეში ბრწყინვალე ყოფნა",
+      "b": "ყველაფერში საშუალო ყოფნა"
      },
      {
-      "a": "ცხოვრება სოციალური ქსელების გარეშე",
-      "b": "ცხოვრება ტელევიზორის გარეშე"
+      "a": "მხოლოდ კომედიების ყურება",
+      "b": "მხოლოდ საშინელებათა ფილმების ყურება"
      },
      {
-      "a": "ტელეფონის დაკარგვა",
-      "b": "საფულის დაკარგვა"
+      "a": "ფოტოგრაფიული მეხსიერება",
+      "b": "ნებისმიერი რამის დავიწყების უნარი"
      },
      {
-      "a": "ბათუმში, ზღვის პირას ცხოვრება",
-      "b": "ყაზბეგში, მთებში ცხოვრება"
+      "a": "ლატარიის მოგება",
+      "b": "ორჯერ უფრო დიდხანს სიცოცხლე"
+     },
+     {
+      "a": "ხეზე აშენებულ სახლში ცხოვრება",
+      "b": "ნავზე ცხოვრება"
      }
     ]
    },
@@ -422,8 +422,32 @@ window.JOY_DECK = {
       "b": "წუხანდელი მესიჯების გასაჯაროება"
      },
      {
+      "a": "პირველივე პაემანზე მისი მშობლების გაცნობა",
+      "b": "პირველივე პაემანზე შენი მშობლების გაცნობა"
+     },
+     {
       "a": "ურთიერთობა ადამიანთან, რომელსაც შენი მეგობრები ვერ იტანენ",
       "b": "მეგობრის დაკარგვა შენი არჩევანის გამო"
+     },
+     {
+      "a": "სხვა კონტინენტზე მცხოვრების შეყვარება",
+      "b": "მეზობლის შეყვარება"
+     },
+     {
+      "a": "დაგიჭერენ, როცა მარტო სასიყვარულო სიმღერას მღერი",
+      "b": "დაგიჭერენ, როცა კოცნას საკუთარ ხელზე ვარჯიშობ"
+     },
+     {
+      "a": "ერთი დღე ყველა მიღებული მესიჯი ხმამაღლა იკითხება",
+      "b": "ერთი დღე შენი ეკრანი ტელევიზორზე ჩანს"
+     },
+     {
+      "a": "იმის ზუსტად ცოდნა, რამდენი ყოფილი ჰყავს შეყვარებულს",
+      "b": "ამის არასდროს კითხვა"
+     },
+     {
+      "a": "ხელის თხოვნა სავსე სტადიონზე",
+      "b": "ხელის თხოვნა ისე, რომ არავინ ხედავს"
      },
      {
       "a": "იდეალური პაემნის შემდეგ უსიტყვოდ გაქრობა",
@@ -440,30 +464,6 @@ window.JOY_DECK = {
      {
       "a": "ზედმეტად ეჭვიანი შეყვარებული",
       "b": "შეყვარებული, რომელიც საერთოდ არ ეჭვიანობს"
-     },
-     {
-      "a": "საუკეთესო მეგობრის შეყვარება",
-      "b": "უცნობის შეყვარება"
-     },
-     {
-      "a": "შეყვარებული, რომელიც სულ ტელეფონშია",
-      "b": "შეყვარებული, რომელიც შენს ტელეფონს ამოწმებს"
-     },
-     {
-      "a": "საიდუმლო თაყვანისმცემელი",
-      "b": "საიდუმლო ურთიერთობა"
-     },
-     {
-      "a": "შენი დღიურის გამოქვეყნება",
-      "b": "შენი ძიების ისტორიის გამოქვეყნება"
-     },
-     {
-      "a": "შეყვარებულის მესიჯების წაკითხვა",
-      "b": "საკუთარი მესიჯების მისთვის წასაკითხად მიცემა"
-     },
-     {
-      "a": "პირველ სიყვარულთან დაბრუნება",
-      "b": "ახალი ადამიანის გაცნობა"
      }
     ]
    }
@@ -471,76 +471,76 @@ window.JOY_DECK = {
   "mostLikelyTo": {
    "light": {
     "prompts": [
-     "ვინ გაიკეთებს ტატუს ნიძლავის გამო?",
-     "ვინ გახდება ყველაზე კარგი თამადა?",
+     "ვინ იყიდის ღამის სამ საათზე რამეს, რაც სულაც არ სჭირდება?",
      "ვინ დაქორწინდება პირველი?",
-     "ვინ გახდება მემი?",
-     "ვის დაავიწყდება საკუთარი დაბადების დღე?",
-     "ვინ იცეკვებს ბოლომდე?",
-     "ვინ შეჭამს ყველაზე მეტ ხინკალს ერთ ჯერზე?",
-     "ვინ ეძებს ტელეფონს, როცა ის ხელში უჭირავს?",
-     "ვინ დაწერს ბესტსელერს?",
-     "ვინ არის ფარული გენიოსი?",
-     "ვის ჩაეძინება წვეულებაზე?",
-     "ვინ წამოიწყებს სიმღერას სუფრაზე ისე, რომ არავინ სთხოვს?",
-     "ვინ იტირებს სხვის ქორწილში?",
-     "ვინ აიყვანს სახლში ათ კატას?"
+     "ვინ უპასუხებს მესიჯს სამი კვირის შემდეგ?",
+     "ვინ გააუქმებს გეგმებს ბოლო წუთს?",
+     "ვის გაეცინება ყველაზე შეუფერებელ მომენტში?",
+     "ვინ ატარებს ყველაზე მეტ დროს ტელეფონში?",
+     "ვინ მოიგებს ნებისმიერ კამათს?",
+     "ვინ გავა ქორწილში ცეკვით წრეში პირველი?",
+     "ვინ წამოეგება ყოველთვის ყველა ოინს?",
+     "ვინ დაწვავს წყალსაც კი?",
+     "ვინ იმეგობრებს აქ მყოფ ყველასთან 20 წლის შემდეგაც?",
+     "ვინ შეიტანს კინოში საჭმელს ჩანთით?",
+     "ვინ დახარჯავს მთელ ხელფასს ფეხსაცმელზე?",
+     "ვის გააგდებენ რესტორნიდან?"
     ]
    },
    "bold": {
     "prompts": [
      "ვინ შეჭამს სხვის საჭმელს მაცივრიდან და მერე უარს იტყვის?",
      "ვინ გაიქცევა ლას-ვეგასში დასაქორწინებლად?",
-     "ვინ შეხვდება ამ ოთახიდან ორ ადამიანს?",
+     "ვის დაავიწყდება პაემანზე იმის სახელი, ვისთანაც ზის?",
+     "ვის გაუტეხეს გული ყველაზე ხშირად?",
+     "ვის ექნება რომანი ამ ოთახიდან ორ ადამიანთან?",
      "ვინ გაბრაზდება სამაგიდო თამაშის წაგებაზე?",
      "ვინ დაუბრუნდება ყოფილს?",
      "ვინ დაბლოკავს ვინმეს სისულელის გამო?",
-     "ვინ იქნება ყველაზე ეჭვიანი შეყვარებული?",
      "ვის ექნება რომანი შვებულებაში?",
+     "ვინ მისწერს არასწორ ადამიანს და მერე იტყვის, რომ ასე უნდოდა?",
      "ვინ იცრუებს, რამდენი ყოფილი ჰყავს?",
      "ვინ მისწერს ვინმეს ღამის სამ საათზე „გღვიძავს?“",
      "ვის აქვს ყველაზე სამარცხვინო ძიების ისტორია?",
-     "ვინ ჩაშლის სიურპრიზ-წვეულებას?",
-     "ვინ დაუბრუნდება ყოფილს ერთი ღამით?",
-     "ვინ მისწერს ცნობილ ადამიანს პირადში?"
+     "ვინ მოაწყობს ყალბ ზარს, რომ ცუდ პაემანს გაექცეს?"
     ]
    }
   },
   "hotSeat": {
    "light": {
     "questions": [
-     "რისი გეშინია უმიზეზოდ?",
-     "რომელ ემოჯის იყენებ ყველაზე ხშირად და რატომ?",
-     "რა იქნებოდა შენი ბოლო ვახშამი?",
+     "ახლა რომელი კითხვის გეშინია, რომ დაგისვან?",
+     "რა ერქმეოდა შენს სუპერგმირს?",
+     "ნებისმიერ ადამიანთან რომ შეგეძლოს ვახშამი, თუნდაც უკვე გარდაცვლილთან, ვის აირჩევდი?",
      "ადამიანში პირველ რიგში რას ამჩნევ?",
-     "ერთ დღეში ყველაზე მეტი რამდენი ფული დაგიხარჯავს?",
-     "რომელი თავგადასავლის გამოცდა გინდა ყველაზე მეტად?",
-     "ამჟამად რომელი ცნობილი ადამიანი მოგწონს?",
-     "მსოფლიოში ნებისმიერ ადგილას რომ შეგეძლოს ცხოვრება, სად იცხოვრებდი?",
+     "ყველაზე გემრიელი რა გიჭამია და სად?",
+     "შენი ცხოვრება ფილმი რომ იყოს, რა ერქმეოდა?",
+     "ხალხი შენზე რას ფიქრობს არასწორად?",
      "ყველაზე კარგი რჩევა რა მიგიღია?",
-     "აქ მყოფთაგან ვისთან გაცვლიდი გარდერობს?",
-     "ამ ოთახში ვის მიანდობდი განბლოკილ ტელეფონს?",
-     "პაემანზე ყველაზე უხერხული რა გაგიკეთებია?",
-     "რომელია შენი ყველაზე უსარგებლო უნარი?",
-     "მსოფლიოში ერთი რამის შეცვლა რომ შეგეძლოს, რას შეცვლიდი?"
+     "ამ ოთახიდან ვის აიყვანდი გუნდში გადარჩენის შოუში?",
+     "ყველაზე კარგი საჩუქარი რა გიჩუქებია?",
+     "მსოფლიოში ნებისმიერ ადგილას რომ შეგეძლოს ცხოვრება, სად იცხოვრებდი?",
+     "წელს ყველაზე კარგი რა მოხდა შენს ცხოვრებაში?",
+     "სუფრაზე რომელი კერძისთვის იბრძოლებდი ბოლო ნაჭრამდე?",
+     "რომელია შენი საყვარელი სიმღერა კარაოკესთვის?"
     ]
    },
    "bold": {
     "questions": [
      "სიყვარულისთვის ყველაზე გიჟური რა გაგიკეთებია?",
-     "რა არის შენი ყველაზე დიდი კომპლექსი?",
+     "რომელი კომპლიმენტის მოსმენა გინდა ფარულად უფრო ხშირად?",
      "ოდესმე მიგიწერია ვინმესთვის პირადში ფლირტის მიზნით? გაჭრა?",
      "იქნებოდი ურთიერთობაში აქ მყოფი ვინმეს ყოფილთან?",
+     "რა იყო დღეს შენი ბოლო ტყუილი?",
+     "რით შეიძლება პაემანი შენთან ყველაზე სწრაფად ჩაიშალოს?",
      "რა გეგონა მარცხნივ მჯდომზე პირველი გაცნობისას?",
      "თავისუფალი რომ იყო, აქ მყოფთაგან ვისთან წახვიდოდი პაემანზე?",
      "აქ მყოფთაგან ვინ გატკინა გული ისე, რომ თავად არც კი იცის?",
+     "რომელი დაპირება დაარღვიე?",
      "რა გიზიდავს ისეთი, რაც სხვებს უცნაურად ეჩვენებათ?",
      "პირველ პაემანზე რომელი ნაბიჯი მუშაობს ყველაზე კარგად?",
      "რა არის ყველაზე დიდი ტყუილი, რაც აქ მყოფთაგან ვინმესთვის გითქვამს?",
-     "ვინმეს ყურადღების მისაპყრობად ყველაზე თამამი რა გაგიკეთებია?",
-     "ყველაზე სამარცხვინო ფოტო შენს გალერეაში?",
-     "ოდესმე მოგწონებია აქ მყოფი ვინმე?",
-     "ოდესმე მეგობრის მიმართ გრძნობები გქონია?"
+     "ყველაზე ძვირი პაემანი რომელი გქონია და ღირდა კი?"
     ]
    }
   }
