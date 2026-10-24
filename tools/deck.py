@@ -23,6 +23,11 @@ GAMES = {
 }
 
 
+def plain(card):
+    """A dare that times itself or lasts a turn is an object; the page only shows its words."""
+    return card['text'] if isinstance(card, dict) and 'text' in card else card
+
+
 def fits(card):
     """Short enough to sit on a card on the page without shrinking."""
     if isinstance(card, dict):
@@ -39,7 +44,7 @@ for lang in ['en', 'ka']:
         for level in ['light', 'bold']:
             deck[lang][game][level] = {}
             for kind, count in kinds.items():
-                pool = [card for card in content[level][kind] if fits(card)]
+                pool = [plain(card) for card in content[level][kind] if fits(plain(card))]
                 rng = random.Random(f'{game}.{level}.{kind}.{lang}')
                 deck[lang][game][level][kind] = rng.sample(pool, min(count, len(pool)))
 
