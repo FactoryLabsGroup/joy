@@ -8,7 +8,7 @@
   // ---------------------------------------------------------------------------
   var STORE = {
     appStore: 'https://apps.apple.com/app/id6819158531',
-    googlePlay: ''
+    googlePlay: 'https://play.google.com/store/apps/details?id=com.factorylabs.joy'
   };
 
   var C = window.JoyCards;
@@ -93,7 +93,7 @@
       q6: 'How long does a game take?',
       a6: 'Before most games, pick Short, Standard or Long. Truth or Dare, Who Am I? and Bomb always run the same length. A hairline at the top shows how far there is to go.',
       q7: 'iPhone or Android?',
-      a7: 'iPhone now, on the App Store. Android is on its way, with the same games, the same cards and the same look.',
+      a7: 'Both. Joy is on the App Store and Google Play, with the same games, the same cards and the same look.',
 
       fi_title: "Let's play.",
       fi_soon: 'Joy is coming to iPhone and Android. Bring the friends; the games are on us.',
@@ -171,7 +171,7 @@
       q6: 'რამდენ ხანს გრძელდება თამაში?',
       a6: 'თამაშების უმეტესობის დაწყებამდე აირჩიეთ მოკლე, სტანდარტული ან გრძელი თამაში. „სიმართლე თუ მოქმედება“, „ვინ ვარ მე?“ და „ბომბი“ ყოველთვის ერთნაირ ხანს გრძელდება. ზემოთ თხელი ხაზი გაჩვენებთ, რამდენი დარჩა.',
       q7: 'iPhone თუ Android?',
-      a7: 'ჯერ iPhone, App Store‑ში. Android‑ის ვერსიაც მალე გამოვა, იგივე თამაშებით, იგივე ბარათებითა და იგივე იერით.',
+      a7: 'ორივე. Joy უკვე App Store‑სა და Google Play‑შია, იგივე თამაშებით, იგივე ბარათებითა და იგივე იერით.',
 
       fi_title: 'ვითამაშოთ.',
       fi_soon: 'Joy მალე გამოჩნდება iPhone‑სა და Android‑ზე. მეგობრები თქვენზეა, თამაშები კი ჩვენზე.',

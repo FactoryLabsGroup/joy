@@ -24,13 +24,13 @@ A static site with no build step:
 
 ## Store links
 
-Joy is live on the App Store (Apple ID `6819158531`); Google Play still says
-*Coming soon*. The links are at the top of `assets/app.js`:
+Joy is live on the App Store (Apple ID `6819158531`) and Google Play
+(`com.factorylabs.joy`). The links are at the top of `assets/app.js`:
 
 ```js
 var STORE = {
   appStore: 'https://apps.apple.com/app/id6819158531',
-  googlePlay: ''  // 'https://play.google.com/store/apps/details?id=com.factorylabs.joy'
+  googlePlay: 'https://play.google.com/store/apps/details?id=com.factorylabs.joy'
 };
 ```
 
